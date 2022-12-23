@@ -1,4 +1,7 @@
 import '../styles/globals.css'
+import Header from "../components/Header.jsx";
+// @ts-ignore
+import Head from "./head.tsx";
 
 export default function RootLayout({
   children,
@@ -7,8 +10,12 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head />
-      <body>{children}</body>
+      <Head />
+
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
