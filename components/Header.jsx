@@ -1,4 +1,5 @@
-
+import HpepLogo from "../public/images/hpep-logo.gif";
+import Link from 'next/link'
 const Header = () => {
   return (
     <>
@@ -12,21 +13,21 @@ const Header = () => {
             "flex flex-col items-center justify-between font-bold p-5 text-white"
           }
         >
-          {/*<Image src={HpepLogo} height={50} width={50} className={"pb-4"}  alt={'hpep logo'}/>*/}
+          <img src={'https://i.imgur.com/rg1y2ro.gif'} height={50} width={50} className={"pb-4"}  alt={'hpep logo'}/>
           <div>
-            <ul className={"space-x-2 cursor-pointer hidden lg:flex"}>
-              <li>მთავარი</li>
+            <div className={"space-x-2 cursor-pointer hidden lg:flex"}>
+              <Link href={'/'}>მთავარი</Link>
               <li>ადმინისტრაცია</li>
               <li>ვორქშოპები</li>
               <li>პროექტები</li>
               <li>ბიბლიოთეკა</li>
               <li>რესურსები</li>
               <li>პარტნიორები</li>
-            </ul>
+            </div>
           </div>
         </div>
         <div className="collapse lg:hidden" tabIndex={0}>
-          {/*<input type="checkbox" className="peer" />*/}
+          <input type="checkbox" className="peer" />
           <div className="collapse-title flex p-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,15 +45,16 @@ const Header = () => {
             </svg>
           </div>
           <div className="collapse-content m-0">
-            <ul className="cursor-pointer flex flex-col items-center">
-              <li>მთავარი</li>
+            <div className="cursor-pointer flex flex-col items-center">
+              <Link href={'/'}>მთავარი</Link>
+
               <li>ადმინისტრაცია</li>
               <li>ვორქშოპები</li>
               <li>პროექტები</li>
               <li>ბიბლიოთეკა</li>
               <li>რესურსები</li>
               <li>პარტნიორები</li>
-            </ul>
+            </div>
           </div>
         </div>
       </header>
