@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.lt-link-classes {
+		@apply transition-all ease-in-out duration-300 hover:bg-[#931b20] p-2 rounded-md
+	}
+}
