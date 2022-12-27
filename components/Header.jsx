@@ -1,4 +1,6 @@
-import Link from 'next/link'
+import Link from "next/link";
+import LinksComponent from "./LinksComponent";
+
 const Header = () => {
   return (
     <>
@@ -21,15 +23,7 @@ const Header = () => {
           />
           <div>
             <div className={"space-x-2 cursor-pointer hidden lg:flex"}>
-              <Link href={"/"} className={"lt-link-classes"}>
-                მთავარი
-              </Link>
-              <li>ადმინისტრაცია</li>
-              <li>ვორქშოპები</li>
-              <li>პროექტები</li>
-              <li>ბიბლიოთეკა</li>
-              <li>რესურსები</li>
-              <li>პარტნიორები</li>
+              <LinksComponent />
             </div>
           </div>
         </div>
@@ -53,16 +47,7 @@ const Header = () => {
           </div>
           <div className="collapse-content m-0">
             <div className="cursor-pointer flex flex-col items-center">
-              <Link href={"/"} className={"lt-link-classes"}>
-                მთავარი
-              </Link>
-
-              <li>ადმინისტრაცია</li>
-              <li>ვორქშოპები</li>
-              <li>პროექტები</li>
-              <li>ბიბლიოთეკა</li>
-              <li>რესურსები</li>
-              <li>პარტნიორები</li>
+              <LinksComponent />
             </div>
           </div>
         </div>
