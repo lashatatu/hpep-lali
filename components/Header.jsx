@@ -27,6 +27,9 @@ const Header = () => {
             </div>
           </div>
         </div>
+
+        {/* Mobile */}
+
         <div className="collapse lg:hidden" tabIndex={0}>
           <input type="checkbox" className="peer" />
           <div className="collapse-title flex p-1">
