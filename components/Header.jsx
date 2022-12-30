@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <header
         className={
-          "flex flex-col justify-between items-center font-bold p-5 text-white bg-[#A31E23]"
+          "flex flex-col justify-between items-center font-bold p-5 text-white bg-primary"
         }
       >
         <div

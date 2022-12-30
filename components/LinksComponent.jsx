@@ -13,7 +13,7 @@ const LinksComponent = () => {
         </label>
         <ul
           tabIndex={0}
-          className="dropdown-content menu p-2 bg-[#A31E23] w-52 rounded-lg"
+          className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
             <Link href={"/მრჩეველთა-საბჭო"}>მრჩეველთა საბჭო</Link>
@@ -41,7 +41,7 @@ const LinksComponent = () => {
         </label>
         <ul
           tabIndex={0}
-          className="dropdown-content menu p-2 bg-[#A31E23] w-52 rounded-lg"
+          className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
             <Link href={"/თრენინგები"}>თრენინგები</Link>
@@ -63,7 +63,7 @@ const LinksComponent = () => {
         </label>
         <ul
           tabIndex={0}
-          className="dropdown-content menu p-2 bg-[#A31E23] w-52 rounded-lg"
+          className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
             <Link href={"/მიმდინარე-პროექტები"}>მიმდინარე პროექტები</Link>
@@ -82,7 +82,7 @@ const LinksComponent = () => {
         </label>
         <ul
           tabIndex={0}
-          className="dropdown-content menu p-2 bg-[#A31E23] w-52 rounded-lg"
+          className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
             <Link href={"/ახალი-სახელმძღვანელოები"}>
@@ -112,7 +112,7 @@ const LinksComponent = () => {
         </label>
         <ul
           tabIndex={0}
-          className="dropdown-content menu p-2 bg-[#A31E23] w-52 rounded-lg"
+          className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
             <Link href={"/თანამშრომლები"}>თანამშრომლები</Link>
@@ -143,7 +143,7 @@ const LinksComponent = () => {
         </label>
         <ul
           tabIndex={0}
-          className="dropdown-content menu p-2 bg-[#A31E23] w-52 rounded-lg"
+          className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
             <Link href={"/თანამშრომლები"}>აშშ</Link>

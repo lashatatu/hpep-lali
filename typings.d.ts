@@ -7,6 +7,7 @@ type Base = {
 };
 
 interface Post extends Base {
+  publishedAt: Date;
   author: Author;
   body: Block[];
   categories: Category[];
