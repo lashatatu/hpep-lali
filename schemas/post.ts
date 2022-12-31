@@ -22,7 +22,7 @@ export default defineType({
     defineField({
       name: "description",
       title: "აღწერა",
-      type: "string",
+      type: "strig",
     }),
     defineField({
       name: "author",
@@ -31,40 +31,40 @@ export default defineType({
       to: { type: "author" },
     }),
     defineField({
-      name: "mainImage",
-      title: "Main image",
-      type: "image",
+      name:'mainImage'",
+      title:'Main image'",
+      type:'image'",
       options: {
-        hotspot: true,
-      },
+        hotspot: tru,
+      ,
     }),
     defineField({
-      name: "categories",
-      title: "Categories",
-      type: "array",
-      of: [{ type: "reference", to: { type: "category" } }],
+      name: 'categories',
+      title: 'Categories',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'category' } }]
     }),
     defineField({
-      name: "publishedAt",
-      title: "Published at",
-      type: "datetime",
+      name: 'publishedAt',
+      title: 'Published at',
+      type: 'datetime'
     }),
     defineField({
-      name: "body",
-      title: "Body",
-      type: "blockContent",
+      name: 'body',
+      title: 'Body',
+      type: 'blockContent'
     }),
   ],
 
   preview: {
     select: {
-      title: "title",
-      author: "author.name",
-      media: "mainImage",
+      title: 'title',
+      author: 'author.name',
+      media: 'mainImage'
     },
     prepare(selection) {
-      const { author } = selection;
-      return { ...selection, subtitle: author && `by ${author}` };
-    },
+      const { author } = selection
+      return { ...selection, subtitle: author && `by ${author}` }
+    }
   },
 });

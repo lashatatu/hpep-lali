@@ -55,7 +55,7 @@ const BlogList = ({ posts }: Props) => {
                   {post.categories.map((category) => (
                     <div
                       className={
-                        "bg-primary text-center text-white px-3 py-1 rounded-full text-sm font-semibold"
+                        'bg-primary text-center text-white px-3 py-1 rounded-full text-sm font-semibold'
                       }
                     >
                       <p>{category.title}</p>
