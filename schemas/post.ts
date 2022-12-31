@@ -1,4 +1,4 @@
-import {defineField, defineType} from 'sanity'
+import { defineField, defineType } from "sanity";
 
 export default defineType({
   name: "post",
@@ -7,12 +7,12 @@ export default defineType({
   fields: [
     defineField({
       name: "title",
-      title: "Title",
+      title: "სათაური",
       type: "string",
     }),
     defineField({
       name: "slug",
-      title: "Slug",
+      title: "ბმული",
       type: "slug",
       options: {
         source: "title",
@@ -21,50 +21,51 @@ export default defineType({
     }),
     defineField({
       name: "description",
+      description: "აღწერა",
       title: "აღწერა",
-      type: "strig",
+      type: "string",
     }),
     defineField({
       name: "author",
-      title: "Author",
+      title: "ავტორი",
       type: "reference",
       to: { type: "author" },
     }),
     defineField({
-      name:'mainImage'",
-      title:'Main image'",
-      type:'image'",
+      name: "mainImage",
+      title: "მთავარი სურათი",
+      type: "image",
       options: {
-        hotspot: tru,
-      ,
+        hotspot: true,
+      },
     }),
     defineField({
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [{ type: 'reference', to: { type: 'category' } }]
+      name: "categories",
+      title: "კატეგორია",
+      type: "array",
+      of: [{ type: "reference", to: { type: "category" } }],
     }),
     defineField({
-      name: 'publishedAt',
-      title: 'Published at',
-      type: 'datetime'
+      name: "publishedAt",
+      title: "გამოქვეყებულია",
+      type: "datetime",
     }),
     defineField({
-      name: 'body',
-      title: 'Body',
-      type: 'blockContent'
+      name: "body",
+      title: "ტექსტი",
+      type: "blockContent",
     }),
   ],
 
   preview: {
     select: {
-      title: 'title',
-      author: 'author.name',
-      media: 'mainImage'
+      title: "title",
+      author: "author.name",
+      media: "mainImage",
     },
     prepare(selection) {
-      const { author } = selection
-      return { ...selection, subtitle: author && `by ${author}` }
-    }
-  }
+      const { author } = selection;
+      return { ...selection, subtitle: author && `by ${author}` };
+    },
+  },
 });

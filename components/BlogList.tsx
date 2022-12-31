@@ -1,6 +1,7 @@
 import Image from "next/image";
 import urlFor from "../lib/urlFor";
 import { ArrowRightIcon } from "@heroicons/react/20/solid";
+import ClientSideRoute from './ClientSideRoute'
 
 type Props = {
   posts: Post[];
@@ -17,6 +18,8 @@ const BlogList = ({ posts }: Props) => {
       >
         {/*Posts*/}
         {posts.map((post) => (
+          // @ts-ignore
+          <ClientSideRoute key={post._id} route={`/post/${post.slug.current}`}>
           <div
             // @ts-ignore
             key={post._id}
@@ -82,6 +85,7 @@ const BlogList = ({ posts }: Props) => {
               <ArrowRightIcon className={"ml-2 h-4 w-4"} />
             </p>
           </div>
+          </ClientSideRoute>
         ))}
       </div>
     </div>

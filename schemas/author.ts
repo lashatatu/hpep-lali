@@ -7,12 +7,12 @@ export default defineType({
   fields: [
     defineField({
       name: 'name',
-      title: 'Name',
+      title: 'სახელი',
       type: 'string',
     }),
     defineField({
       name: 'slug',
-      title: 'Slug',
+      title: 'ბმული',
       type: 'slug',
       options: {
         source: 'name',
@@ -21,7 +21,7 @@ export default defineType({
     }),
     defineField({
       name: 'image',
-      title: 'Image',
+      title: 'ფოტო',
       type: 'image',
       options: {
         hotspot: true,
@@ -29,7 +29,7 @@ export default defineType({
     }),
     defineField({
       name: 'bio',
-      title: 'Bio',
+      title: 'აღწერა',
       type: 'array',
       of: [
         {
