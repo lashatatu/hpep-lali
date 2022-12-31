@@ -8,21 +8,25 @@ type Props = {
 const BlogList = ({ posts }: Props) => {
   // @ts-ignore
   return (
-    <div className={'lt-container'}>
-      <hr classNa'border-secondary mb-10'-10"} />
-      <div classNa'grid grid-cols-1 lg:grid-cols-2 gap-10 gap-y-16 pb-24 px-10'-10"}>
+    <div className={"lt-container"}>
+      <hr className={"border-secondary mb-10"} />
+      <div
+        className={
+          "grid grid-cols-1 lg:grid-cols-2 gap-10 gap-y-16 pb-24 px-10"
+        }
+      >
         {/*Posts*/}
         {posts.map((post) => (
           <div
             // @ts-ignore
             key={post._id}
             className={
-          'group cursor-pointer overflow-hidden lg:first:grid-cols-1 lg:first:col-span-full'ull"
+              "group cursor-pointer overflow-hidden lg:first:grid-cols-1 lg:first:col-span-full"
             }
           >
             <div
               className={
-                'relative w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out '
+                "relative w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out "
               }
             >
               <Image
@@ -55,7 +59,7 @@ const BlogList = ({ posts }: Props) => {
                   {post.categories.map((category) => (
                     <div
                       className={
-                        'bg-primary text-center text-white px-3 py-1 rounded-full text-sm font-semibold'
+                        "bg-primary text-center text-white px-3 py-1 rounded-full text-sm font-semibold"
                       }
                     >
                       <p>{category.title}</p>
@@ -65,12 +69,17 @@ const BlogList = ({ posts }: Props) => {
               </div>
             </div>
 
-            <div className={'mt-5 flex-1'}>
-              <p className={'underline text-lg font-bold'}>{post.title}</p>
-              <p className={'line-clamp-2 text-gray-500'}>{post.description}</p>
+            <div className={"mt-5 flex-1"}>
+              <p className={"underline text-lg font-bold"}>{post.title}</p>
+              <p className={"line-clamp-2 text-gray-500"}>{post.description}</p>
             </div>
-            <p className={'mt-5 font-bold flex items-center group-hover:underline'}>Read Post
-              <ArrowRightIcon className={'ml-2 h-4 w-4'} />
+            <p
+              className={
+                "mt-5 font-bold flex items-center group-hover:underline"
+              }
+            >
+              Read Post
+              <ArrowRightIcon className={"ml-2 h-4 w-4"} />
             </p>
           </div>
         ))}

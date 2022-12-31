@@ -66,5 +66,5 @@ export default defineType({
       const { author } = selection
       return { ...selection, subtitle: author && `by ${author}` }
     }
-  },
+  }
 });
