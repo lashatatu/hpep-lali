@@ -14,13 +14,15 @@ const Header = () => {
             "flex flex-col items-center justify-between font-bold p-5 text-white"
           }
         >
-          <img
-            src={"https://i.imgur.com/rg1y2ro.gif"}
-            height={50}
-            width={50}
-            className={"pb-4"}
-            alt={"hpep logo"}
-          />
+          <Link href="/">
+            <img
+              src={"https://i.imgur.com/rg1y2ro.gif"}
+              height={50}
+              width={50}
+              className={"pb-4"}
+              alt={"hpep logo"}
+            />
+          </Link>
           <div>
             <div className={"space-x-2 cursor-pointer hidden lg:flex"}>
               <LinksComponent />
