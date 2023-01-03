@@ -11,6 +11,15 @@ export default defineType({
       type: 'string',
     }),
     defineField({
+      name: "slug",
+      title: "ბმული",
+      type: "slug",
+      options: {
+        source: "title",
+        maxLength: 96,
+      },
+    }),
+    defineField({
       name: 'description',
       title: 'აღწერა',
       type: 'text',

@@ -5,14 +5,27 @@ import { client } from "../../lib/sanity.client";
 import PreviewSuspense from "../../components/PreviewSuspense";
 import PreviewBlogList from "../../components/PreviewBlogList";
 import BlogList from "../../components/BlogList";
+//write groq query of posts and filter by category title schema
+
+
+
+
 
 const query = groq`
-  *[_type=="post"]{
+  *[_type == "post"]{
     ...,
     author->,
     categories[]->
   } | order(_createdAt desc)
 `;
+
+// this filters posts by category title schema
+
+//   *[_type == "post" && references(*[_type=="category" && title!='test']._id)]{
+//   ...,
+//   author->,
+//   categories[]->
+// } | order(_createdAt desc)
 
 export default async function HomePage() {
   if (previewData()) {
