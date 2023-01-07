@@ -11,8 +11,8 @@
 		@apply max-w-7xl mx-auto;
 	}
 
-	.lt-container-little {
-		@apply max-w-4xl mx-auto;
+	.lt-container-small {
+		@apply max-w-5xl mx-auto;
 	}
 
 	.lt-page-h1 {
@@ -42,5 +42,8 @@
 	}
 	.lt-page-align-left div:nth-child(odd){
 		@apply text-left;
+	}
+	.lt-page-font-bold-odd div:nth-child(odd){
+		@apply font-bold;
 	}
 }
