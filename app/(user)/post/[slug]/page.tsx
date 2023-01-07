@@ -21,7 +21,7 @@ async function PostPage({ params: { slug } }: Props) {
   `;
 
   const post: Post = await client.fetch(query, { slug });
-  console.log(post);
+
   return (
     <article className={"px-10 pb-28 pt-8 lt-container"}>
       <section
