@@ -6,7 +6,7 @@ const LinksComponent = () => {
       <Link href={"/"} className={"lt-link-classes"}>
         მთავარი
       </Link>
-      {/*   ადმინისტრაცია  */}
+      {/*   administration  */}
       <div className="dropdown dropdown-hover lt-link-classes">
         <label tabIndex={0} className="">
           ადმინისტრაცია
@@ -16,23 +16,23 @@ const LinksComponent = () => {
           className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
-            <Link href={"/მრჩეველთა-საბჭო"}>მრჩეველთა საბჭო</Link>
+            <Link href={"/administration/advisory-board"}>მრჩეველთა საბჭო</Link>
           </li>
           <li>
-            <Link href={"/მრჩეველთა-კომიტეტი"}>მრჩეველთა კომიტეტი</Link>
+            <Link href={"/administration/advisory-committee"}>მრჩეველთა კომიტეტი</Link>
           </li>
           <li>
-            <Link href={"/კონსულტანტები"}>კონსულტანტები</Link>
+            <Link href={"/administration/consultants"}>კონსულტანტები</Link>
           </li>
           <li>
-            <Link href={"/ცენტრის-სტუმრები"}>ცენტრის სტუმრები</Link>
+            <Link href={"/administration/guests-of-the-center"}>ცენტრის სტუმრები</Link>
           </li>
           <li>
-            <Link href={"/მიმართულებები"}>მიმართულებები</Link>
+            <Link href={"/administration/directions"}>მიმართულებები</Link>
           </li>
         </ul>
       </div>
-      {/*   ადმინისტრაცია  */}
+      {/*   administration  */}
       {/*ვორქშოპები*/}
 
       <div className="dropdown dropdown-hover lt-link-classes">
@@ -44,13 +44,13 @@ const LinksComponent = () => {
           className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
-            <Link href={"/თრენინგები"}>თრენინგები</Link>
+            <Link href={"/workshops/seminars"}>თრენინგები</Link>
           </li>
           <li>
-            <Link href={"/სემინარები"}>სემინარები</Link>
+            <Link href={"/workshops/trainings"}>სემინარები</Link>
           </li>
           <li>
-            <Link href={"/აშშ-საზაფხულო-სკოლა"}>აშშ საზაფხულო სკოლა</Link>
+            <Link href={"/workshops/us-summer-school"}>აშშ საზაფხულო სკოლა</Link>
           </li>
         </ul>
       </div>
@@ -66,10 +66,10 @@ const LinksComponent = () => {
           className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
-            <Link href={"/მიმდინარე-პროექტები"}>მიმდინარე პროექტები</Link>
+            <Link href={"/projects/current-projects"}>მიმდინარე პროექტები</Link>
           </li>
           <li>
-            <Link href={"/დასრულებული-პროექტები"}>დასრულებული პროექტები</Link>
+            <Link href={"/projects/finished-projects"}>დასრულებული პროექტები</Link>
           </li>
         </ul>
       </div>
@@ -85,21 +85,21 @@ const LinksComponent = () => {
           className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
-            <Link href={"/ახალი-სახელმძღვანელოები"}>
+            <Link href={"/library/new-textbooks"}>
               ახალი სახელმძღვანელოები
             </Link>
           </li>
           <li>
-            <Link href={"/დამხმარე-მასალები"}>დამხმარე მასალები</Link>
+            <Link href={"/library/supporting-materials"}>დამხმარე მასალები</Link>
           </li>
           <li>
-            <Link href={"/ცენტრის-ბიბლიოთეკა"}>ცენტრის ბიბლიოთეკა</Link>
+            <Link href={"/library/center-library"}>ცენტრის ბიბლიოთეკა</Link>
           </li>
           <li>
-            <Link href={"/გალერეა"}>გალერეა</Link>
+            <Link href={"/library/gallery"}>გალერეა</Link>
           </li>
           <li>
-            <Link href={"/მემორანდუმები"}>მემორანდუმები</Link>
+            <Link href={"/library/memorandums"}>მემორანდუმები</Link>
           </li>
         </ul>
       </div>
@@ -115,21 +115,21 @@ const LinksComponent = () => {
           className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
-            <Link href={"/თანამშრომლები"}>თანამშრომლები</Link>
+            <Link href={"/resources/employees"}>თანამშრომლები</Link>
           </li>
           <li>
-            <Link href={"/სასწავლო-ოთახები"}>სასწავლო ოთახები</Link>
+            <Link href={"/resources/study-rooms"}>სასწავლო ოთახები</Link>
           </li>
           <li>
-            <Link href={"/გადამზადებული-მასწავლებლები"}>
+            <Link href={"/resources/trained-teachers"}>
               გადამზადებული მასწავლებლები
             </Link>
           </li>
           <li>
-            <Link href={"/NATO"}>NATO-ს ვიდეო სტუდია</Link>
+            <Link href={"/resources/NATO-video-studio"}>NATO-ს ვიდეო სტუდია</Link>
           </li>
           <li>
-            <Link href={"/აპარატურა"}>აპარატურა</Link>
+            <Link href={"/resources/equipment"}>აპარატურა</Link>
           </li>
         </ul>
       </div>
@@ -146,13 +146,13 @@ const LinksComponent = () => {
           className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
-            <Link href={"/usa"}>აშშ</Link>
+            <Link href={"/partners/usa"}>აშშ</Link>
           </li>
           <li>
-            <Link href={"/canada"}>კანადა</Link>
+            <Link href={"/partners/canada"}>კანადა</Link>
           </li>
           <li>
-            <Link href={"/eu"}>ევროპა</Link>
+            <Link href={"/partners/eu"}>ევროპა</Link>
           </li>
         </ul>
       </div>
