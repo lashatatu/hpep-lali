@@ -1,7 +1,9 @@
-import Image from "next/image";
-import urlFor from "../../../../lib/urlFor";
 import { groq } from "next-sanity";
+import Image from "next/image";
 import { client } from "../../../../lib/sanity.client";
+import urlFor from "../../../../lib/urlFor";
+import { PortableText } from "@portabletext/react";
+import { RichTextComponents } from "../../../../components/RichTextComponents";
 
 type Props = {
   params: {
@@ -22,7 +24,9 @@ async function PostPage({ params: { slug } }: Props) {
   console.log(post);
   return (
     <article className={"px-10 pb-28 pt-8 lt-container"}>
-      <section className={"space-y-2 border border-primary text-white content-center"}>
+      <section
+        className={"space-y-2 border border-primary text-white content-center"}
+      >
         <div
           className={
             "relative min-h-56 flex flex-col lg:flex-row justify-between"
@@ -44,7 +48,7 @@ async function PostPage({ params: { slug } }: Props) {
               className={"flex flex-col lg:flex-row justify-between gap-y-5"}
             >
               <div>
-                <h1 className={"text-4xl font-extrabold"}>{post.title}</h1>
+                <h1 className={"text-4xl font-extrabold pb-8"}>{post.title}</h1>
                 <p>
                   {new Date(post.publishedAt).toLocaleDateString("ka-GE", {
                     day: "numeric",
@@ -69,16 +73,30 @@ async function PostPage({ params: { slug } }: Props) {
             </div>
             <div>
               <h2 className={"italic pt-10"}>{post.description}</h2>
-              <div className={'flex items-center justify-end mt-auto space-x-2'}>
+              <div
+                className={"flex items-center justify-end mt-auto space-x-2"}
+              >
                 {post.categories.map((category) => (
-                  // @ts-ignore
-                  <p key={category._id} className={'bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-semibold mt-4'}>{category.title}</p>
+                  <p
+                    // @ts-ignore
+                    key={category._id}
+                    className={
+                      "bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-semibold mt-4"
+                    }
+                  >
+                    {category.title}
+                  </p>
                 ))}
               </div>
             </div>
           </section>
         </div>
       </section>
+
+      <PortableText
+        value={post.body}
+        components={RichTextComponents}
+      />
     </article>
   );
 }
