@@ -10,4 +10,37 @@
 	.lt-container {
 		@apply max-w-7xl mx-auto;
 	}
+
+	.lt-container-little {
+		@apply max-w-4xl mx-auto;
+	}
+
+	.lt-page-h1 {
+		@apply text-4xl text-center font-extrabold pt-8 pb-10;
+	}
+
+	.lt-page-h2 {
+		@apply text-3xl pl-2 pb-6 font-extrabold pb-10;
+	}
+
+	.lt-page-h3 {
+		@apply text-2xl pl-2 pb-6 font-bold pb-10;
+	}
+
+	.lt-page-ul {
+		@apply pl-10 pt-4 pb-7 list-disc
+	}
+
+	.lt-page-2grid{
+		@apply grid grid-cols-2 gap-4 pt-4 pb-16;
+	}
+}
+
+@layer utilities{
+	.lt-page-align-right div:nth-child(odd){
+		@apply text-right;
+	}
+	.lt-page-align-left div:nth-child(odd){
+		@apply text-left;
+	}
 }
