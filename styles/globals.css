@@ -46,4 +46,10 @@
 	.lt-page-font-bold-odd div:nth-child(odd){
 		@apply font-bold;
 	}
+	.lt-page-text-bg-primary div:nth-child(odd){
+		@apply text-secondary font-bold;
+	}
+	.lt-page-ul-ol-padding li{
+		@apply pb-4;
+	}
 }

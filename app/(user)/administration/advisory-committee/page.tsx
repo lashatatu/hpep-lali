@@ -1,8 +1,8 @@
 const Page = () => {
   return (
-    <div className={"lt-container"}>
+    <div className={"lt-container-small"}>
       <h1 className={"lt-page-h1"}>მრჩეველთა კომიტეტი</h1>
-      <h2 className={"lt-page-h2"}>
+      <h2 className={"lt-page-h2 text-center"}>
         მრჩეველთა კომიტეტი შემდგომი უმაღლესი პროფესიული განათლების
         პროგრამებისათვის
       </h2>
@@ -11,23 +11,23 @@ const Page = () => {
       </h3>
 
       <div className={"lt-page-2grid lt-page-align-right"}>
-        <div>გივი კვინჩიძე</div>
+        <div className={'font-bold'}>გივი კვინჩიძე</div>
         <div>სამშენებლო კომპანია “EVG” გენერალური დირექტორი</div>
-        <div>გენო ნიჟარაძე</div>
+        <div className={'font-bold'}>გენო ნიჟარაძე</div>
         <div>შპს „თბილმრეწველმშენის“ გენერალური დირექტორი</div>
-        <div>თამაზ ჟორდანია</div>
+        <div className={'font-bold'}>თამაზ ჟორდანია</div>
         <div>საქართველოს ტექნიკური უნივერსიტეტი</div>
-        <div>ზურაბ ეზურბაია</div>
+        <div className={'font-bold'}>ზურაბ ეზურბაია</div>
         <div>საქართველოს ტექნიკური უნივერსიტეტი</div>
-        <div>ალეკო ეზურბაია</div>
+        <div className={'font-bold'}>ალეკო ეზურბაია</div>
         <div>სამშენებლო კომპანია „ალიონი 99“ მენეჯერი</div>
-        <div>ნინო ცომაია</div>
+        <div className={'font-bold'}>ნინო ცომაია</div>
         <div>საქართველოს არქიტექტორთა კავშირი</div>
-        <div>გიორგი გურგენიძე</div>
+        <div className={'font-bold'}>გიორგი გურგენიძე</div>
         <div>"Center Point Group" მენეჯერი</div>
-        <div>მაყვალა წარაკიშვილი</div>
+        <div className={'font-bold'}>მაყვალა წარაკიშვილი</div>
         <div>შპს „თბილპროექტი“</div>
-        <div>ტარ დიხამინჯია</div>
+        <div className={'font-bold'}>ტარ დიხამინჯია</div>
         <div>კომპანია "Axis"</div>
       </div>
       <h3 className={"lt-page-h3 text-center"}>
@@ -35,35 +35,35 @@ const Page = () => {
         ადმინისტრირება
       </h3>
       <div className={"lt-page-2grid lt-page-align-right"}>
-        <div> ზურაბ ვაშალომიძე</div>
+        <div className={'font-bold'}> ზურაბ ვაშალომიძე</div>
 
         <div> "Nana & Co" დირექტორი</div>
 
-        <div> ნიკოლოზ გედენიძე</div>
+        <div className={'font-bold'}> ნიკოლოზ გედენიძე</div>
 
         <div> "Travellers Club" დირექტორი</div>
 
-        <div> ვანო ჩიაურელი</div>
+        <div className={'font-bold'}> ვანო ჩიაურელი</div>
 
         <div> საქართველოს ტექნიკური უნივერსიტეტი</div>
 
-        <div> თეიმურაზ ბენიძე</div>
+        <div className={'font-bold'}> თეიმურაზ ბენიძე</div>
 
         <div> მენეჯერი</div>
 
-        <div> თინათინ ჯაყელი</div>
+        <div className={'font-bold'}> თინათინ ჯაყელი</div>
 
         <div> სასტუმრო "საქართველოს" მენეჯერი</div>
 
-        <div> მანანა ვასაძე</div>
+        <div className={'font-bold'}> მანანა ვასაძე</div>
 
         <div> საქართველოს ტექნიკური უნივერსიტეტი</div>
 
-        <div> გიორგი ხომერიკი</div>
+        <div className={'font-bold'}> გიორგი ხომერიკი</div>
 
         <div> IB ევროკავკასიის უნივერსიტეტი</div>
 
-        <div> კობა არაბული</div>
+        <div className={'font-bold'}> კობა არაბული</div>
 
         <div> სახელმწიფო უნივერსიტეტი</div>
       </div>
@@ -72,27 +72,27 @@ const Page = () => {
         მცირე ბიზნესის ადმინისტრირება
       </h3>
       <div className={"lt-page-2grid lt-page-align-right"}>
-        <div> თინათინ ძიძიგური</div>
+        <div className={'font-bold'}> თინათინ ძიძიგური</div>
 
         <div> შპს „ჯანმრთელობის“ მენეჯერი</div>
 
-        <div> ალექსანდრე გრიგოლაშვილი</div>
+        <div className={'font-bold'}> ალექსანდრე გრიგოლაშვილი</div>
 
         <div> საგამომცემლო სახლი "ტექნიკური უნივერსტეტის" მენეჯერი</div>
 
-        <div> ნანა დევდარიანი</div>
+        <div className={'font-bold'}> ნანა დევდარიანი</div>
 
         <div> ბარი "Oklahoma" მფლობელი</div>
 
-        <div> გოგი ჯენერაშვილი</div>
+        <div className={'font-bold'}> გოგი ჯენერაშვილი</div>
 
         <div> საგამომცემლო სახლის მენეჯერი</div>
 
-        <div> ნინო კუპატაძე</div>
+        <div className={'font-bold'}> ნინო კუპატაძე</div>
 
         <div> სალონი "Nini" მენეჯერი</div>
 
-        <div> თათა არზიანი</div>
+        <div className={'font-bold'}> თათა არზიანი</div>
 
         <div> სასუვენირო სალონის მენეჯერი</div>
       </div>
@@ -101,42 +101,42 @@ const Page = () => {
         გორის კოლეჯის მრჩეველთა კომიტეტი
       </h3>
       <div className={"lt-page-2grid lt-page-align-right"}>
-        <div> ნუნუ საბანაძე</div>
+        <div className={'font-bold'}> ნუნუ საბანაძე</div>
 
         <div> შპს "ინტურისტი"</div>
 
-        <div> ზურა წკრიალაშვილი</div>
+        <div className={'font-bold'}> ზურა წკრიალაშვილი</div>
 
         <div> შპს "Victoria"</div>
 
-        <div> ზაური საგანელიძე</div>
+        <div className={'font-bold'}> ზაური საგანელიძე</div>
 
         <div> შპს “სამეგობრი”</div>
 
-        <div> გერონტი ყველაშვილი</div>
+        <div className={'font-bold'}> გერონტი ყველაშვილი</div>
 
         <div> სააქციო საზოგადოება “Building Trust No 3”</div>
 
-        <div> იოსებ მაკრახიძე</div>
+        <div className={'font-bold'}> იოსებ მაკრახიძე</div>
 
         <div> შპს “Road Building Trust No 3”</div>
 
-        <div> ტარიელ მაზმიშვილი</div>
+        <div className={'font-bold'}> ტარიელ მაზმიშვილი</div>
 
         <div>
           {" "}
           სააქციო საზოგადოება “ენერგო პროჯორჯია” ქართლის რეგიონული ოფისი
         </div>
 
-        <div> გიორგი სოსიაშვილი</div>
+        <div className={'font-bold'}> გიორგი სოსიაშვილი</div>
 
         <div> გორის “რესურს ცენტრი”</div>
 
-        <div> გივი აბალაკი</div>
+        <div className={'font-bold'}> გივი აბალაკი</div>
 
         <div> შპს “ფერმერი” გორის ასამბლეის ვიცე თავჯდომარე</div>
 
-        <div> ზაალ მიკაძე</div>
+        <div className={'font-bold'}> ზაალ მიკაძე</div>
 
         <div>
           {" "}
@@ -144,7 +144,7 @@ const Page = () => {
           ადმინისტრატორი
         </div>
 
-        <div> ლალი ღოღელიანი</div>
+        <div className={'font-bold'}> ლალი ღოღელიანი</div>
 
         <div>
           {" "}
@@ -152,11 +152,11 @@ const Page = () => {
           თავჯდდომარე ხელმძღვანელი
         </div>
 
-        <div> ზაზა ცოტნიაშვილი</div>
+        <div className={'font-bold'}> ზაზა ცოტნიაშვილი</div>
 
         <div> გორის უნივერსიტეტის რექტორი</div>
 
-        <div> ლევან ციკარიძე</div>
+        <div className={'font-bold'}> ლევან ციკარიძე</div>
 
         <div>
           {" "}
@@ -164,7 +164,7 @@ const Page = () => {
           კარიერული ცენტრის ხელმძღვანელი
         </div>
 
-        <div> ზვიად ხმალაძე</div>
+        <div className={'font-bold'}> ზვიად ხმალაძე</div>
 
         <div> გორის ასამბლეის თავჯდომარე</div>
       </div>
@@ -178,39 +178,39 @@ const Page = () => {
         მშენებლობის ბიზნეს ადმინისტრირება
       </h3>
       <div className={"lt-page-2grid lt-page-align-right"}>
-        <div> გივი კვინჩიძე</div>
+        <div className={'font-bold'}> გივი კვინჩიძე</div>
 
         <div> სამშენებლო კომპანია “EVG” გენერალური დირექტორი</div>
 
-        <div> გენო ნიჟარაძე</div>
+        <div className={'font-bold'}> გენო ნიჟარაძე</div>
 
         <div> შპს „თბილმრეწველმშენის“ გენერალური დირექტორი</div>
 
-        <div> თამაზ ჟორდანია</div>
+        <div className={'font-bold'}> თამაზ ჟორდანია</div>
 
         <div> საქართველოს ტექნიკური უნივერსიტეტი</div>
 
-        <div> ზურაბ ეზურბაია</div>
+        <div className={'font-bold'}> ზურაბ ეზურბაია</div>
 
         <div> საქართველოს ტექნიკური უნივერსიტეტი</div>
 
-        <div> ალეკო ეზურბაია</div>
+        <div className={'font-bold'}> ალეკო ეზურბაია</div>
 
         <div> სამშენებლო კომპანია „ალიონი 99“ მენეჯერი</div>
 
-        <div> ნინო ცომაია</div>
+        <div className={'font-bold'}> ნინო ცომაია</div>
 
         <div> საქართველოს არქიტექტორთა კავშირი</div>
 
-        <div> გიორგი გურგენიძე</div>
+        <div className={'font-bold'}> გიორგი გურგენიძე</div>
 
         <div> "Center Point Group" მენეჯერი</div>
 
-        <div> მაყვალა წარაკიშვილი</div>
+        <div className={'font-bold'}> მაყვალა წარაკიშვილი</div>
 
         <div> შპს „თბილპროექტი“</div>
 
-        <div> ტარ დიხამინჯია</div>
+        <div className={'font-bold'}> ტარ დიხამინჯია</div>
 
         <div> კომპანია "Axis"</div>
       </div>
@@ -220,35 +220,35 @@ const Page = () => {
         ადმინისტრირება
       </h3>
       <div className={"lt-page-2grid lt-page-align-right"}>
-        <div> ზურაბ ვაშალომიძე</div>
+        <div className={'font-bold'}> ზურაბ ვაშალომიძე</div>
 
         <div> "Nana & Co" დირექტორი</div>
 
-        <div> ნიკოლოზ გედენიძე</div>
+        <div className={'font-bold'}> ნიკოლოზ გედენიძე</div>
 
         <div> "Travellers Club" დირექტორი</div>
 
-        <div> ვანო ჩიაურელი</div>
+        <div className={'font-bold'}> ვანო ჩიაურელი</div>
 
         <div> საქართველოს ტექნიკური უნივერსიტეტი</div>
 
-        <div> თეიმურაზ ბენიძე</div>
+        <div className={'font-bold'}> თეიმურაზ ბენიძე</div>
 
         <div> მენეჯერი</div>
 
-        <div> თინათინ ჯაყელი</div>
+        <div className={'font-bold'}> თინათინ ჯაყელი</div>
 
         <div> სასტუმრო "საქართველოს" მენეჯერი</div>
 
-        <div> მანანა ვასაძე</div>
+        <div className={'font-bold'}> მანანა ვასაძე</div>
 
         <div> საქართველოს ტექნიკური უნივერსიტეტი</div>
 
-        <div> გიორგი ხომერიკი</div>
+        <div className={'font-bold'}> გიორგი ხომერიკი</div>
 
         <div> IB ევროკავკასიის უნივერსიტეტი</div>
 
-        <div> კობა არაბული</div>
+        <div className={'font-bold'}> კობა არაბული</div>
 
         <div> სახელმწიფო უნივერსიტეტი</div>
       </div>
@@ -257,27 +257,27 @@ const Page = () => {
         მცირე ბიზნესის ადმინისტრირება
       </h3>
       <div className={"lt-page-2grid lt-page-align-right"}>
-        <div> თინათინ ძიძიგური</div>
+        <div className={'font-bold'}> თინათინ ძიძიგური</div>
 
         <div> შპს „ჯანმრთელობის“ მენეჯერი</div>
 
-        <div> ალექსანდრე გრიგოლაშვილი</div>
+        <div className={'font-bold'}> ალექსანდრე გრიგოლაშვილი</div>
 
         <div> საგამომცემლო სახლი "ტექნიკური უნივერსტეტის" მენეჯერი</div>
 
-        <div> ნანა დევდარიანი</div>
+        <div className={'font-bold'}> ნანა დევდარიანი</div>
 
         <div> ბარი "Oklahoma" მფლობელი</div>
 
-        <div> გოგი ჯენერაშვილი</div>
+        <div className={'font-bold'}> გოგი ჯენერაშვილი</div>
 
         <div> საგამომცემლო სახლის მენეჯერი</div>
 
-        <div> ნინო კუპატაძე</div>
+        <div className={'font-bold'}> ნინო კუპატაძე</div>
 
         <div> სალონი "Nini" მენეჯერი</div>
 
-        <div> თათა არზიანი</div>
+        <div className={'font-bold'}> თათა არზიანი</div>
 
         <div> სასუვენირო სალონის მენეჯერი</div>
       </div>
@@ -286,42 +286,42 @@ const Page = () => {
         გორის კოლეჯის მრჩეველთა კომიტეტი
       </h3>
       <div className={"lt-page-2grid lt-page-align-right"}>
-        <div> ნუნუ საბანაძე</div>
+        <div className={'font-bold'}> ნუნუ საბანაძე</div>
 
         <div> შპს "ინტურისტი"</div>
 
-        <div> ზურა წკრიალაშვილი</div>
+        <div className={'font-bold'}> ზურა წკრიალაშვილი</div>
 
         <div> შპს "Victoria"</div>
 
-        <div> ზაური საგანელიძე</div>
+        <div className={'font-bold'}> ზაური საგანელიძე</div>
 
         <div> შპს “სამეგობრი”</div>
 
-        <div> გერონტი ყველაშვილი</div>
+        <div className={'font-bold'}> გერონტი ყველაშვილი</div>
 
         <div> სააქციო საზოგადოება “Building Trust No 3”</div>
 
-        <div> იოსებ მაკრახიძე</div>
+        <div className={'font-bold'}> იოსებ მაკრახიძე</div>
 
         <div> შპს “Road Building Trust No 3”</div>
 
-        <div> ტარიელ მაზმიშვილი</div>
+        <div className={'font-bold'}> ტარიელ მაზმიშვილი</div>
 
         <div>
           {" "}
           სააქციო საზოგადოება “ენერგო პროჯორჯია” ქართლის რეგიონული ოფისი
         </div>
 
-        <div> გიორგი სოსიაშვილი</div>
+        <div className={'font-bold'}> გიორგი სოსიაშვილი</div>
 
         <div> გორის “რესურს ცენტრი”</div>
 
-        <div> გივი აბალაკი</div>
+        <div className={'font-bold'}> გივი აბალაკი</div>
 
         <div> შპს “ფერმერი” გორის ასამბლეის ვიცე თავჯდომარე</div>
 
-        <div> ზაალ მიკაძე</div>
+        <div className={'font-bold'}> ზაალ მიკაძე</div>
 
         <div>
           {" "}
@@ -329,7 +329,7 @@ const Page = () => {
           ადმინისტრატორი
         </div>
 
-        <div> ლალი ღოღელიანი</div>
+        <div className={'font-bold'}> ლალი ღოღელიანი</div>
 
         <div>
           {" "}
@@ -337,11 +337,11 @@ const Page = () => {
           თავჯდდომარე ხელმძღვანელი
         </div>
 
-        <div> ზაზა ცოტნიაშვილი</div>
+        <div className={'font-bold'}> ზაზა ცოტნიაშვილი</div>
 
         <div> გორის უნივერსიტეტის რექტორი</div>
 
-        <div> ლევან ციკარიძე</div>
+        <div className={'font-bold'}> ლევან ციკარიძე</div>
 
         <div>
           {" "}
@@ -349,7 +349,7 @@ const Page = () => {
           კარიერული ცენტრის ხელმძღვანელი
         </div>
 
-        <div> ზვიად ხმალაძე</div>
+        <div className={'font-bold'}> ზვიად ხმალაძე</div>
 
         <div> გორის ასამბლეის თავჯდომარე</div>
       </div>

@@ -1,6 +1,6 @@
 const Page = () => {
   return (
-    <div className={"lt-container"}>
+    <div className={"lt-container-small"}>
       <h1 className={"lt-page-h1"}>
         მრჩეველთა საბჭო
       </h1>

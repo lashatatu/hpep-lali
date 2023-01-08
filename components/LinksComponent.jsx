@@ -44,10 +44,10 @@ const LinksComponent = () => {
           className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
         >
           <li>
-            <Link href={"/workshops/seminars"}>თრენინგები</Link>
+            <Link href={"/workshops/trainings"}>თრენინგები</Link>
           </li>
           <li>
-            <Link href={"/workshops/trainings"}>სემინარები</Link>
+            <Link href={"/workshops/seminars"}>სემინარები</Link>
           </li>
           <li>
             <Link href={"/workshops/us-summer-school"}>აშშ საზაფხულო სკოლა</Link>
