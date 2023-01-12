@@ -32,13 +32,13 @@
 	}
 
 	.lt-page-2grid{
-		@apply grid grid-cols-2 gap-4 pt-4 pb-16;
+		@apply grid grid-cols-3 gap-4 pt-4 pb-16;
 	}
 }
 
 @layer utilities{
-	.lt-page-align-right div:nth-child(odd){
-		@apply text-right;
+	.lt-page-align-left-span-2 div:nth-child(even){
+		@apply text-left col-span-2;
 	}
 	.lt-page-align-left div:nth-child(odd){
 		@apply text-left;

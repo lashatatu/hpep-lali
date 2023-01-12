@@ -2,7 +2,7 @@ const Page = () => {
   return (
     <div className={"lt-container-small"}>
       <h1 className={"lt-page-h1"}>ცენტრის კონსულტანტები</h1>
-      <div className={"lt-page-2grid lt-page-align-right"}>
+      <div className={"lt-page-2grid lt-page-align-left-span-2"}>
         <div className={"font-bold"}>არდიტ მენეი</div>
         <div>აიოვას სახელმწიფო უნივერსიტეტის პროფესორი</div>
         <div className={"font-bold"}>კარენ კაშმანიან ოატესი</div>

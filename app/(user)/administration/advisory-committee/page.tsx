@@ -10,7 +10,7 @@ const Page = () => {
         მშენებლობის ბიზნეს ადმინისტრირება
       </h3>
 
-      <div className={"lt-page-2grid lt-page-align-right"}>
+      <div className={"lt-page-2grid lt-page-align-left-span-2"}>
         <div className={'font-bold'}>გივი კვინჩიძე</div>
         <div>სამშენებლო კომპანია “EVG” გენერალური დირექტორი</div>
         <div className={'font-bold'}>გენო ნიჟარაძე</div>
@@ -34,7 +34,7 @@ const Page = () => {
         სასტუმრო, რესტორნების და სპეციალური ღონისძიებების დაგეგმვის ბიზნეს
         ადმინისტრირება
       </h3>
-      <div className={"lt-page-2grid lt-page-align-right"}>
+      <div className={"lt-page-2grid lt-page-align-left-span-2"}>
         <div className={'font-bold'}> ზურაბ ვაშალომიძე</div>
 
         <div> "Nana & Co" დირექტორი</div>
@@ -71,7 +71,7 @@ const Page = () => {
       <h3 className={"lt-page-h3 text-center"}>
         მცირე ბიზნესის ადმინისტრირება
       </h3>
-      <div className={"lt-page-2grid lt-page-align-right"}>
+      <div className={"lt-page-2grid lt-page-align-left-span-2"}>
         <div className={'font-bold'}> თინათინ ძიძიგური</div>
 
         <div> შპს „ჯანმრთელობის“ მენეჯერი</div>
@@ -100,7 +100,7 @@ const Page = () => {
       <h3 className={"lt-page-h3 text-center"}>
         გორის კოლეჯის მრჩეველთა კომიტეტი
       </h3>
-      <div className={"lt-page-2grid lt-page-align-right"}>
+      <div className={"lt-page-2grid lt-page-align-left-span-2"}>
         <div className={'font-bold'}> ნუნუ საბანაძე</div>
 
         <div> შპს "ინტურისტი"</div>
@@ -177,7 +177,7 @@ const Page = () => {
       <h3 className={"lt-page-h3 text-center"}>
         მშენებლობის ბიზნეს ადმინისტრირება
       </h3>
-      <div className={"lt-page-2grid lt-page-align-right"}>
+      <div className={"lt-page-2grid lt-page-align-left-span-2"}>
         <div className={'font-bold'}> გივი კვინჩიძე</div>
 
         <div> სამშენებლო კომპანია “EVG” გენერალური დირექტორი</div>
@@ -219,7 +219,7 @@ const Page = () => {
         სასტუმრო, რესტორნების და სპეციალური ღონისძიებების დაგეგმვის ბიზნეს
         ადმინისტრირება
       </h3>
-      <div className={"lt-page-2grid lt-page-align-right"}>
+      <div className={"lt-page-2grid lt-page-align-left-span-2"}>
         <div className={'font-bold'}> ზურაბ ვაშალომიძე</div>
 
         <div> "Nana & Co" დირექტორი</div>
@@ -256,7 +256,7 @@ const Page = () => {
       <h3 className={"lt-page-h3 text-center"}>
         მცირე ბიზნესის ადმინისტრირება
       </h3>
-      <div className={"lt-page-2grid lt-page-align-right"}>
+      <div className={"lt-page-2grid lt-page-align-left-span-2"}>
         <div className={'font-bold'}> თინათინ ძიძიგური</div>
 
         <div> შპს „ჯანმრთელობის“ მენეჯერი</div>
@@ -285,7 +285,7 @@ const Page = () => {
       <h3 className={"lt-page-h3 text-center"}>
         გორის კოლეჯის მრჩეველთა კომიტეტი
       </h3>
-      <div className={"lt-page-2grid lt-page-align-right"}>
+      <div className={"lt-page-2grid lt-page-align-left-span-2"}>
         <div className={'font-bold'}> ნუნუ საბანაძე</div>
 
         <div> შპს "ინტურისტი"</div>
