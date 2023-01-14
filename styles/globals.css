@@ -12,7 +12,7 @@
 	}
 
 	.lt-container-small {
-		@apply max-w-5xl mx-auto;
+		@apply max-w-5xl mx-auto ;
 	}
 
 	.lt-page-h1 {
@@ -27,29 +27,41 @@
 		@apply text-2xl pl-2 pb-6 font-bold pb-10;
 	}
 
+	.lt-page-h4 {
+		@apply text-xl pl-2 pb-6 pb-10;
+	}
+
 	.lt-page-ul {
 		@apply pl-10 pt-4 pb-7 list-disc
 	}
 
-	.lt-page-2grid{
+	.lt-page-2grid {
 		@apply grid grid-cols-3 gap-4 pt-4 pb-16;
+	}
+
+	.lt-last-child .btn {
+		@apply mr-4 last:mr-0 max-lg:last:m-2 max-lg:mb-4 max-lg:m-2 mb-10;
 	}
 }
 
-@layer utilities{
-	.lt-page-align-left-span-2 div:nth-child(even){
+@layer utilities {
+	.lt-page-align-left-span-2 div:nth-child(even) {
 		@apply text-left col-span-2;
 	}
-	.lt-page-align-left div:nth-child(odd){
+
+	.lt-page-align-left div:nth-child(odd) {
 		@apply text-left;
 	}
-	.lt-page-font-bold-odd div:nth-child(odd){
+
+	.lt-page-font-bold-odd div:nth-child(odd) {
 		@apply font-bold;
 	}
-	.lt-page-text-bg-primary div:nth-child(odd){
+
+	.lt-page-text-bg-primary div:nth-child(odd) {
 		@apply text-secondary font-bold;
 	}
-	.lt-page-ul-ol-padding li{
-		@apply pb-4;
+
+	.lt-page-ul-ol-padding li {
+		@apply pb-4 mx-8;
 	}
 }

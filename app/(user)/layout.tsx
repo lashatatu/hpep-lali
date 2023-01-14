@@ -9,10 +9,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html className="scroll-smooth">
       <Head />
 
-      <body>
+      <body className={'font-roboto'}>
         <Header />
         {children}
       </body>
