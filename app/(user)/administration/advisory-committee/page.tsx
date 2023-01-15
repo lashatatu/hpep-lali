@@ -102,7 +102,7 @@ const Page = () => {
       </div>
       </div>
 
-
+<div className={'mx-10'}>
       <h3 className={"lt-page-h3 text-center"}>
         გორის კოლეჯის მრჩეველთა კომიტეტი
       </h3>
@@ -174,7 +174,8 @@ const Page = () => {
 
         <div> გორის ასამბლეის თავჯდომარე</div>
       </div>
-
+    </div>
+<div className={'mx-10'}>
       <h2 className={"lt-page-h2 text-center"}>
         მრჩეველთა კომიტეტი შემდგომი უმაღლესი პროფესიული განათლების
         პროგრამებისათვის:
@@ -220,7 +221,8 @@ const Page = () => {
 
         <div> კომპანია "Axis"</div>
       </div>
-
+</div>
+<div className={'mx-10'}>
       <h3 className={"lt-page-h3 text-center"}>
         სასტუმრო, რესტორნების და სპეციალური ღონისძიებების დაგეგმვის ბიზნეს
         ადმინისტრირება
@@ -258,7 +260,8 @@ const Page = () => {
 
         <div> სახელმწიფო უნივერსიტეტი</div>
       </div>
-
+</div>
+<div className={'mx-10'}>
       <h3 className={"lt-page-h3 text-center"}>
         მცირე ბიზნესის ადმინისტრირება
       </h3>
@@ -359,6 +362,8 @@ const Page = () => {
 
         <div> გორის ასამბლეის თავჯდომარე</div>
       </div>
+  </div>
+
     </div>
   );
 };

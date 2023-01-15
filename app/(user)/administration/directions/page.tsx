@@ -4,6 +4,7 @@ const Page = () => {
   return (
     <div className={"lt-container"}>
       <h1 className={"lt-page-h1"}>მიმართულებები</h1>
+      <div className={'mx-10'}>
       <div id={'first'} className={'flex max-lg:flex-col content-center justify-center lt-last-child '}>
         <a href={'#first'} className={'btn'}>პროფესიული</a>
         <a href={'#second'} className={'btn'}>საექსპერტო</a>
@@ -541,6 +542,7 @@ const Page = () => {
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </div>
   );

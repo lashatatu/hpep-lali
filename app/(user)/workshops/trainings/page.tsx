@@ -2,6 +2,7 @@ const Page = () => {
   return (
     <div className={"lt-container-small"}>
       <h1 className={"lt-page-h1"}>თრენინგები</h1>
+      <div className={'mx-10'}>
       <h2 className={"lt-page-h2"}>
         ეს ტრენინგები ჩატარდა შემდგომი საგანმანათლებლო დაწესებულებების
         მასწავლებლებისათვის:
@@ -238,6 +239,7 @@ const Page = () => {
         <div>დავით ლ ტაუკი (აშშ)</div>
 
         <div>ფოკუსირება სწავლაზე სწავლების მაგიერ</div>
+      </div>
       </div>
     </div>
   );
