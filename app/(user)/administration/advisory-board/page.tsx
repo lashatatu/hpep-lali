@@ -1,11 +1,11 @@
 const Page = () => {
   return (
     <div className={"lt-container-small"}>
-      <h1 className={"lt-page-h1"}>
+      <h1 className={"lt-page-h1 "}>
         მრჩეველთა საბჭო
       </h1>
       <h2 className={"lt-page-h3"}>მრჩეველთა საბჭო</h2>
-      <div>
+      <div className={'mx-10'}>
         <ul className={"lt-page-ul"}>
           <li>
             ფრანგიშვილი არჩილ, საქართველოს ტექნიკური უნივერსიტეტის რექტორი
@@ -23,7 +23,7 @@ const Page = () => {
         </ul>
       </div>
       <h2 className={"lt-page-h3"}>სტუს ფაკულტეტების დეკანები</h2>
-      <div>
+      <div className={'mx-10'}>
         <ul className={"lt-page-ul"}>
           <li>სამოქალაქო მშენებლობის ფაკულტეტი,</li>
           <li>
