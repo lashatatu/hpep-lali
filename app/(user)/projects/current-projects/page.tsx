@@ -22,7 +22,6 @@ const Page = () => {
             შემოწმებების წარმოებისა და ჯარიმების დაკისრების საშუალებით); აგრეთვე
             შეიმუშაოს სხვადასხვა საკანონმდებლო აქტები და აწარმოოს სწავლება).
           </p>
-          <div className={"divider divider-horizontal"}></div>
         </div>
 
         <div className={"divider"}></div>
