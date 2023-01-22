@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="  bg-neutral text-neutral-content">
-      <div className={'lt-container-small footer grid-rows-2 p-10'}>
+    <footer className="bg-neutral text-neutral-content">
+      <div className={'lt-container footer grid-rows-2 p-10'}>
       <div>
         <span className="footer-title font-bold">ადმინისტრაცია</span>
         <Link href={"/administration/advisory-board"} className="link link-hover">მრჩეველთა საბჭო</Link>
