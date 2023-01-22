@@ -120,19 +120,8 @@ const LinksComponentMobile = () => {
       {/* პარტნიორები */}
 
       <div className="collapse min-h-0">
-        <input type="checkbox" className={'min-h-0'}/>
-        <div className="collapse-title text-center p-2 min-h-0">პარტნიორები</div>
-        <ul className="collapse-content text-center bg-third rounded-3xl">
-          <li className={'pt-2'}>
-            <Link href={"/partners/usa"}>აშშ</Link>
-          </li>
-          <li className={'pt-2'}>
-            <Link href={"/partners/canada"}>კანადა</Link>
-          </li>
-          <li className={'pt-2'}>
-            <Link href={"/partners/eu"}>ევროპა</Link>
-          </li>
-        </ul>
+        <Link href={'/partners'} className="text-center p-2 ">პარტნიორები</Link>
+
       </div>
       {/* პარტნიორები */}
     </>

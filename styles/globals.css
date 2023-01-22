@@ -20,7 +20,7 @@
 	}
 
 	.lt-page-h2 {
-		@apply text-3xl pl-2 pb-6 font-extrabold pb-10;
+		@apply text-3xl pb-6 font-extrabold pb-10;
 	}
 
 	.lt-page-h3 {
@@ -28,7 +28,7 @@
 	}
 
 	.lt-page-h4 {
-		@apply text-xl pl-2 pb-6 pb-10;
+		@apply text-xl pb-6 pb-10;
 	}
 
 	.lt-page-ul {

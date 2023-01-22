@@ -138,23 +138,9 @@ const LinksComponent = () => {
       {/* პარტნიორები */}
 
       <div className="dropdown dropdown-hover lt-link-classes">
-        <label tabIndex={0} className="">
+        <Link href={'/partners'}>
           პარტნიორები
-        </label>
-        <ul
-          tabIndex={0}
-          className="dropdown-content menu p-2 bg-primary w-52 rounded-lg"
-        >
-          <li>
-            <Link href={"/partners/usa"}>აშშ</Link>
-          </li>
-          <li>
-            <Link href={"/partners/canada"}>კანადა</Link>
-          </li>
-          <li>
-            <Link href={"/partners/eu"}>ევროპა</Link>
-          </li>
-        </ul>
+        </Link>
       </div>
 
       {/* პარტნიორები */}
