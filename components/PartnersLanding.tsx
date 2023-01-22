@@ -5,7 +5,7 @@ const PartnersLanding = () => {
     <div className={"lt-container"}>
       <div className={"mx-10"}>
         <div className={' max-lg:text-center max-lg:object-center gap-x-4 border-t-2'}>
-          <div className={'grid grid-cols-5 max-lg:grid-cols-1 pt-16'}>
+          <div className={'grid grid-cols-5 max-lg:grid-cols-1 gap-x-4 pt-16'}>
           <div>
             <h3 className={'font-bold pb-0.5'}>გორის სათემო კოლეჯი</h3>
             <Image src={'/gorilogo.jpg'} alt={'gori logo'} width={300} height={300} className={'mx-auto'}/>
