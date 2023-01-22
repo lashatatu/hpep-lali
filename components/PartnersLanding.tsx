@@ -37,4 +37,6 @@ const PartnersLanding = () => {
   );
 };
 
+// test
+
 export default PartnersLanding;
