@@ -2,6 +2,7 @@ import "../../styles/globals.css";
 import Header from "../../components/Header.jsx";
 // @ts-ignore
 import Head from "../head.tsx";
+import Footer from '../../components/Footer'
 
 export default function RootLayout({
   children,
@@ -15,6 +16,7 @@ export default function RootLayout({
       <body className={'font-roboto'}>
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );

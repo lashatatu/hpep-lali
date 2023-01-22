@@ -111,9 +111,7 @@ const LinksComponentMobile = () => {
           <li className={'pt-2'}>
             <Link href={"/resources/NATO-video-studio"}>NATO-ს ვიდეო სტუდია</Link>
           </li>
-          <li className={'pt-2'}>
-            <Link href={"/resources/equipment"}>აპარატურა</Link>
-          </li>
+
         </ul>
       </div>
       {/*რესურსები*/}

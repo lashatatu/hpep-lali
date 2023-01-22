@@ -128,9 +128,7 @@ const LinksComponent = () => {
           <li>
             <Link href={"/resources/NATO-video-studio"}>NATO-ს ვიდეო სტუდია</Link>
           </li>
-          <li>
-            <Link href={"/resources/equipment"}>აპარატურა</Link>
-          </li>
+
         </ul>
       </div>
 
