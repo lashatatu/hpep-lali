@@ -153,11 +153,24 @@ const Page = () => {
         </div>
         <div className={"divider"}></div>
         <div>
-          <div className={"lt-page-h1"}>გასაკეთებელია</div>
-
           <div className={"lt-page-h2"}>სწავლების რჩევები UCSC-გან</div>
-          <div>
-            <ul className={"lt-page-li list-disc"}></ul>
+          <div className={"mx-10"}>
+            <ul className={"lt-page-li list-disc"}>
+              <li>
+                Strategies for Increasing Active Learning in Lecture Courses
+              </li>
+              <li>Designing a Course</li>
+              <li>Course Design Workbook (word doc., 88kb)</li>
+              <li>Getting More out of Classroom Discussion</li>
+              <li>Using Informal Student Feedback</li>
+              <li>10 Ideas for Starting the Quarter</li>
+              <li>Writing a Syllabus</li>
+              <li>More Active Learning Techniques</li>
+              <li>Using Small Groups in Class</li>
+              <li>Classroom Civility</li>
+              <li>Writing a Statement of Teaching Philosophy</li>
+              <li>Resources for Teaching Large Classes</li>
+            </ul>
           </div>
         </div>
         <div className={"divider"}></div>
@@ -315,69 +328,170 @@ const Page = () => {
               <li>Sample mid-semester evaluations from around campus</li>
               <li>Responding to mid-semester evaluations</li>
             </ul>
-            <p className={'indent-0'}>Using Midterm Evaluations (from Tomorrow's Professor Listserv)</p>
-            <h3 className={'lt-page-h3 pb-2'}>Teaching Tips</h3>
-           <p className={'indent-0'}>Searchable CELT Tips Archive (On Jan. 27, 2005, some links will be temporarily broken, but will be fixed very soon.)</p>
+            <p className={"indent-0"}>
+              Using Midterm Evaluations (from Tomorrow's Professor Listserv)
+            </p>
+            <h3 className={"lt-page-h3 pb-2"}>Teaching Tips</h3>
+            <p className={"indent-0"}>
+              Searchable CELT Tips Archive (On Jan. 27, 2005, some links will be
+              temporarily broken, but will be fixed very soon.)
+            </p>
 
-           <p className={'indent-0'}>A Huge Collection of Teaching Tips (Honolulu Community College)</p>
+            <p className={"indent-0"}>
+              A Huge Collection of Teaching Tips (Honolulu Community College)
+            </p>
           </div>
-          <h2 className={'lt-page-h2'}>Techniques & Strategies for Teaching and Learning</h2>
-          <ul className={'lt-page-ul  list-disc'}>
-           <li>Getting the Most from Student-Faculty Interviews</li>
-           <li>First Day of Class</li>
-           <li>101 Ideas for a Great Start</li>
-           <li>Top 15 suggestions for the first week of class (55 KB PDF)</li>
-           <li>The First Day of Class (The Ohio State University)</li>
-           <li>The First Day of Class — A Day of Missed Opportunities? (UNC at Chapel Hill)</li>
-           <li>In-Class Discussions</li>
-           <li>Leading Classroom Discussions (25 KB PDF file)</li>
-           <li>Suggestions for Leading Small-Group Discussions</li>
-           <li>Specific Approaches and Techniques</li>
-           <li>Collaborative Learning (National Institute for Science Education)</li>
-           <li>Determining Prior Knowledge: What Students Know and Believe</li>
-           <li>Learning Communities</li>
-           <li>Problem-Based Learning (Univ. of Delaware)</li>
-           <li>Service-Learning</li>
-           <li>Team-Based Learning (University of Oklahoma)</li>
-           <li>Case Study Teaching in Science (University at Buffalo)</li>
-           <li>Teaching Large Classes</li>
-           <li>Instructors Share Ideas</li>
-           <li>Physics Education Research Group</li>
-           <li>Penn State Large Class FAQ (The Pennsylvania State University)</li>
-           <li>Seven Principles for Good Practice in Undergraduate Education</li>
-           <li>Seven Principles for Good Practice in Undergraduate Education (76 KB PDF)</li>
-           <li>Implementing the Seven Principles: Technology as Lever (Arthur W. Chickering and Stephen C. Ehrmann)</li>
-           <li>Plagiarism and Academic Dishonesty</li>
-           <li>Detecting and Deterring Plagiarism (Parks Library)</li>
-           <li>"Downloadable" Term Papers: What's a Prof to Do? (University of Iowa)</li>
-           <li>Center for Academic Integrity (Duke University)</li>
-           <li>Understanding Plagiarism (Indiana University Bloomington)</li>
-           <li>Bloom's taxonomy and higher level thinking skills</li>
-           <li>Bloom's Revised Taxonomy (San Diego State University)</li>
-           <li>Bloom et al.'s Taxonomy of the Cognitive Domain (Dr. William G. Huitt, Valdosta State University)</li>
-           <li>Learning Domains or Bloom's Taxonomy (Don Clark)</li>
-           <li>Task Oriented Question Construction Wheel Based on Bloom's Taxonomy (St. Edwards University)</li>
+          <h2 className={"lt-page-h2"}>
+            Techniques & Strategies for Teaching and Learning
+          </h2>
+          <ul className={"lt-page-ul  list-disc"}>
+            <li>Getting the Most from Student-Faculty Interviews</li>
+            <li>First Day of Class</li>
+            <li>101 Ideas for a Great Start</li>
+            <li>Top 15 suggestions for the first week of class (55 KB PDF)</li>
+            <li>The First Day of Class (The Ohio State University)</li>
+            <li>
+              The First Day of Class — A Day of Missed Opportunities? (UNC at
+              Chapel Hill)
+            </li>
+            <li>In-Class Discussions</li>
+            <li>Leading Classroom Discussions (25 KB PDF file)</li>
+            <li>Suggestions for Leading Small-Group Discussions</li>
+            <li>Specific Approaches and Techniques</li>
+            <li>
+              Collaborative Learning (National Institute for Science Education)
+            </li>
+            <li>Determining Prior Knowledge: What Students Know and Believe</li>
+            <li>Learning Communities</li>
+            <li>Problem-Based Learning (Univ. of Delaware)</li>
+            <li>Service-Learning</li>
+            <li>Team-Based Learning (University of Oklahoma)</li>
+            <li>Case Study Teaching in Science (University at Buffalo)</li>
+            <li>Teaching Large Classes</li>
+            <li>Instructors Share Ideas</li>
+            <li>Physics Education Research Group</li>
+            <li>
+              Penn State Large Class FAQ (The Pennsylvania State University)
+            </li>
+            <li>
+              Seven Principles for Good Practice in Undergraduate Education
+            </li>
+            <li>
+              Seven Principles for Good Practice in Undergraduate Education (76
+              KB PDF)
+            </li>
+            <li>
+              Implementing the Seven Principles: Technology as Lever (Arthur W.
+              Chickering and Stephen C. Ehrmann)
+            </li>
+            <li>Plagiarism and Academic Dishonesty</li>
+            <li>Detecting and Deterring Plagiarism (Parks Library)</li>
+            <li>
+              "Downloadable" Term Papers: What's a Prof to Do? (University of
+              Iowa)
+            </li>
+            <li>Center for Academic Integrity (Duke University)</li>
+            <li>Understanding Plagiarism (Indiana University Bloomington)</li>
+            <li>Bloom's taxonomy and higher level thinking skills</li>
+            <li>Bloom's Revised Taxonomy (San Diego State University)</li>
+            <li>
+              Bloom et al.'s Taxonomy of the Cognitive Domain (Dr. William G.
+              Huitt, Valdosta State University)
+            </li>
+            <li>Learning Domains or Bloom's Taxonomy (Don Clark)</li>
+            <li>
+              Task Oriented Question Construction Wheel Based on Bloom's
+              Taxonomy (St. Edwards University)
+            </li>
           </ul>
+        </div>
+
+        <div className={"divider"}></div>
+        <div>
+          <h2 className={"lt-page-h2"}>კორნელის უნივერსიტეტი</h2>
+          <div>
+            <h3 className={'lt-page-h3'}>Cornell University Teaching Evaluation Handbook</h3>
+            <div>
+              <embed
+                className={'mt-5 mb-5 max-lg:hidden'}
+                src="/handbook-1.pdf"
+                width="100%"
+                height="800px"/>
+              <ul className={'pb-4'}>
+                <li>
+                  <a href='/handbook-1.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 1</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <embed
+                className={'mt-5 mb-5 max-lg:hidden'}
+                src="/handbook-2.pdf"
+                width="100%"
+                height="800px"/>
+              <ul className={'pb-4'}>
+                <li>
+                  <a href='/handbook-2.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 2</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <embed
+                className={'mt-5 mb-5 max-lg:hidden'}
+                src="/handbook-3.pdf"
+                width="100%"
+                height="800px"/>
+              <ul className={'pb-4'}>
+                <li>
+                  <a href='/handbook-3.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 3</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <embed
+                className={'mt-5 mb-5 max-lg:hidden'}
+                src="/handbook-4.pdf"
+                width="100%"
+                height="800px"/>
+              <ul className={'pb-4'}>
+                <li>
+                  <a href='/handbook-4.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 4</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <embed
+                className={'mt-5 mb-5 max-lg:hidden'}
+                src="/handbook-5.pdf"
+                width="100%"
+                height="800px"/>
+              <ul className={'pb-4'}>
+                <li>
+                  <a href='/handbook-5.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 5</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div className={"divider"}></div>
         <div>
           <h2 className={"lt-page-h2"}>არიზონას სწავლება</h2>
           <div>
-            <h3 className={'lt-page-h3'}>Arizona State University</h3>
-            <p className={'indent-0'}>Teaching Tips</p>
-            <ul className={'lt-page-ul'}>
+            <h3 className={"lt-page-h3"}>Arizona State University</h3>
+            <p className={"indent-0"}>Teaching Tips</p>
+            <ul className={"lt-page-ul"}>
               <li>Motivating the Student</li>
               <li>Make Lectures More Interesting</li>
               <li>Creating Enthusiasm</li>
               <li>Have a Dramatic Classroom</li>
               <li>Learning by Doing</li>
             </ul>
-           <p className={'indent-0'}>Apply Memory</p>
+            <p className={"indent-0"}>Apply Memory</p>
 
-           <p className={'indent-0'}>Keep Students’ Attention in Lectures</p>
+            <p className={"indent-0"}>Keep Students’ Attention in Lectures</p>
 
-           <p className={'indent-0'}>Tips on Testing</p>
+            <p className={"indent-0"}>Tips on Testing</p>
           </div>
         </div>
       </div>
