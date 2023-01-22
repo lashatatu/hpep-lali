@@ -5,6 +5,7 @@ import { client } from "../../lib/sanity.client";
 import PreviewSuspense from "../../components/PreviewSuspense";
 import PreviewBlogList from "../../components/PreviewBlogList";
 import BlogList from "../../components/BlogList";
+import PartnersLanding from '../../components/PartnersLanding'
 //write groq query of posts and filter by category title schema
 
 const query = groq`
@@ -46,6 +47,7 @@ export default async function HomePage() {
       <div>
         <Hero />
         <BlogList posts={posts} />
+<PartnersLanding/>
       </div>
     </>
   );
