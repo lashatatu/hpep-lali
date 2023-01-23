@@ -14,7 +14,7 @@ const Page = () => {
           <div className={'font-bold'}>წელი</div>
         </div>
         {hpepTextbooks.map((book, index) => (
-          <div key={index} className={'grid grid-cols-5 gap-x-2 gap-y-10 border-2 text-center'}>
+          <div key={index} className={'grid grid-cols-5 gap-x-2 gap-y-10 border-2'}>
             <div className={'col-span-2'}>{book.title}</div>
             <div>{book.author}</div>
             <div>{book.isbn}</div>
@@ -32,7 +32,7 @@ const Page = () => {
           <div className={'font-bold'}>წელი</div>
         </div>
         {hpepGeneral.map((book, index) => (
-          <div key={index} className={'grid grid-cols-6 gap-x-2 gap-y-10 border-2 text-center'}>
+          <div key={index} className={'grid grid-cols-6 gap-x-2 gap-y-10 border-2'}>
             <div className={'col-span-2'}>{book.title}</div>
             <div>{book.author}</div>
             <div>{book.isbn}</div>
