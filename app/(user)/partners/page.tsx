@@ -136,9 +136,13 @@ const Page = () => {
                 </a>
               </li>
               <li>
-                <p className={"text-secondary pb-2 indent-0"}>
+                <a
+                  href="https://www.ccidinc.org/"
+                  className={"text-secondary pb-2"}
+                  target={"_blank"}
+                >
                   სათემო კოლეჯები საერთაშორისო განვითარებისთვის
-                </p>
+                </a>
               </li>
               <li>
                 <a

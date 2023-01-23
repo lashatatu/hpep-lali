@@ -1,7 +1,7 @@
 const Page = () => {
   return (
     <div className={"lt-container-small"}>
-      <h1 className={"lt-page-h1"}>USA Summer School</h1>
+      <h1 className={"lt-page-h1"}>USA SENSER Summer School</h1>
       <div className={"mx-10"}>
         <div>
           <h2 className={"lt-page-h2"}>2007</h2>

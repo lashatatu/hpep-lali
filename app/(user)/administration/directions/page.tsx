@@ -15,8 +15,7 @@ const Page = () => {
       {/*// first 1*/}
       <div>
         <h2 className={"lt-page-h2 text-center"}>
-          პროფესორ-მასწავლებელთა და სტუდენტთა სწავლებასა და სწავლაში
-          დახელოვნების ცენტრი CETL
+          პროფესორ-მასწავლებელთა და სტუდენტთა სწავლებასა და სწავლაში დახელოვნების ცენტრი
         </h2>
         <div className={"lt-container-small pb-12"}>
           <h3 className={"lt-page-h3"}>მიმართულების საქმიანობის აღწერა:</h3>
@@ -74,7 +73,7 @@ const Page = () => {
         </div>
         <div className={"lt-container-small pb-12"}>
           <h4 className={"lt-page-h4"}>
-            თანამშრომლები: ლალი ღოღელიანი, ეკატერინე გელოვანი,ლიკა ძაგნიძე
+            თანამშრომლები: ლალი ღოღელიანი, ეკატერინე გელოვანი, ივერი ასანიძე
           </h4>
         </div>
         <div className={"lt-container-small pb-12"}>
@@ -407,7 +406,7 @@ const Page = () => {
         </div>
         <div className={"lt-container-small pb-12"}>
           <h4 className={"lt-page-h4"}>
-            თანამშრომლები: ბელა ბესტავაშვილი, სალომე აბესაძე
+            თანამშრომლები: ბელა ბესტავაშვილი
           </h4>
         </div>
       </div>
@@ -438,7 +437,6 @@ const Page = () => {
               სპეციალობების სარეკლამო ვიდეო კლიპების მომზადება და გავრცელება
             </li>
 
-            <li>Camtasia Studio სასწავლო ცენტრი</li>
           </ol>
         </div>
         <div className={"lt-container-small pb-12"}>
@@ -523,7 +521,7 @@ const Page = () => {
         </div>
         <div className={"lt-container-small pb-12"}>
           <h4 className={"lt-page-h4"}>
-            თანამშრომლები: კოკა მაღრაძე, ლიკა ძაგნიძე
+            თანამშრომლები: კოკა მაღრაძე, ლაშა ტატულაშვილი
           </h4>
         </div>
         <div className={"lt-container-small pb-12"}>

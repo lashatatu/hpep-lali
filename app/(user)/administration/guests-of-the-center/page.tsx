@@ -1,8 +1,7 @@
 const Page = () => {
   return (
     <div className={'lt-container-small'}>
-      <h1 className={'lt-page-h1 mx-10'}>ხალხის სია რომლებმაც მუშაობდნენ საქართველოს ტექნიკური უნივერსიტეტის პროფესიული
-                                   განვითარების მეცნიერებისა და კულტურის ცენტში
+      <h1 className={'lt-page-h1 mx-10'}>ცენტრში განხორციელებულ საერთაშორისო პროექტებში მონაწილე უცხოელი პარტიონრები
       </h1>
       <div className={'lt-page-2grid lt-page-align-left-span-2 lt-page-font-bold-odd mx-10'}>
         <div>არდით მენეი</div>
