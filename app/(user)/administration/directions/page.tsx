@@ -6,7 +6,7 @@ const Page = () => {
       <h1 className={"lt-page-h1"}>მიმართულებები</h1>
       <div className={'mx-10'}>
       <div id={'first'} className={'flex max-lg:flex-col content-center justify-center lt-last-child '}>
-        <a href={'#first'} className={'btn'}>პროფესიული</a>
+        <a href={'#first'} className={'btn'}>კვალიფიკაციის ამაღლება</a>
         <a href={'#second'} className={'btn'}>საექსპერტო</a>
         <a href={'#third'} className={'btn'}>გალერეა უნივერსი</a>
         <a href={'#fourth'} className={'btn'}>სტუ სტუდია</a>
@@ -182,7 +182,7 @@ const Page = () => {
         </div>
       </div>
       <div id={'second'} className={'flex max-lg:flex-col content-center justify-center lt-last-child '}>
-        <a href={'#first'} className={'btn'}>პროფესიული</a>
+        <a href={'#first'} className={'btn'}>კვალიფიკაციის ამაღლება</a>
         <a href={'#second'} className={'btn'}>საექსპერტო</a>
         <a href={'#third'} className={'btn'}>გალერეა უნივერსი</a>
         <a href={'#fourth'} className={'btn'}>სტუ სტუდია</a>
@@ -363,7 +363,7 @@ const Page = () => {
         </div>
       </div>
       <div id={'third'} className={'flex max-lg:flex-col content-center justify-center lt-last-child '}>
-        <a href={'#first'} className={'btn'}>პროფესიული</a>
+        <a href={'#first'} className={'btn'}>კვალიფიკაციის ამაღლება</a>
         <a href={'#second'} className={'btn'}>საექსპერტო</a>
         <a href={'#third'} className={'btn'}>გალერეა უნივერსი</a>
         <a href={'#fourth'} className={'btn'}>სტუ სტუდია</a>
@@ -406,12 +406,12 @@ const Page = () => {
         </div>
         <div className={"lt-container-small pb-12"}>
           <h4 className={"lt-page-h4"}>
-            თანამშრომლები: ბელა ბესტავაშვილი
+            თანამშრომლები: ბელა ბესტავაშვილი, ეკა გელოვანი
           </h4>
         </div>
       </div>
       <div id={'fourth'} className={'flex max-lg:flex-col content-center justify-center lt-last-child '}>
-        <a href={'#first'} className={'btn'}>პროფესიული</a>
+        <a href={'#first'} className={'btn'}>კვალიფიკაციის ამაღლება</a>
         <a href={'#second'} className={'btn'}>საექსპერტო</a>
         <a href={'#third'} className={'btn'}>გალერეა უნივერსი</a>
         <a href={'#fourth'} className={'btn'}>სტუ სტუდია</a>
@@ -466,7 +466,7 @@ const Page = () => {
         </div>
       </div>
       <div id={'fifth'} className={'flex max-lg:flex-col content-center justify-center lt-last-child '}>
-        <a href={'#first'} className={'btn'}>პროფესიული</a>
+        <a href={'#first'} className={'btn'}>კვალიფიკაციის ამაღლება</a>
         <a href={'#second'} className={'btn'}>საექსპერტო</a>
         <a href={'#third'} className={'btn'}>გალერეა უნივერსი</a>
         <a href={'#fourth'} className={'btn'}>სტუ სტუდია</a>
