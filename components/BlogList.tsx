@@ -67,7 +67,7 @@ const BlogList = ({ posts }: Props) => {
                             "bg-primary text-center text-white px-3 py-1 rounded-full text-sm font-semibold"
                           }
                         >
-                          <p>{category.title}</p>
+                          <p className={'pb-0 indent-0'}>{category.title}</p>
                         </div>
                       ))}
                     </div>
