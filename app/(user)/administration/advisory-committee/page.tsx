@@ -1,3 +1,8 @@
+import {
+  constructionBusinessAdministration,
+  hotelAndResoutrants,
+} from "./data/data";
+
 const Page = () => {
   return (
     <div className={"lt-container-small"}>
@@ -12,24 +17,14 @@ const Page = () => {
         </h3>
 
         <div className={"lt-page-2grid lt-page-align-left-span-2"}>
-          <div className={"font-bold"}>გივი კვინჩიძე</div>
-          <div>სამშენებლო კომპანია “EVG” გენერალური დირექტორი</div>
-          <div className={"font-bold"}>გენო ნიჟარაძე</div>
-          <div>შპს „თბილმრეწველმშენის“ გენერალური დირექტორი</div>
-          <div className={"font-bold"}>თამაზ ჟორდანია</div>
-          <div>საქართველოს ტექნიკური უნივერსიტეტი</div>
-          <div className={"font-bold"}>ზურაბ ეზურბაია</div>
-          <div>საქართველოს ტექნიკური უნივერსიტეტი</div>
-          <div className={"font-bold"}>ალეკო ეზურბაია</div>
-          <div>სამშენებლო კომპანია „ალიონი 99“ მენეჯერი</div>
-          <div className={"font-bold"}>ნინო ცომაია</div>
-          <div>საქართველოს არქიტექტორთა კავშირი</div>
-          <div className={"font-bold"}>გიორგი გურგენიძე</div>
-          <div>"Center Point Group" მენეჯერი</div>
-          <div className={"font-bold"}>მაყვალა წარაკიშვილი</div>
-          <div>შპს „თბილპროექტი“</div>
-          <div className={"font-bold"}>ტარ დიხამინჯია</div>
-          <div>კომპანია "Axis"</div>
+          {constructionBusinessAdministration.map((dat) => (
+            <>
+              <div className={"font-bold"} key={dat.name}>
+                {dat.name}
+              </div>
+              <div>{dat.description}</div>
+            </>
+          ))}
         </div>
       </div>
       <div className={"mx-10"}>
@@ -38,37 +33,16 @@ const Page = () => {
           ადმინისტრირება
         </h3>
         <div className={"lt-page-2grid lt-page-align-left-span-2"}>
-          <div className={"font-bold"}> ზურაბ ვაშალომიძე</div>
+          {hotelAndResoutrants.map((dat) => (
+            <>
+              <div className={"font-bold"} key={dat.name}>
+                {" "}
+                {dat.name}
+              </div>
 
-          <div> "Nana & Co" დირექტორი</div>
-
-          <div className={"font-bold"}> ნიკოლოზ გედენიძე</div>
-
-          <div> "Travellers Club" დირექტორი</div>
-
-          <div className={"font-bold"}> ვანო ჩიაურელი</div>
-
-          <div> საქართველოს ტექნიკური უნივერსიტეტი</div>
-
-          <div className={"font-bold"}> თეიმურაზ ბენიძე</div>
-
-          <div> მენეჯერი</div>
-
-          <div className={"font-bold"}> თინათინ ჯაყელი</div>
-
-          <div> სასტუმრო "საქართველოს" მენეჯერი</div>
-
-          <div className={"font-bold"}> მანანა ვასაძე</div>
-
-          <div> საქართველოს ტექნიკური უნივერსიტეტი</div>
-
-          <div className={"font-bold"}> გიორგი ხომერიკი</div>
-
-          <div> IB ევროკავკასიის უნივერსიტეტი</div>
-
-          <div className={"font-bold"}> კობა არაბული</div>
-
-          <div> სახელმწიფო უნივერსიტეტი</div>
+              <div> {dat.description}</div>
+            </>
+          ))}
         </div>
       </div>
       <div className={"mx-10"}>
