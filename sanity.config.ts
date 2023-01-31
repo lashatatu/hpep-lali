@@ -5,7 +5,7 @@ import { schemaTypes } from "./schemas";
 import { ltTheme } from "./theme";
 import studioNavbar from "./components/StudioNavbar";
 import logo from "./components/Logo";
-import {getDefaultDocumentNode} from './structure'
+import { getDefaultDocumentNode } from "./structure";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;

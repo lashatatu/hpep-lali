@@ -13,7 +13,7 @@ module.exports = {
       colors: {
         primary: "#A31E23",
         secondary: "#AC3539",
-        third:"#82181c"
+        third: "#82181c",
       },
     },
   },
@@ -21,5 +21,5 @@ module.exports = {
 
   daisyui: {
     themes: false,
-  }
+  },
 };

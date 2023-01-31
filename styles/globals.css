@@ -42,7 +42,8 @@
 	.lt-last-child .btn {
 		@apply mr-4 last:mr-0 max-lg:last:m-2 max-lg:mb-4 max-lg:m-2 mb-10;
 	}
-	p{
+
+	p {
 		@apply pb-4 indent-4;
 	}
 }
@@ -51,7 +52,8 @@
 	.lt-page-align-left-span-2 div:nth-child(even) {
 		@apply text-left col-span-2;
 	}
-	.dropdown-content li>*{
+
+	.dropdown-content li > * {
 		@apply focus:bg-secondary;
 	}
 

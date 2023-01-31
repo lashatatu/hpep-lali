@@ -4,7 +4,7 @@ const Page = () => {
       <h1 className={"lt-page-h1"}>პარტნიორები</h1>
       <div className={"mx-10"}>
         <div>
-          <h2 className={"lt-page-h2 text-center pl-0"}>US Partners</h2>
+          <h2 className={"lt-page-h2 pl-0 text-center"}>US Partners</h2>
           <h3 className={"lt-page-h3 pb-2"}>კალიფორნია</h3>
           <div>
             <a
@@ -111,7 +111,7 @@ const Page = () => {
       </div>
       <div className={"mx-10 pt-16"}>
         <div>
-          <h2 className={"lt-page-h2 text-center pl-0 pb-4"}>
+          <h2 className={"lt-page-h2 pl-0 pb-4 text-center"}>
             Canada Partners
           </h2>
           <h3 className={"lt-page-h3 pb-4"}>კანადა</h3>
@@ -120,7 +120,7 @@ const Page = () => {
               <li>
                 <a
                   href="https://selkirk.ca/"
-                  className={"text-secondary pb-2"}
+                  className={"pb-2 text-secondary"}
                   target={"_blank"}
                 >
                   სელკირკის კოლეჯი
@@ -129,7 +129,7 @@ const Page = () => {
               <li>
                 <a
                   href="https://tru.ca/"
-                  className={"text-secondary pb-2"}
+                  className={"pb-2 text-secondary"}
                   target={"_blank"}
                 >
                   თომფსონ რივერს უნივერსიტეტი
@@ -138,7 +138,7 @@ const Page = () => {
               <li>
                 <a
                   href="https://www.ccidinc.org/"
-                  className={"text-secondary pb-2"}
+                  className={"pb-2 text-secondary"}
                   target={"_blank"}
                 >
                   სათემო კოლეჯები საერთაშორისო განვითარებისთვის
@@ -147,7 +147,7 @@ const Page = () => {
               <li>
                 <a
                   href="https://www.devex.com/"
-                  className={"text-secondary pb-2"}
+                  className={"pb-2 text-secondary"}
                   target={"_blank"}
                 >
                   კანადის საერთაშორისო განვითარების სააგენტო
@@ -156,7 +156,7 @@ const Page = () => {
               <li>
                 <a
                   href="http://www.accc.ca/"
-                  className={"text-secondary pb-2"}
+                  className={"pb-2 text-secondary"}
                   target={"_blank"}
                 >
                   კანადის სათემო კოლეჯების ასოციაცია (ACCC)
@@ -168,14 +168,14 @@ const Page = () => {
       </div>
       <div className={"mx-10 pt-16"}>
         <div>
-          <h2 className={"lt-page-h2 text-center pl-0 pb-4"}>EU Partners</h2>
+          <h2 className={"lt-page-h2 pl-0 pb-4 text-center"}>EU Partners</h2>
           <h3 className={"lt-page-h3 pb-4"}>გერმანია</h3>
           <div className={"pb-10"}>
             <ul>
               <li>
                 <a
                   href="https://www.tu-darmstadt.de/index.en.jsp"
-                  className={"text-secondary pb-2"}
+                  className={"pb-2 text-secondary"}
                   target={"_blank"}
                 >
                   დარმშტადტის ტექნიკური უნივერსიტეტი
@@ -188,7 +188,7 @@ const Page = () => {
                 <li>
                   <a
                     href="https://www.lut.fi/en"
-                    className={"text-secondary pb-2"}
+                    className={"pb-2 text-secondary"}
                     target={"_blank"}
                   >
                     ლაპეენრანტას ტექნიკური უნივესიტეტი
@@ -201,7 +201,7 @@ const Page = () => {
                   <li>
                     <a
                       href="https://uesukraine.com/ternopil-national-economic-university/"
-                      className={"text-secondary pb-2"}
+                      className={"pb-2 text-secondary"}
                       target={"_blank"}
                     >
                       ტერნოპილის ეკონომიკის უნივესიტეტი
@@ -210,7 +210,7 @@ const Page = () => {
                   <li>
                     <a
                       href="https://www.kpi.kharkov.ua/ukr/"
-                      className={"text-secondary pb-2"}
+                      className={"pb-2 text-secondary"}
                       target={"_blank"}
                     >
                       ხარკოვის პოლიტექნიკური უნივერსიტეტი

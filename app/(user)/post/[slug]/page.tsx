@@ -34,32 +34,32 @@ async function PostPage({ params: { slug } }: Props) {
   const post: Post = await client.fetch(query, { slug });
 
   return (
-    <article className={"px-10 pb-28 pt-8 lt-container"}>
+    <article className={"lt-container px-10 pb-28 pt-8"}>
       <section
-        className={"space-y-2 border border-primary text-white content-center"}
+        className={"content-center space-y-2 border border-primary text-white"}
       >
         <div
           className={
-            "relative min-h-56 flex flex-col lg:flex-row justify-between"
+            "min-h-56 relative flex flex-col justify-between lg:flex-row"
           }
         >
           <div
-            className={"absolute top-0 w-full h-full opacity-10 blur-sm p-10"}
+            className={"absolute top-0 h-full w-full p-10 opacity-10 blur-sm"}
           >
             <Image
-              className={"object-cover object-center mx-auto"}
+              className={"mx-auto object-cover object-center"}
               src={urlFor(post.mainImage).url()}
               alt={post.author.name}
               fill
             />
           </div>
 
-          <section className={"p-5 bg-primary"}>
+          <section className={"bg-primary p-5"}>
             <div
-              className={"flex flex-col lg:flex-row justify-between gap-y-5"}
+              className={"flex flex-col justify-between gap-y-5 lg:flex-row"}
             >
               <div>
-                <h1 className={"text-4xl font-extrabold pb-8"}>{post.title}</h1>
+                <h1 className={"pb-8 text-4xl font-extrabold"}>{post.title}</h1>
                 <p>
                   {new Date(post.publishedAt).toLocaleDateString("ka-GE", {
                     day: "numeric",
@@ -83,16 +83,16 @@ async function PostPage({ params: { slug } }: Props) {
               </div>
             </div>
             <div>
-              <h2 className={"italic pt-10"}>{post.description}</h2>
+              <h2 className={"pt-10 italic"}>{post.description}</h2>
               <div
-                className={"flex items-center justify-end mt-auto space-x-2"}
+                className={"mt-auto flex items-center justify-end space-x-2"}
               >
                 {post.categories.map((category) => (
                   <p
                     // @ts-ignore
                     key={category._id}
                     className={
-                      "bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-semibold mt-4"
+                      "mt-4 rounded-full bg-gray-800 px-3 py-1 text-sm font-semibold text-white"
                     }
                   >
                     {category.title}

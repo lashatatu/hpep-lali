@@ -7,7 +7,8 @@ export const hpepGeneral = [
     year: "2002",
   },
   {
-    title: "MARKET LEADER Teacher’s Resource Book PRE- INTERMEDIATE BUSINESS ENGLISH",
+    title:
+      "MARKET LEADER Teacher’s Resource Book PRE- INTERMEDIATE BUSINESS ENGLISH",
     author: "Bill Mascull",
     isbn: "058277332-7",
     publisher: "LONGMAN",
@@ -182,7 +183,8 @@ export const hpepGeneral = [
     year: "1999",
   },
   {
-    title: "Instructor’s manual with Tests for Essentials of Children’s Literature",
+    title:
+      "Instructor’s manual with Tests for Essentials of Children’s Literature",
     author: "Carol Lynch-Brown Garl M. Tominson",
     isbn: "0-205-29274-7",
     publisher: "ALLYN AND BACON",
@@ -231,7 +233,8 @@ export const hpepGeneral = [
     year: "2008",
   },
   {
-    title: "Monitoring Channel MorphoIogy and Bluff Erosion at Two lnstallations of Flow-Deflecting Vanes, North First Greek,Wisconsin, 2000-03",
+    title:
+      "Monitoring Channel MorphoIogy and Bluff Erosion at Two lnstallations of Flow-Deflecting Vanes, North First Greek,Wisconsin, 2000-03",
     author: "U.S. Department of the Interior U.S. Geological Survey",
     isbn: "46846824682",
     publisher: "A.Fitzpatrick, Marie C. peppler",
@@ -890,7 +893,8 @@ export const hpepGeneral = [
   },
   {
     title: "Design And Control Of Concrete Mixtures\n",
-    author: "Steven H. Kosmatka Beatrix Kerkhoff William C. Panarese Norman F. Macleod Richard J. Mcgrath\n",
+    author:
+      "Steven H. Kosmatka Beatrix Kerkhoff William C. Panarese Norman F. Macleod Richard J. Mcgrath\n",
     isbn: "0-89312-218-1\n",
     publisher: "Cement Association Of Canada\n",
     year: "2002",
@@ -910,7 +914,8 @@ export const hpepGeneral = [
     year: "2003",
   },
   {
-    title: "Laboratory Manual CHEMISTRY In CONTEXT Applying Chemistry To Society\n",
+    title:
+      "Laboratory Manual CHEMISTRY In CONTEXT Applying Chemistry To Society\n",
     author: "Conrad L.Stanitski\n",
     isbn: "0-07-242457-5\n",
     publisher: "Mc Graw Higher Education Hill\n",
@@ -941,25 +946,29 @@ export const hpepGeneral = [
     title: "GIS An D Natural Resources Management\n",
     author: "არ ფიქსირდება",
     isbn: "24455245255",
-    publisher: "Agricultural And Biosystems Engineering Iowa State University\n",
+    publisher:
+      "Agricultural And Biosystems Engineering Iowa State University\n",
     year: "2002",
   },
   {
-    title: "Laboratory Manual CHEMISTRY In CONTEXT Applying Chemistry To Society\n",
+    title:
+      "Laboratory Manual CHEMISTRY In CONTEXT Applying Chemistry To Society\n",
     author: "Wilmer J.Stratton\n",
     isbn: "0-07-242457-5\n",
     publisher: "Mc Graw Higher Education Hill\n",
     year: "2003",
   },
   {
-    title: "INFORMATION TECHNOLOGY MANAGEMENT Agricultural Systems Technologet\n",
+    title:
+      "INFORMATION TECHNOLOGY MANAGEMENT Agricultural Systems Technologet\n",
     author: "Iowa State University BOOK STORE\n",
     isbn: "7487625",
     publisher: "lnstructor:Dr.U. Sunday Tim\n",
     year: "2003",
   },
   {
-    title: "Up To Speed: Computers For Family Learning Progect Report And Curriculum Guide\n",
+    title:
+      "Up To Speed: Computers For Family Learning Progect Report And Curriculum Guide\n",
     author: "Chilliwack B.C.\n",
     isbn: "5246425",
     publisher: "University College Of The Fraser Valley\n",
@@ -1022,7 +1031,8 @@ export const hpepGeneral = [
     year: "2004",
   },
   {
-    title: "Carpenter Apprenticeship Program Year 1-Drawing And Specification Interpretation\n",
+    title:
+      "Carpenter Apprenticeship Program Year 1-Drawing And Specification Interpretation\n",
     author: "არ ფიქსირდება",
     isbn: "546287426",
     publisher: "Selkirk College\n",
@@ -1189,4 +1199,4 @@ export const hpepGeneral = [
     publisher: "EMC/Paradigm Publishing\n",
     year: "არ ფიქსირდება",
   },
-]
+];

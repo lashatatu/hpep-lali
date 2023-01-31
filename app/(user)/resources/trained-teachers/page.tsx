@@ -3,7 +3,6 @@ const Page = () => {
     <div className={"lt-container-small"}>
       <h1 className={"lt-page-h1"}>გადამზადებული მასწავლებლები</h1>
       <div className={"mx-10"}>
-
         <div>
           <h2 className={"lt-page-h2 text-center"}>
             თრენინგ გავლილი მასწავლებლები გორის სათემო კოლეჯიდან
@@ -14,7 +13,7 @@ const Page = () => {
               ჩაუტარდათ “სამუშაო ძალის განათლების ინიციატივა შიდა ქართლის
               რეგიონისათვის“ პროექტის ფარგლებში
             </h3>
-            <ul className={'lt-page-ul pb-10'}>
+            <ul className={"lt-page-ul pb-10"}>
               <li>კობლიანიძე როინი</li>
               <li>ბიბილაშვილი ლია</li>
               <li>მეშველდიშვილი ნინო</li>
@@ -33,9 +32,10 @@ const Page = () => {
           </div>
           <div>
             <h3 className={"lt-page-h3 pb-4"}>
-              დატრენინგებული მასწავლებლების UNDP პროქტის  „სამუშაო ბაზრის კვლევა შიდა ქართლის რეგიონში“ ფარგლებში
+              დატრენინგებული მასწავლებლების UNDP პროქტის „სამუშაო ბაზრის კვლევა
+              შიდა ქართლის რეგიონში“ ფარგლებში
             </h3>
-            <ul className={'lt-page-ul pb-10'}>
+            <ul className={"lt-page-ul pb-10"}>
               <li>სამხარაძე ლელა</li>
               <li>ცერაძე მანანა</li>
               <li>ტატულაშვილი გიორგი</li>
@@ -75,60 +75,189 @@ const Page = () => {
         {/*თრენინგ გავლილი მასწავლებლები გორის, წნორის და ახალქალაქის კოლეჯებიდან*/}
         <div>
           <h2 className={"lt-page-h2 text-center"}>
-            თრენინგ გავლილი მასწავლებლები გორის, წნორის და ახალქალაქის კოლეჯებიდან
+            თრენინგ გავლილი მასწავლებლები გორის, წნორის და ახალქალაქის
+            კოლეჯებიდან
           </h2>
           <div>
-            <h3 className={'lt-page-h3'}>მასწავლებლები გორიდან, წნორიდან და ახალქალაქიდან რომლებსაც ტრენინგი ჩაუტარდათ</h3>
-            <p>მასწავლებლების სია რომლებმაც მიიღეს მონაწილეობა სემინარ: <span className={'font-bold'}>„თანამედროვე სწავლების ტექნოლოგიები“</span></p>
-            <p>წარმოდგენილია საქართველოს ტექნიკური უნივერსიტეტის პროფესიული განვითარების ცენტრის მიერ</p>
+            <h3 className={"lt-page-h3"}>
+              მასწავლებლები გორიდან, წნორიდან და ახალქალაქიდან რომლებსაც
+              ტრენინგი ჩაუტარდათ
+            </h3>
+            <p>
+              მასწავლებლების სია რომლებმაც მიიღეს მონაწილეობა სემინარ:{" "}
+              <span className={"font-bold"}>
+                „თანამედროვე სწავლების ტექნოლოგიები“
+              </span>
+            </p>
+            <p>
+              წარმოდგენილია საქართველოს ტექნიკური უნივერსიტეტის პროფესიული
+              განვითარების ცენტრის მიერ
+            </p>
             <p>25 სექ – 4 ოქტ 2008 წელი</p>
-            <h3 className={'lt-page-h3 pb-2'}>გორის უნივერსიტეტი</h3>
-            <ol className={'lt-page-ul list-decimal'}>
-              <li><span className={'font-bold'}>დიანა ფანყელაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ოთარ ჩილინდრიშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>გიორგი გელაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>კახა ბედიანიდზე</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>მზია დარჯანია</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ნანა ზედგინიდზე</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ეკა ხოსრუაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ზურაბ გიგაშვილი </span>- კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>მანანა მაისურადზე </span>- კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ლიანა გაბისიანი </span>- კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>გიორგი კაზიშვილი </span>- კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ბესიკ ბეჟანიშვილი </span>- კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ნინო მთვარელიდზე </span>- კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ქეთი გოგოლადზე </span>- კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ნინო ლომიდზე </span>- კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>რუსუდან ელიაშვილი </span>- კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ანი ნადირადზე </span>- კოლეჯის მასწავლებელი</li>
+            <h3 className={"lt-page-h3 pb-2"}>გორის უნივერსიტეტი</h3>
+            <ol className={"lt-page-ul list-decimal"}>
+              <li>
+                <span className={"font-bold"}>დიანა ფანყელაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ოთარ ჩილინდრიშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>გიორგი გელაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>კახა ბედიანიდზე</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>მზია დარჯანია</span>- პროფესიულის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ნანა ზედგინიდზე</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ეკა ხოსრუაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ზურაბ გიგაშვილი </span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>მანანა მაისურადზე </span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ლიანა გაბისიანი </span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>გიორგი კაზიშვილი </span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ბესიკ ბეჟანიშვილი </span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ნინო მთვარელიდზე </span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ქეთი გოგოლადზე </span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ნინო ლომიდზე </span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>რუსუდან ელიაშვილი </span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ანი ნადირადზე </span>- კოლეჯის
+                მასწავლებელი
+              </li>
             </ol>
-            <h3 className={'lt-page-h3 pb-2'}>წნორი კოლეჯი</h3>
-            <ol className={'lt-page-ul list-decimal'}>
-              <li><span className={'font-bold'}>ნოდარ ჩალაბაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ვლადიმერ შიხაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>რამაზ კაკაშვილი </span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>მოსე სესიტაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>თამაზ სფანდერაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ილია ბაკაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ნოდარ გოზალიშვილი</span> - პროფესიულის მასწავლებელი/კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}> კობა მირიანაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}> ირინე ნაცვლიშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}> ზურაბ ნადირაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ვლადიმერ შიხაშვილი</span> - პროფესიულის მასწავლებელი</li>
-              <li><span className={'font-bold'}>თამარ ბუკია</span> - კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>დალი ცულაია</span> - კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>მაია თოფურია</span> - კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>კეთევან ინანაშვილი</span> - კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>მამუკა კორაშვილი</span> - კოლეჯის მასწავლებელი</li>
+            <h3 className={"lt-page-h3 pb-2"}>წნორი კოლეჯი</h3>
+            <ol className={"lt-page-ul list-decimal"}>
+              <li>
+                <span className={"font-bold"}>ნოდარ ჩალაბაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ვლადიმერ შიხაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>რამაზ კაკაშვილი </span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>მოსე სესიტაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>თამაზ სფანდერაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ილია ბაკაშვილი</span>- პროფესიულის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ნოდარ გოზალიშვილი</span>-
+                პროფესიულის მასწავლებელი/კოლეჯის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}> კობა მირიანაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}> ირინე ნაცვლიშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}> ზურაბ ნადირაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ვლადიმერ შიხაშვილი</span>-
+                პროფესიულის მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>თამარ ბუკია</span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>დალი ცულაია</span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>მაია თოფურია</span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>კეთევან ინანაშვილი</span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>მამუკა კორაშვილი</span>- კოლეჯის
+                მასწავლებელი
+              </li>
             </ol>
-            <h3 className={'lt-page-h3 pb-2'}>ახალქალაქი კოლეჯი</h3>
-            <ol className={'lt-page-ul list-decimal'}>
-              <li><span className={'font-bold'}>როინ კავრელიშვილი</span> - კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ოთარ კავრელიშვილი</span> - კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ამალია შაკულაშვილი</span> - კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>გოარ ნახაფეთიანი</span> - კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>ნათელა მელიკიდზე</span> - კოლეჯის მასწავლებელი</li>
-              <li><span className={'font-bold'}>მარინე მურჯიკნელი</span> - კოლეჯის მასწავლებელი</li>
+            <h3 className={"lt-page-h3 pb-2"}>ახალქალაქი კოლეჯი</h3>
+            <ol className={"lt-page-ul list-decimal"}>
+              <li>
+                <span className={"font-bold"}>როინ კავრელიშვილი</span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ოთარ კავრელიშვილი</span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ამალია შაკულაშვილი</span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>გოარ ნახაფეთიანი</span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>ნათელა მელიკიდზე</span>- კოლეჯის
+                მასწავლებელი
+              </li>
+              <li>
+                <span className={"font-bold"}>მარინე მურჯიკნელი</span>- კოლეჯის
+                მასწავლებელი
+              </li>
             </ol>
           </div>
         </div>
@@ -138,8 +267,10 @@ const Page = () => {
             თრეინინგ გავლილი მასწავლებლები სტუ-დან და ბათუმიდან
           </h2>
           <div>
-            <h3 className={'lt-page-h3 pb-2'}>საქართველოს ტექნიკური უნივერსიტეტი</h3>
-            <ul className={'lt-page-ul grid grid-cols-2'}>
+            <h3 className={"lt-page-h3 pb-2"}>
+              საქართველოს ტექნიკური უნივერსიტეტი
+            </h3>
+            <ul className={"lt-page-ul grid grid-cols-2"}>
               <li>მაია კაჭარავა</li>
               <li>არქიტექტურა და დიზაინი</li>
               <li>ნინო ხაბეიშვილი</li>
@@ -197,8 +328,8 @@ const Page = () => {
               <li>ეკატერინე აბზიანიძე</li>
               <li>ენერგეტიკა და ტელეკომუნიკაცია</li>
             </ul>
-            <h3 className={'lt-page-h3 pb-2'}>ბათუმის საზღვაო აკადემია</h3>
-            <ul className={'lt-page-ul grid grid-cols-2'}>
+            <h3 className={"lt-page-h3 pb-2"}>ბათუმის საზღვაო აკადემია</h3>
+            <ul className={"lt-page-ul grid grid-cols-2"}>
               <li>ზურაბ ბეჟანოვი</li>
               <li>მაკვალა ბეკირიშვილი</li>
               <li>ზურაბ გაბუნია</li>
@@ -218,43 +349,43 @@ const Page = () => {
               <li>ჯემალ შარაძე</li>
               <li>დავიდ ხილაძე</li>
             </ul>
-            <h3 className={'lt-page-h3 pb-2'}>ბათუმის საზღვაო კოლეჯი</h3>
-            <ul className={'lt-page-ul grid grid-cols-2'}>
-             <li>ანზორ დიასამიძე</li>
-             <li>მზია დიასამიძე</li>
-             <li>დურმიშხან შერვაშიძე</li>
-             <li>ზურაბ კონცელიძე</li>
-             <li>ვლადიმერ ბოგდანოვ</li>
-             <li>ნოდარ აბუსელიძე</li>
-             <li>თეიმურაზ ვარშანიძე</li>
-             <li>მარინა ხარებავა</li>
-             <li>ლუიზა სიხარულიძე</li>
-             <li>ნათელა დუმბაძე</li>
-             <li>ლიანა კაკაჩია</li>
-             <li>იმედა იმნაძე</li>
-             <li>ცირა ღვინჯილია</li>
-             <li>ვერა ჯათოევა</li>
-             <li>ნინო ჯაყელი</li>
-             <li>მირანდა ჩინკაძე</li>
-             <li>პირუზა ვარშანიძე</li>
-             <li>თემურ დევაძე</li>
-             <li>ოსმან ხინკილაძე</li>
-             <li>ამირანი პუთკარაძე</li>
-             <li>ბესიკ ბეჟანიძე</li>
-             <li>ბადრი ბერიძე</li>
-             <li>ვიკთორ ვაკსინ</li>
-             <li>მიხაილ ხათენესიანი</li>
-             <li>ირმა ღლონთი</li>
-             <li>გურამ კათამაძე</li>
-             <li>ნათალია ხაიდაროვა</li>
-             <li>თამარ გუჩმანიძე</li>
-             <li>მაია დავითიანი</li>
-             <li>მედეა აბაშიძე</li>
-             <li>ნათო ზოიძე</li>
-             <li>კეთევან ბრუნჯაძე</li>
-             <li>გურანდა ჩინკაძე</li>
-             <li>კეთევან ზოიძე</li>
-             <li>რუსუდან დიასამიძე</li>
+            <h3 className={"lt-page-h3 pb-2"}>ბათუმის საზღვაო კოლეჯი</h3>
+            <ul className={"lt-page-ul grid grid-cols-2"}>
+              <li>ანზორ დიასამიძე</li>
+              <li>მზია დიასამიძე</li>
+              <li>დურმიშხან შერვაშიძე</li>
+              <li>ზურაბ კონცელიძე</li>
+              <li>ვლადიმერ ბოგდანოვ</li>
+              <li>ნოდარ აბუსელიძე</li>
+              <li>თეიმურაზ ვარშანიძე</li>
+              <li>მარინა ხარებავა</li>
+              <li>ლუიზა სიხარულიძე</li>
+              <li>ნათელა დუმბაძე</li>
+              <li>ლიანა კაკაჩია</li>
+              <li>იმედა იმნაძე</li>
+              <li>ცირა ღვინჯილია</li>
+              <li>ვერა ჯათოევა</li>
+              <li>ნინო ჯაყელი</li>
+              <li>მირანდა ჩინკაძე</li>
+              <li>პირუზა ვარშანიძე</li>
+              <li>თემურ დევაძე</li>
+              <li>ოსმან ხინკილაძე</li>
+              <li>ამირანი პუთკარაძე</li>
+              <li>ბესიკ ბეჟანიძე</li>
+              <li>ბადრი ბერიძე</li>
+              <li>ვიკთორ ვაკსინ</li>
+              <li>მიხაილ ხათენესიანი</li>
+              <li>ირმა ღლონთი</li>
+              <li>გურამ კათამაძე</li>
+              <li>ნათალია ხაიდაროვა</li>
+              <li>თამარ გუჩმანიძე</li>
+              <li>მაია დავითიანი</li>
+              <li>მედეა აბაშიძე</li>
+              <li>ნათო ზოიძე</li>
+              <li>კეთევან ბრუნჯაძე</li>
+              <li>გურანდა ჩინკაძე</li>
+              <li>კეთევან ზოიძე</li>
+              <li>რუსუდან დიასამიძე</li>
             </ul>
           </div>
         </div>
@@ -264,8 +395,8 @@ const Page = () => {
             თრენინგ გავლილი მასწავლებლები გორიდან და ჭიათურიდან
           </h2>
           <div>
-            <h3 className={'lt-page-h3 pb-2'}>გორის უნივერსიტეტი</h3>
-            <ul className={'lt-page-ul grid grid-cols-2'}>
+            <h3 className={"lt-page-h3 pb-2"}>გორის უნივერსიტეტი</h3>
+            <ul className={"lt-page-ul grid grid-cols-2"}>
               <li>კეთევან აბესაძე</li>
               <li>ბიძინაშვილი დავიდ</li>
               <li>ეკათერინე გიგაშვილი</li>
@@ -295,8 +426,8 @@ const Page = () => {
               <li>ზაალ ცოტნიაშვილი</li>
               <li>ნანა ნადირაშვილი</li>
             </ul>
-            <h3 className={'lt-page-h3 pb-2'}>რუსთავის მეტალურგიული კოლეჯი</h3>
-            <ul className={'lt-page-ul grid grid-cols-2'}>
+            <h3 className={"lt-page-h3 pb-2"}>რუსთავის მეტალურგიული კოლეჯი</h3>
+            <ul className={"lt-page-ul grid grid-cols-2"}>
               <li>ხვედელიძე მაირიამი</li>
               <li>შველიძე მანანა</li>
               <li>ჩიკვილაძე ლეილა</li>
@@ -329,8 +460,8 @@ const Page = () => {
               <li>ბერიშვილი ირმა</li>
               <li>კურდაშვილი მარინე</li>
             </ul>
-            <h3 className={'lt-page-h3 pb-2'}>ბათუმის საზღვაო კოლეჯი</h3>
-            <ul className={'lt-page-ul grid grid-cols-2'}>
+            <h3 className={"lt-page-h3 pb-2"}>ბათუმის საზღვაო კოლეჯი</h3>
+            <ul className={"lt-page-ul grid grid-cols-2"}>
               <li>ბაბილოძე კახაბერი</li>
               <li>ერქომაიშვილი ირაკლი</li>
               <li>ნიკურაძე გიორგი</li>
@@ -343,43 +474,150 @@ const Page = () => {
             თრენინგ გავლილი მასწავლებები სტუ-დან
           </h2>
           <div>
-            <h3 className={'lt-page-h3 pb-2'}>საქართველოს ტექნიკური უნივერსიტეტი</h3>
-            <ul className={'lt-page-ul'}>
-              <li><span className={'font-bold'}>კოpლაtაძე მაია</span> - ტელეკომუნაკაციის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>აბზიანიძე ნიკოლოზ</span> - ტელეკომუნაკაციის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ტალაკვაძე მანანა</span> - სატრანსპორტო ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ბერიძე მარიამი</span> - სატრანსპორტო ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ბაგდასარიანი ვიქტორია</span> - ინფორმატიკის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ბერიშვილი მარინე</span> - ინფორმატიკის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ჩეჩელაშვილი ლია</span> - ინფორმატიკის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ჩეჩელაშვილი ნინო</span> - ინფორმატიკის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>დეკანოსიძე შორენა</span> - ინფორმატიკის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ყიფიანი ლიკა</span> - ინფორმატიკის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>მირცხულავა ლელა</span> - ინფორმატიკის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ჩიკაშუა ეკა</span> - ინფორმატიკის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ცაკაძე მამუკა</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ბესტავაშვილი ბელა</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>დავითაშვილი ალექსანდერე</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ღარიბაშვილი ირმა</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ღოღელიანი ლალი</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ნოზაძე მანანა</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>მაღრაძე კონსტანტინე</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ხატიური ხათუნა</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>კლიმიაშვილი ლევანი</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>კობახიძე მარინე</span> - სამოქალაქო მშენებლობის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ყიზანიშვილი სალომე</span> - ჰუმანიტარული ფაკულტეტი</li>
-              <li><span className={'font-bold'}>მაჩავარიანი თამარი</span> - ჰუმანიტარული ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ჩხეიძე მაია</span> - ჰუმანიტარული ფაკულტეტი</li>
-              <li><span className={'font-bold'}>მადუაშვილი გიორგი</span> - ჰუმანიტარული ფაკულტეტი</li>
-              <li><span className={'font-bold'}>კილაძე ელენე</span> - არქიტექტურის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>მაისურაძე მარინე</span> - არქიტექტურის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ცერცვაძე თამარი</span> - მეტალურგიის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>მეძმარიაშვილი ნინო</span> - მეტალურგიის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>გოგიჩაიშვილი ბორისი</span> - მეტალურგიის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ლომსაძე ზურაბ</span> - მეტალურგიის ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ლოსაბერიძე ვახtანგი</span> - სამთომოპოვების ფაკულტეტი</li>
-              <li><span className={'font-bold'}>ნადირაძე მზია</span> - სამთომოპოვების ფაკულტეტი</li>
-              <li><span className={'font-bold'}>შატაკიშვილი ლენა</span> - ენერგეტიკისა და ტელეკომუნიკაციის ფაკულტეტი</li>
+            <h3 className={"lt-page-h3 pb-2"}>
+              საქართველოს ტექნიკური უნივერსიტეტი
+            </h3>
+            <ul className={"lt-page-ul"}>
+              <li>
+                <span className={"font-bold"}>კოpლაtაძე მაია</span>-
+                ტელეკომუნაკაციის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>აბზიანიძე ნიკოლოზ</span>-
+                ტელეკომუნაკაციის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ტალაკვაძე მანანა</span>-
+                სატრანსპორტო ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ბერიძე მარიამი</span>-
+                სატრანსპორტო ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ბაგდასარიანი ვიქტორია</span>-
+                ინფორმატიკის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ბერიშვილი მარინე</span>-
+                ინფორმატიკის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ჩეჩელაშვილი ლია</span>-
+                ინფორმატიკის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ჩეჩელაშვილი ნინო</span>-
+                ინფორმატიკის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>დეკანოსიძე შორენა</span>-
+                ინფორმატიკის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ყიფიანი ლიკა</span>- ინფორმატიკის
+                ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>მირცხულავა ლელა</span>-
+                ინფორმატიკის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ჩიკაშუა ეკა</span>- ინფორმატიკის
+                ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ცაკაძე მამუკა</span>- სამოქალაქო
+                მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ბესტავაშვილი ბელა</span>-
+                სამოქალაქო მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>დავითაშვილი ალექსანდერე</span>-
+                სამოქალაქო მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ღარიბაშვილი ირმა</span>-
+                სამოქალაქო მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ღოღელიანი ლალი</span>- სამოქალაქო
+                მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ნოზაძე მანანა</span>- სამოქალაქო
+                მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>მაღრაძე კონსტანტინე</span>-
+                სამოქალაქო მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ხატიური ხათუნა</span>- სამოქალაქო
+                მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>კლიმიაშვილი ლევანი</span>-
+                სამოქალაქო მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>კობახიძე მარინე</span>- სამოქალაქო
+                მშენებლობის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ყიზანიშვილი სალომე</span>-
+                ჰუმანიტარული ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>მაჩავარიანი თამარი</span>-
+                ჰუმანიტარული ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ჩხეიძე მაია</span>- ჰუმანიტარული
+                ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>მადუაშვილი გიორგი</span>-
+                ჰუმანიტარული ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>კილაძე ელენე</span>- არქიტექტურის
+                ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>მაისურაძე მარინე</span>-
+                არქიტექტურის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ცერცვაძე თამარი</span>-
+                მეტალურგიის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>მეძმარიაშვილი ნინო</span>-
+                მეტალურგიის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>გოგიჩაიშვილი ბორისი</span>-
+                მეტალურგიის ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ლომსაძე ზურაბ</span>- მეტალურგიის
+                ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ლოსაბერიძე ვახtანგი</span>-
+                სამთომოპოვების ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>ნადირაძე მზია</span>-
+                სამთომოპოვების ფაკულტეტი
+              </li>
+              <li>
+                <span className={"font-bold"}>შატაკიშვილი ლენა</span>-
+                ენერგეტიკისა და ტელეკომუნიკაციის ფაკულტეტი
+              </li>
             </ul>
           </div>
         </div>

@@ -42,7 +42,7 @@ import image41 from "../public/41.jpg";
 import image42 from "../public/42.jpg";
 import image43 from "../public/43.jpg";
 
-export const images= [
+export const images = [
   {
     image: image1,
     text: "ასუ და სტუ პარტნიორობის პროგრამა",
@@ -96,7 +96,7 @@ export const images= [
     text: "Meeting of Authors and teachers of II year Textbooks for Gori Community College",
   },
   {
-    image:image14,
+    image: image14,
     text: "Awarding Teachers with Certificates in MES",
   },
   {

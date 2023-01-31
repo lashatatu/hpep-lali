@@ -10,15 +10,15 @@ const BlogList = ({ posts }: Props) => {
   // @ts-ignore
   return (
     <div className={"lt-container"}>
-      <hr className={"border-secondary mb-10"} />
+      <hr className={"mb-10 border-secondary"} />
       <div
         className={
-          "grid grid-cols-1 lg:grid-cols-2 gap-10 gap-y-16 pb-24 px-10"
+          "grid grid-cols-1 gap-10 gap-y-16 px-10 pb-24 lg:grid-cols-2"
         }
       >
         {/*Posts*/}
         {posts.map((post) => (
-          <div className={"lg:first:grid-cols-1 lg:first:col-span-full"}>
+          <div className={"lg:first:col-span-full lg:first:grid-cols-1"}>
             <ClientSideRoute
               // @ts-ignore
               key={post._id}
@@ -31,7 +31,7 @@ const BlogList = ({ posts }: Props) => {
               >
                 <div
                   className={
-                    "relative w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out "
+                    "relative h-80 w-full drop-shadow-xl transition-transform duration-200 ease-out group-hover:scale-105 "
                   }
                 >
                   <Image
@@ -42,7 +42,7 @@ const BlogList = ({ posts }: Props) => {
                   />
                   <div
                     className={
-                      "absolute top-0 w-full bg-opacity-20 bg-black backdrop-blur-lg rounded drop-shadow-lg text-white p-5 flex justify-between"
+                      "absolute top-0 flex w-full justify-between rounded bg-black bg-opacity-20 p-5 text-white drop-shadow-lg backdrop-blur-lg"
                     }
                   >
                     <div>
@@ -58,16 +58,16 @@ const BlogList = ({ posts }: Props) => {
 
                     <div
                       className={
-                        "flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center"
+                        "flex flex-col items-center gap-y-2 md:flex-row md:gap-x-2"
                       }
                     >
                       {post.categories.map((category) => (
                         <div
                           className={
-                            "bg-primary text-center text-white px-3 py-1 rounded-full text-sm font-semibold"
+                            "rounded-full bg-primary px-3 py-1 text-center text-center text-sm font-semibold text-white"
                           }
                         >
-                          <p className={'pb-0 indent-0'}>{category.title}</p>
+                          <p className={"pb-0 indent-0"}>{category.title}</p>
                         </div>
                       ))}
                     </div>
@@ -75,14 +75,14 @@ const BlogList = ({ posts }: Props) => {
                 </div>
 
                 <div className={"mt-5 flex-1"}>
-                  <p className={"underline text-lg font-bold"}>{post.title}</p>
-                  <p className={"line-clamp-2 text-gray-500"}>
+                  <p className={"text-lg font-bold underline"}>{post.title}</p>
+                  <p className={"text-gray-500 line-clamp-2"}>
                     {post.description}
                   </p>
                 </div>
                 <p
                   className={
-                    "mt-5 font-bold flex items-center group-hover:underline"
+                    "mt-5 flex items-center font-bold group-hover:underline"
                   }
                 >
                   Read Post

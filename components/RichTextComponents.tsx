@@ -6,7 +6,7 @@ export const RichTextComponents = {
   types: {
     image: ({ value }: any) => {
       return (
-        <div className={"relative w-full h-96 m-10 mx-auto"}>
+        <div className={"relative m-10 mx-auto h-96 w-full"}>
           <Image
             className={"object-contain"}
             src={urlFor(value).url()}
@@ -19,7 +19,7 @@ export const RichTextComponents = {
   },
   list: {
     bullet: ({ children }: any) => (
-      <ul className={"ml-10 py-5 list-disc space-y-5"}>{children}</ul>
+      <ul className={"ml-10 list-disc space-y-5 py-5"}>{children}</ul>
     ),
     number: ({ children }: any) => (
       <ol className={"ml-8 list-decimal space-y-5"}>{children}</ol>
@@ -27,20 +27,20 @@ export const RichTextComponents = {
   },
   block: {
     h1: ({ children }: any) => (
-      <h1 className={"text-5xl py-10 font-extrabold"}>{children}</h1>
+      <h1 className={"py-10 text-5xl font-extrabold"}>{children}</h1>
     ),
     h2: ({ children }: any) => (
-      <h1 className={"text-4xl py-10 font-extrabold"}>{children}</h1>
+      <h1 className={"py-10 text-4xl font-extrabold"}>{children}</h1>
     ),
     h3: ({ children }: any) => (
-      <h1 className={"text-3xl py-10 font-extrabold"}>{children}</h1>
+      <h1 className={"py-10 text-3xl font-extrabold"}>{children}</h1>
     ),
     h4: ({ children }: any) => (
-      <h1 className={"text-2xl py-10 font-extrabold"}>{children}</h1>
+      <h1 className={"py-10 text-2xl font-extrabold"}>{children}</h1>
     ),
     blockquote: ({ children }: any) => {
       return (
-        <blockquote className={"border-secondary border-l-4 pl-5 py-5 my-5"}>
+        <blockquote className={"my-5 border-l-4 border-secondary py-5 pl-5"}>
           {children}
         </blockquote>
       );

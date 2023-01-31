@@ -102,7 +102,8 @@ export const hpepTextbooks = [
     year: "2009",
   },
   {
-    title: "Internship in Hotel and Restaurant Business Administration Specialty",
+    title:
+      "Internship in Hotel and Restaurant Business Administration Specialty",
     author: "M.Vasadze",
     isbn: "36488",
     year: "2009",
@@ -306,13 +307,15 @@ export const hpepTextbooks = [
     year: "2007",
   },
   {
-    title: "Introduction in Computing Technology Part II Ms Excel, Internet explorer, Managing E-mail",
+    title:
+      "Introduction in Computing Technology Part II Ms Excel, Internet explorer, Managing E-mail",
     author: "S.Demurashvili, E.Chikashua, A.Davitashvili",
     isbn: "1324",
     year: "2007",
   },
   {
-    title: "Introduction in Computing Technology Part I MS Windows, MS Word & MS PowerPoint",
+    title:
+      "Introduction in Computing Technology Part I MS Windows, MS Word & MS PowerPoint",
     author: "S.Demurashvili, E.Chikashua, A.Davitashvili",
     isbn: "244",
     year: "2007",
@@ -346,5 +349,5 @@ export const hpepTextbooks = [
     author: "Orjonikidze Nino, Lika Kipiani, Viktoria Bagdasarian",
     isbn: "00001",
     year: "2007",
-  }
+  },
 ];

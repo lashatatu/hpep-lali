@@ -410,64 +410,106 @@ const Page = () => {
         <div>
           <h2 className={"lt-page-h2"}>კორნელის უნივერსიტეტი</h2>
           <div>
-            <h3 className={'lt-page-h3'}>Cornell University Teaching Evaluation Handbook</h3>
+            <h3 className={"lt-page-h3"}>
+              Cornell University Teaching Evaluation Handbook
+            </h3>
             <div>
               <embed
-                className={'mt-5 mb-5 max-lg:hidden'}
+                className={"mt-5 mb-5 max-lg:hidden"}
                 src="/handbook-1.pdf"
                 width="100%"
-                height="800px"/>
-              <ul className={'pb-4'}>
+                height="800px"
+              />
+              <ul className={"pb-4"}>
                 <li>
-                  <a href='/handbook-1.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 1</a>
+                  <a
+                    href="/handbook-1.pdf"
+                    target={"_blank"}
+                    className={"text-secondary lg:hidden lg:pb-10"}
+                  >
+                    კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო
+                    თავი 1
+                  </a>
                 </li>
               </ul>
             </div>
             <div>
               <embed
-                className={'mt-5 mb-5 max-lg:hidden'}
+                className={"mt-5 mb-5 max-lg:hidden"}
                 src="/handbook-2.pdf"
                 width="100%"
-                height="800px"/>
-              <ul className={'pb-4'}>
+                height="800px"
+              />
+              <ul className={"pb-4"}>
                 <li>
-                  <a href='/handbook-2.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 2</a>
+                  <a
+                    href="/handbook-2.pdf"
+                    target={"_blank"}
+                    className={"text-secondary lg:hidden lg:pb-10"}
+                  >
+                    კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო
+                    თავი 2
+                  </a>
                 </li>
               </ul>
             </div>
             <div>
               <embed
-                className={'mt-5 mb-5 max-lg:hidden'}
+                className={"mt-5 mb-5 max-lg:hidden"}
                 src="/handbook-3.pdf"
                 width="100%"
-                height="800px"/>
-              <ul className={'pb-4'}>
+                height="800px"
+              />
+              <ul className={"pb-4"}>
                 <li>
-                  <a href='/handbook-3.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 3</a>
+                  <a
+                    href="/handbook-3.pdf"
+                    target={"_blank"}
+                    className={"text-secondary lg:hidden lg:pb-10"}
+                  >
+                    კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო
+                    თავი 3
+                  </a>
                 </li>
               </ul>
             </div>
             <div>
               <embed
-                className={'mt-5 mb-5 max-lg:hidden'}
+                className={"mt-5 mb-5 max-lg:hidden"}
                 src="/handbook-4.pdf"
                 width="100%"
-                height="800px"/>
-              <ul className={'pb-4'}>
+                height="800px"
+              />
+              <ul className={"pb-4"}>
                 <li>
-                  <a href='/handbook-4.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 4</a>
+                  <a
+                    href="/handbook-4.pdf"
+                    target={"_blank"}
+                    className={"text-secondary lg:hidden lg:pb-10"}
+                  >
+                    კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო
+                    თავი 4
+                  </a>
                 </li>
               </ul>
             </div>
             <div>
               <embed
-                className={'mt-5 mb-5 max-lg:hidden'}
+                className={"mt-5 mb-5 max-lg:hidden"}
                 src="/handbook-5.pdf"
                 width="100%"
-                height="800px"/>
-              <ul className={'pb-4'}>
+                height="800px"
+              />
+              <ul className={"pb-4"}>
                 <li>
-                  <a href='/handbook-5.pdf' target={'_blank'} className={'lg:hidden lg:pb-10 text-secondary'}>კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო თავი 5</a>
+                  <a
+                    href="/handbook-5.pdf"
+                    target={"_blank"}
+                    className={"text-secondary lg:hidden lg:pb-10"}
+                  >
+                    კორნელის უნივერსიტეტი, სწავლების შეფასების სახელმძღვანელო
+                    თავი 5
+                  </a>
                 </li>
               </ul>
             </div>

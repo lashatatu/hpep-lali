@@ -1,6 +1,6 @@
 import Link from "next/link";
 import LinksComponent from "./LinksComponent";
-import LinksComponentMobile from './LinksComponentMobile'
+import LinksComponentMobile from "./LinksComponentMobile";
 
 const Header = () => {
   return (
@@ -59,8 +59,8 @@ const Header = () => {
       {/*  </div>*/}
       {/*</header>*/}
       <header>
-        <label className="swap lg:swap-active max-lg:hidden inline">
-          <div className="swap-on font-bold p-5 bg-primary items-center text-white flex flex-col">
+        <label className="swap inline max-lg:hidden lg:swap-active">
+          <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
             <Link href="/">
               <img
                 src={"https://i.imgur.com/rg1y2ro.gif"}
@@ -71,41 +71,40 @@ const Header = () => {
               />
             </Link>
             <div>
-              <div className={"space-x-2 cursor-pointer hidden lg:flex"}>
+              <div className={"hidden cursor-pointer space-x-2 lg:flex"}>
                 <LinksComponent />
               </div>
             </div>
           </div>
-
         </label>
 
         {/* Mobile */}
-        <label className="swap max-lg:swap-active lg:hidden inline">
-          <div className="swap-on font-bold p-5 bg-primary items-center text-white flex flex-col">
-              <div className="collapse lg:hidden" tabIndex={0}>
-                <input type="checkbox" className="peer" />
-                <div className="collapse-title flex p-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
-                    className="h-10 w-10 flex-1"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
-                    />
-                  </svg>
-                </div>
-                <div className="collapse-content m-0">
-                  <div className="cursor-pointer flex flex-col items-center">
-                    <LinksComponentMobile />
-                  </div>
+        <label className="swap inline max-lg:swap-active lg:hidden">
+          <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
+            <div className="collapse lg:hidden" tabIndex={0}>
+              <input type="checkbox" className="peer" />
+              <div className="collapse-title flex p-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="h-10 w-10 flex-1"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+                  />
+                </svg>
+              </div>
+              <div className="collapse-content m-0">
+                <div className="flex cursor-pointer flex-col items-center">
+                  <LinksComponentMobile />
                 </div>
               </div>
+            </div>
           </div>
         </label>
       </header>
