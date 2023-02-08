@@ -90,9 +90,6 @@ const LinksComponentMobile = () => {
             <Link href={"/library/center-library"}>ცენტრის ბიბლიოთეკა</Link>
           </li>
           <li className={"pt-2"}>
-            <Link href={"/library/gallery"}>გალერეა</Link>
-          </li>
-          <li className={"pt-2"}>
             <Link href={"/library/memorandums"}>მემორანდუმები</Link>
           </li>
         </ul>
@@ -121,6 +118,11 @@ const LinksComponentMobile = () => {
               NATO-ს ვიდეო სტუდია
             </Link>
           </li>
+          <li>
+            <Link href={"/resources/gallery-universe"}>
+              გალერეა უნივერსი
+            </Link>
+          </li>
         </ul>
       </div>
       {/*რესურსები*/}
@@ -132,6 +134,13 @@ const LinksComponentMobile = () => {
         </Link>
       </div>
       {/* პარტნიორები */}
+      {/* გალერეა */}
+      <div className="collapse min-h-0">
+        <Link href={"/library/gallery"} className="p-2 text-center">
+          გალერეა
+        </Link>
+      </div>
+      {/* გალერეა */}
     </>
   );
 };

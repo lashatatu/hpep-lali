@@ -1,3 +1,12 @@
+import {
+  ianvari22019,
+  ianvari312019, ianvari32021, ivnisi222020, ivnisi272021,
+  ivnisi42019,
+  ivnisi62019, ivnisi62020,
+  maisi172019,
+  tebervali22019, weli2021
+} from './data/data'
+
 const Page = () => {
   return (
     <div className={"lt-container-small"}>
@@ -354,6 +363,230 @@ const Page = () => {
           <div>დავით ლ ტაუკი (აშშ)</div>
 
           <div>ფოკუსირება სწავლაზე სწავლების მაგიერ</div>
+        </div>
+      </div>
+      <div className={"mx-10"}>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            სამშენებლო ფაკულტეტი 2019 წლის 2 იანვარი
+          </h2>
+          <h3 className={"lt-page-h3"}>ბლოკი III "სწავლა სწავლება"</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {ianvari22019.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            ბიზნესტექნოლოგიების ფაკულტეტი 2019 წლის 31 იანვარი
+          </h2>
+          <h3 className={"lt-page-h3"}>ბლოკი III "სწავლა სწავლება"</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {ianvari312019.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            ბიზნესტექნოლოგიების ფაკულტეტი 2019 წლის 2 თებერვალი
+          </h2>
+          <h3 className={"lt-page-h3"}>ბლოკი VI "კომუნიკაცია და კოგნიცია"</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {tebervali22019.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            ბიზნესტექნოლოგიების ფაკულტეტი 2019 წლის 17 მაისი
+          </h2>
+          <h3 className={"lt-page-h3"}>
+            ბლოკი IV "სწავლის შედეგები და მათი შეფასება"
+          </h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {maisi172019.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            სამშენებლო ფაკულტეტი 2019 წლის 4 ივნისი
+          </h2>
+          <h3 className={"lt-page-h3"}>ბლოკი III "სწავლა სწავლება"</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {ivnisi42019.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            ბიზნესტექნოლოგიების ფაკულტეტი 2019 წლის 6 ივნისი
+          </h2>
+          <h3 className={"lt-page-h3"}> ბლოკი VI "კომუნიკაცია და კოგნიცია"</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {ivnisi62019.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            სატრანსპორტო და მანქანათმშენებლობის ფაკულტეტი 2020 წლის 7 ივნისი
+          </h2>
+          <h3 className={"lt-page-h3"}> ბლოკი  „სწავლა-სწავლების თანამედროვე მეთოდები“</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {ivnisi62020.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            სატრანსპორტო და მანქანათმშენებლობის ფაკულტეტი 2020 წლის 22 ივნისი
+          </h2>
+          <h3 className={"lt-page-h3"}> ბლოკი  „სწავლა-სწავლების თანამედროვე მეთოდები“</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {ivnisi222020.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            სატრანსპორტო ფაკულტეტის 509 და 510 დეპარტამენტი 2021 წლის 3 იანვარი
+          </h2>
+          <h3 className={"lt-page-h3"}>ბლოკი „სწავლებისა და სწავლის უახლესი მეთოდები“</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {ianvari32021.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            ბიზნესტექნოლოგიების ფაკულტეტი 2021 წლის 27 ივნისი
+          </h2>
+          <h3 className={"lt-page-h3"}>ბლოკი „კარიერული ზრდა“</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {ivnisi272021.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className={"lt-page-h2"}>
+            ბიზნესტექნოლოგიების ფაკულტეტი 2021 წელი
+          </h2>
+          <h3 className={"lt-page-h3"}>ბლოკი "სწავლა-სწავლების თანამედროვე მეთოდები"</h3>
+          <div className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}>
+            <div className={"pb-4 font-bold"}>N</div>
+            <div className={"pb-4 font-bold"}>სერთ.N</div>
+            <div className={"pb-4 font-bold"}>სახელი, გვარი</div>
+            <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
+            {weli2021.slice(1).map((dat) => (
+              <>
+                <div>{dat.number}</div>
+                <div>{dat.cert}</div>
+                <div>{dat.name}</div>
+                <div>{dat.role}</div>
+              </>
+            ))}
+          </div>
         </div>
       </div>
     </div>

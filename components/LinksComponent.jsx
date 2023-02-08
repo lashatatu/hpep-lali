@@ -138,6 +138,11 @@ const LinksComponent = () => {
               NATO-ს ვიდეო სტუდია
             </Link>
           </li>
+          <li>
+            <Link href={"/resources/gallery-universe"}>
+              გალერეა უნივერსი
+            </Link>
+          </li>
         </ul>
       </div>
 
@@ -149,6 +154,15 @@ const LinksComponent = () => {
       </div>
 
       {/* პარტნიორები */}
+      {/* გალერეა */}
+
+      <div className="collapse min-h-0">
+        <Link href={"/library/gallery"} className="p-2 text-center">
+          გალერეა
+        </Link>
+      </div>
+
+      {/* გალერეა */}
     </>
   );
 };
