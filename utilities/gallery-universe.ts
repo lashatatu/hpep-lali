@@ -65,6 +65,7 @@ import artists40 from '../public/gallery-universe/artists/artists_40.jpg'
 import artists41 from '../public/gallery-universe/artists/artists_41.jpg'
 import artists42 from '../public/gallery-universe/artists/artists_42.jpg'
 import artists43 from '../public/gallery-universe/artists/artists_43.jpg'
+import artists44 from '../public/gallery-universe/artists/artists_44.jpg'
 import artists45 from '../public/gallery-universe/artists/artists_45.jpg'
 import artists46 from '../public/gallery-universe/artists/artists_46.jpg'
 import artists47 from '../public/gallery-universe/artists/artists_47.jpg'
@@ -101,7 +102,7 @@ import colleagues20 from '../public/gallery-universe/colegues/colegues_20.jpg'
 import colleagues21 from '../public/gallery-universe/colegues/colegues_21.jpg'
 import colleagues22 from '../public/gallery-universe/colegues/colegues_22.jpg'
 import colleagues23 from '../public/gallery-universe/colegues/colegues_23.jpg'
-import colleagues24 from '../public/gallery-universe/colegues/colegues_1.jpg'
+import colleagues24 from '../public/gallery-universe/colegues/colegues_24.jpg'
 
 export const kids = [
   {
@@ -269,5 +270,236 @@ export const artists =[
   {
     image:artists21,
     description:'ნიკა სახამბერიძე - 18.02-27.02.2003წ.'
+  },
+  {
+    image:artists22,
+    description:'გამოფენა "ზედაპირის სიღრმე" 6.00სთ, 10-13 დეკემბერი'
+  },
+  {
+    image:artists23,
+    description:'"პალერმოს გამოფენა - 15 წლის შემდეგ" 4-16 დეკემბერი'
+  },
+  {
+    image:artists24,
+    description:'გოგა ჩანადირის ფოტოგამოფენა "ახალი ფერები განათლებაში" 15-19 დეკემბერი 2006'
+  },
+  {
+    image:artists25,
+    description:'გამოფენა "მხატვრული შემოქმედება, სახვით და გამოყენებითი ხელოვნება" 1.00სთ 26-27 ოქტომბერი 2010'
+  },
+  {
+    image:artists26,
+    description:'ირაკლი მინაშვილის პერსონალური გამოფენა 23-28 მარტი 2010'
+  },
+  {
+    image:artists27,
+    description:'გიორგი აბუაშვილის გამოფენა "ბუდუ" 23-28 მარტი 2010'
+  },
+  {
+    image:artists28,
+    description:'"Tbilisi imporonte" 12 მარტი - 2 აპრილი 2005'
+  },
+  {
+    image:artists29,
+    description:'თბილისის სამთო, სათავგადასავლო და ექსტრემალური სატელევიზიო ფილმების ფესტივალი "ნიამორი" 14-18 თებერვალი 2007'
+  },
+  {
+    image:artists30,
+    description:'მაია ნანობაშვილი 3-5 ნოემბერი'
+  },
+  {
+    image:artists31,
+    description:'გიფი ფრანგიშვილის გამოფენა 23 აპრილი'
+  },
+  {
+    image:artists32,
+    description:'გოჩა მანველიძე მგლები 4'
+  },
+  {
+    image:artists33,
+    description:'ლელა ქერაშვილი 11 ოქტომბერი 2004'
+  },
+  {
+    image:artists34,
+    description:'ჯო & მეგობრები ფერწერა გრაფიკა ქანდაკება 26 აპრილი 2002'
+  },
+  {
+    image:artists35,
+    description:'ჯარჯი ბალანჩივაძის გამოფენა 24 აპრილი 2004'
+  },
+  {
+    image:artists36,
+    description:'ფოტოგამოფენა "ჩვენი გარემო"'
+  },
+  {
+    image:artists37,
+    description:'ალექსანდრე პირადოვის კოლექციიდან "თბილისის პალიტრა" 15-23 სექტემბერი 2006'
+  },
+  {
+    image:artists38,
+    description:'გამოფენა "ოქროს კვადრატი" 7 აპრილი 2004'
+  },
+  {
+    image:artists39,
+    description:'გია ბენაშვილის ნამუშევრების გამოფენა 3-7 დეკემბერი 2005'
+  },
+  {
+    image:artists40,
+    description:'გია ბუღაძის გამოფენა 24 სექტემბერი'
+  },
+  {
+    image:artists41,
+    description:'Czech Press Photo 16-22 მაისი 2005'
+  },
+  {
+    image:artists42,
+    description:'ნერვული სისტემა "მიკრო ობიექტივი" 4 ივნისი 2005'
+  },
+  {
+    image:artists43,
+    description:'ელ.ასათიანი მ.ელიოზიშვილი გამოფენა 16 ნოემბერი 2005'
+  },
+  {
+    image:artists44,
+    description:'"Figurative Art Studio" 25-30 ნოემბერი 2005'
+  },
+  {
+    image:artists45,
+    description:'დავით ალექსიძის "ფერწერა - გრაფიკა" 29 სექტემბერი - 12 ოქტომბერი 2002'
+  },
+  {
+    image:artists46,
+    description:'"Alphabet" 13-18 თებერვალი 2006'
+  },
+  {
+    image:artists47,
+    description:'ფოტოგამოფენა "იქ სადაც ხევსურეთია" 5-7 დეკემბერი'
+  },
+  {
+    image:artists48,
+    description:'მაია დეისაძე და უერი მეჩითოვის პროქეტი "ფიროსმანის ფერისცვალება" 25 ივნისი - 2 ივლისი 2003'
+  },
+  {
+    image:artists49,
+    description:'ფოტოგამოფენა "ხულიგანა" 27-29 მაისი'
+  },
+  {
+    image:artists50,
+    description:'თამარ ჯანიაშვილის პერსონალური გამოფენა 3-7 სექტემბერი 2005'
+  },
+  {
+    image:artists51,
+    description:'რეზო ხასიას სკულპტურები'
+  },
+  {
+    image:artists52,
+    description:'Impression 25 მაისი 2003'
+  },
+  {
+    image:artists53,
+    description:'გოგა ჩაგელიშვილის სამხატვრო სახელოსნო 19 დეკემბერი 2002'
+  },
+  {
+    image:artists54,
+    description:'ლეილა მელია 3-17 აპრილი 2003'
+  },
+]
+
+export const colleagues=[
+  {
+    image:colleagues1,
+    description:'სტუდენტთა და პროფესორ-მასწავლებელთა ნამუშევრების გამოფენა 27 ოქტომბერი - 7 ნოემბერი 2001'
+  },
+  {
+    image:colleagues2,
+    description:'ჩვენი არქიტექტორების იან ბოჩანის ოლეგ ჰამანის პეტერ ნოვაკის ნამუშევრების გამოფენა 25 მაისი 2007'
+  },
+  {
+    image:colleagues3,
+    description:'არქიტექტურის ინსტიტუტის სახვით ხელოვნების კათედრის პედაგოგთა ნამუშევრების გამოფენა 1 თებერვალი 2004'
+  },
+  {
+    image:colleagues4,
+    description:'საქართველოს ტექნიკური უნივერსიტეტი არქიტექტურის ფაკულტეტი არქიტექტურული გეგმარების საფუძვლების კათედრა "პირველი და მეორე კურსის სტუდენტთა ნამუშევრები" 26 ოქტომბერი 2005'
+  },
+  {
+    image:colleagues5,
+    description:'საქართველოს ტექნიკური უნივერსიტეტი არქიტექტურის ფაკულტეტი სახვითი ხელოვნების კათედრა 1-3 მაისი 2006'
+  },
+  {
+    image:colleagues6,
+    description:'ამერიკული არქიტექტურის პარადიგმები ლენა კილაძე 5 ივლისი 2007'
+  },
+  {
+    image:colleagues7,
+    description:'თენგის მახარაშვილის ფერწერული და გრაფიკული ნამუშევრების გამოფენა 5-8 ოქტომბერი 2010'
+  },
+  {
+    image:colleagues8,
+    description:'ლილი მასხარაშვილი 21-26'
+  },
+  {
+    image:colleagues9,
+    description:'ლელა სიგუას ნამუშევრების გამოფენა 25 აპრილი 2005'
+  },
+  {
+    image:colleagues10,
+    description:'ქეთი ასპინძელაშვილი 11 მარტი'
+  },
+  {
+    image:colleagues11,
+    description:'ქალთა ნამუშევრების საშემოგომო გამოფენა 6 ნოემბერი'
+  },
+  {
+    image:colleagues12,
+    description:'დათო ტაბატაძე 5 ოქტომბერი 2000'
+  },
+  {
+    image:colleagues13,
+    description:'თენგის ბურჯანაძს ფერწერული ნამუშევრების გამოფენა 20-25 მაისი 2004'
+  },
+  {
+    image:colleagues14,
+    description:'სასოფლო-სამეურნეო უნივერსიტეტის სტუდენტების და თანამშრომლების გამოფენა 24-25 აპრილი'
+  },
+  {
+    image:colleagues15,
+    description:'ქეთი მხეიძს და მისი მოსწავლეების პერსონალური გამოფენა 26 აპრილი'
+  },
+  {
+    image:colleagues16,
+    description:'საქართველოს ქალთა მხატვრული ნამუშევრების საუბილეო გამოფენა 30 ოქტომბერი'
+  },
+  {
+    image:colleagues17,
+    description:'მანანა ხითარიშვილის მხატვრული ქარგვა 21-25 ივნისი 2005'
+  },
+  {
+    image:colleagues18,
+    description:'ალექსანდრე ნაზარიშვილის ნამუშევრების გამოფენა "ტანკერ ბათმის ნაკვალევზე" 9 აპრილი 2005'
+  },
+  {
+    image:colleagues19,
+    description:'ნინო ახობაძე პერსონალური ფოტოგამოფენა 26-30 ოქტომბერი'
+  },
+  {
+    image:colleagues20,
+    description:'ალექსანდრე ნაზარიშვილის პერსონალური გამოფენა 16 ოქტომბერი  2007'
+  },
+  {
+    image:colleagues21,
+    description:'თბილისის არქიტექტურული კურიოზები 2-4 აპრილი 2007'
+  },
+  {
+    image:colleagues22,
+    description:'ლია ურუმაშვილის გრაფიკა 12 მარტი 2004'
+  },
+  {
+    image:colleagues23,
+    description:'გიორგი ჩაჩანიძის პერსონალური გამოფენა 15 მაისი 2004'
+  },
+  {
+    image:colleagues24,
+    description:'საერთაშორისო სემინარი სოციალური მშენებლობის თემაზე 2007'
   },
 ]
