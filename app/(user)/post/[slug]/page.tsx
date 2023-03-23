@@ -54,7 +54,7 @@ async function PostPage({ params: { slug } }: Props) {
             />
           </div>
 
-          <section className={"bg-primary p-5"}>
+          <section className={"bg-primary p-5 w-full"}>
             <div
               className={"flex flex-col justify-between gap-y-5 lg:flex-row"}
             >
@@ -92,7 +92,7 @@ async function PostPage({ params: { slug } }: Props) {
                     // @ts-ignore
                     key={category._id}
                     className={
-                      "mt-4 rounded-full bg-gray-800 px-3 py-1 text-sm font-semibold text-white"
+                      "mt-4 rounded-full bg-gray-800 px-3 py-1 text-sm font-semibold indent-0 text-white"
                     }
                   >
                     {category.title}
