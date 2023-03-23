@@ -27,7 +27,7 @@ const BlogList = ({ posts }: Props) => {
               <div
                 // @ts-ignore
                 key={post._id}
-                className={"group cursor-pointer overflow-hidden"}
+                className={"group cursor-pointer overflow-hidden shadow-xl p-4"}
               >
                 <div
                   className={
@@ -46,7 +46,7 @@ const BlogList = ({ posts }: Props) => {
                     }
                   >
                     <div>
-                      <p className={"font-bold"}>{post.title}</p>
+                      <p className={"font-bold indent-0"}>{post.title}</p>
                       {new Date(post.publishedAt).toLocaleDateString("ka-GE", {
                         day: "numeric",
                         month: "long",
@@ -85,7 +85,7 @@ const BlogList = ({ posts }: Props) => {
                     "mt-5 flex items-center font-bold group-hover:underline"
                   }
                 >
-                  Read Post
+                  იხილეთ მეტი
                   <ArrowRightIcon className={"ml-2 h-4 w-4"} />
                 </p>
               </div>
