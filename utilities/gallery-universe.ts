@@ -103,6 +103,10 @@ import colleagues21 from '../public/gallery-universe/colegues/colegues_21.jpg'
 import colleagues22 from '../public/gallery-universe/colegues/colegues_22.jpg'
 import colleagues23 from '../public/gallery-universe/colegues/colegues_23.jpg'
 import colleagues24 from '../public/gallery-universe/colegues/colegues_24.jpg'
+import newCollegues1 from '../public/gallery-universe/colegues/newCollegues1.jpg'
+import newCollegues2 from '../public/gallery-universe/colegues/newCollegues2.jpg'
+import newCollegues3 from '../public/gallery-universe/colegues/newCollegues3.jpg'
+import newCollegues4 from '../public/gallery-universe/colegues/newCollegues4.jpg'
 
 export const kids = [
   {
@@ -187,6 +191,22 @@ export const kids = [
   },
 ]
 export const artists =[
+  {
+    image:newCollegues4,
+    description: 'ტატა ბოჭორიშვილი პერსონალური'
+  },
+  {
+    image:newCollegues3,
+    description: 'თანამედროვე პროფესიული მუსიკალური ხელოვნების განვითარების ცენტრი საქ. ტექ. უნივერსიტეტის საიუბილეო 100 წლისადმი მიძღ. ექსპერიმენტულ მულტიმედიური პროექტი, სიმფონია გამოფენა „ხმა“ ავტორები: ეკა ჭაბაშვილი, ზაალ აზმაიფარაშვილი, ნინო ჟვანია'
+  },
+  {
+    image:newCollegues2,
+    description: 'პერსონალური გამოფენა, მოლბერტიდან ეკრანამდე'
+  },
+  {
+    image:newCollegues1,
+    description: 'დარეჯან (ფისო) ქემოკლიძე პერსონალური გამოფენა'
+  },
   {
     image:artists1,
     description:'საქართველოს სახალხო მხატვრის ჯიბსონ ხუნდაძს საიუბილეო გამოფენა 28 იანვარი - 8 თებერვალი'
