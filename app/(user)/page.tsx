@@ -9,7 +9,7 @@ import PartnersLanding from "../../components/PartnersLanding";
 //write groq query of posts and filter by category title schema
 
 const query = groq`
-  *[_type == "post"]{
+  *[_type == "post" && references(*[_type=="category" && title=="ტრენინგები"]._id)]{
     ...,
     author->,
     categories[]->
