@@ -16,7 +16,7 @@ const query = groq`
   categories[]->
 } | order(_createdAt desc)
 `;
-
+//11
 const Page = async () => {
 
   const posts = await client.fetch(query);
