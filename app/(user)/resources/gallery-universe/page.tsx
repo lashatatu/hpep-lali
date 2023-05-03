@@ -16,6 +16,9 @@ const query = groq`
   categories[]->
 } | order(_createdAt desc)
 `;
+
+export const revalidate = 60;
+
 //11
 const Page = async () => {
 
