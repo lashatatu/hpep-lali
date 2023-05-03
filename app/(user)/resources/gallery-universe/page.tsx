@@ -13,7 +13,7 @@ import BlogList from '../../../../components/BlogList'
 
 
 //11
-const Page = async () => {
+const Page = () => {
 
   return (
     <div className={"lt-container-small"}>
