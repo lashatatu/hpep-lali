@@ -9,24 +9,15 @@ import { groq } from "next-sanity";
 import {client} from '../../../../lib/sanity.client'
 import BlogList from '../../../../components/BlogList'
 
-const query = groq`
-  *[_type == "post" && references(*[_type=="category" && title=="test"]._id)]{
-  ...,
-  author->,
-  categories[]->
-} | order(_createdAt desc)
-`;
 
-export const revalidate = 60;
+
 
 //11
 const Page = async () => {
 
-  const posts = await client.fetch(query);
   return (
     <div className={"lt-container-small"}>
       <h1 className={"lt-page-h1"}>გალერეა უნივერსი</h1>
-      <BlogList posts={posts} />
       <div className={"mx-10"}>
         <div>
           <h2 className={"lt-page-h2 pl-0 text-center"}>

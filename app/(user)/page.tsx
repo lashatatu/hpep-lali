@@ -9,14 +9,14 @@ import PartnersLanding from "../../components/PartnersLanding";
 //write groq query of posts and filter by category title schema
 
 const query = groq`
-  *[_type == "post"]{
+  *[_type == "post" && references(*[_type=="category" && title!='test']._id)]{
     ...,
     author->,
     categories[]->
   } | order(_createdAt desc)
 `;
 
-export const revalidate = 60;
+
 // this filters posts by category title schema
 
 //   *[_type == "post" && references(*[_type=="category" && title!='test']._id)]{
@@ -24,6 +24,8 @@ export const revalidate = 60;
 //   author->,
 //   categories[]->
 // } | order(_createdAt desc)
+export const revalidate = 60;
+
 
 export default async function HomePage() {
   if (previewData()) {
