@@ -5,14 +5,7 @@ import {
 } from "../../../../utilities/gallery-universe";
 import Image from "next/image";
 import { exhibitions } from "./data/data";
-import { groq } from "next-sanity";
-import {client} from '../../../../lib/sanity.client'
-import BlogList from '../../../../components/BlogList'
 
-
-
-
-//11
 const Page = () => {
 
   return (
