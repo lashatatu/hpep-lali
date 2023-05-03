@@ -10,7 +10,7 @@ import {client} from '../../../../lib/sanity.client'
 import BlogList from '../../../../components/BlogList'
 
 const query = groq`
-  *[_type == "post" && references(*[_type=="category" && title=='asdasda']._id)]{
+  *[_type == "post" && references(*[_type=="category" && title=="test"]._id)]{
   ...,
   author->,
   categories[]->
