@@ -110,6 +110,15 @@ const Footer = () => {
           </Link>
         </div>
         <div>
+          <span className="footer-title">არქივი</span>
+          <Link href={"/archive/training-archive"} className={"link-hover link"}>
+            ტრენინგების არქივი
+          </Link>
+          <Link href={"/archive/gallery-archive"} className={"link-hover link"}>
+            გალერიის არქივი
+          </Link>
+        </div>
+        <div>
           <span className="footer-title">Social</span>
           <div className="grid grid-flow-col gap-4">
             <a>
@@ -152,4 +161,4 @@ const Footer = () => {
   );
 };
 
-export default Footer
+export default Footer;
