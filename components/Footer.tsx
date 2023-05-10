@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MapsComponent from "./MapsComponent";
 
 const Footer = () => {
   return (
@@ -49,7 +50,6 @@ const Footer = () => {
             აშშ საზაფხულო სკოლა
           </Link>
         </div>
-
         <div>
           <span className="footer-title">ბიბლიოთეკა</span>
           <Link href={"/library/new-textbooks"} className="link-hover link">
@@ -111,7 +111,10 @@ const Footer = () => {
         </div>
         <div>
           <span className="footer-title">არქივი</span>
-          <Link href={"/archive/training-archive"} className={"link-hover link"}>
+          <Link
+            href={"/archive/training-archive"}
+            className={"link-hover link"}
+          >
             ტრენინგების არქივი
           </Link>
           <Link href={"/archive/gallery-archive"} className={"link-hover link"}>
@@ -156,6 +159,14 @@ const Footer = () => {
             </a>
           </div>
         </div>
+
+      </div>
+      <div
+        className={
+          "lt-container footer pb-10"
+        }
+      >
+        <MapsComponent />
       </div>
     </footer>
   );
