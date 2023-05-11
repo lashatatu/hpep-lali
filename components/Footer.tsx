@@ -1,5 +1,4 @@
 import Link from "next/link";
-import MapsComponent from "./MapsComponent";
 
 const Footer = () => {
   return (
@@ -159,14 +158,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-      </div>
-      <div
-        className={
-          "lt-container footer pb-10"
-        }
-      >
-        <MapsComponent />
       </div>
     </footer>
   );
