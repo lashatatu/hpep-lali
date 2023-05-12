@@ -10,7 +10,7 @@ const query = groq`
 } | order(publishedAt desc)
 `;
 export const revalidate = 60;
-
+//ll
 const Page = async () => {
   const posts = await client.fetch(query);
   return (
