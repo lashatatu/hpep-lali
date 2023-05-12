@@ -13,7 +13,7 @@ const BlogList = ({ posts }: Props) => {
       <hr className={"mb-10 border-secondary"} />
       <div
         className={
-          "grid grid-cols-1 gap-10 gap-y-16 px-10 pb-24 lg:grid-cols-2"
+          "grid grid-cols-1 gap-10 gap-y-16 px-10 pb-12 lg:grid-cols-2"
         }
       >
         {/*Posts*/}
@@ -39,6 +39,7 @@ const BlogList = ({ posts }: Props) => {
                     src={urlFor(post.mainImage).url()}
                     alt={post.author.name}
                     fill
+                    sizes={"(min-width: 1024px) 50vw, 100vw"}
                   />
                   <div
                     className={

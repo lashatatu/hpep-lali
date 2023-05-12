@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <div className={"lt-container-small"}>
       <h1 className={"lt-page-h1"}>სასწავლო ოთახები</h1>
-      <div className={"mx-10 grid grid-cols-2 gap-y-8 gap-x-2"}>
+      <div className={"mx-10 grid grid-cols-2 gap-y-8 gap-x-2 pb-10"}>
         {classroomImages.map((item, i) => (
           <div className={"border-2"}>
             <Image

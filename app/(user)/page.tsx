@@ -6,6 +6,7 @@ import PreviewSuspense from "../../components/PreviewSuspense";
 import PreviewBlogList from "../../components/PreviewBlogList";
 import BlogList from "../../components/BlogList";
 import PartnersLanding from "../../components/PartnersLanding";
+import Link from 'next/link'
 //write groq query of posts and filter by category title schema
 
 const query = groq`
@@ -13,7 +14,7 @@ const query = groq`
     ...,
     author->,
     categories[]->
-  } | order(publishedAt desc) [0..9]
+  } | order(publishedAt desc) [0..8]
 `;
 
 
@@ -49,6 +50,9 @@ export default async function HomePage() {
       <div>
         <Hero />
         <BlogList posts={posts} />
+        <div className={"hero-content text-center text-white mx-auto pb-12"}>
+          <Link href={"/archive/training-archive"} target="_blank" className="btn font-bold">ტრენინგების არქივი</Link>
+        </div>
         <PartnersLanding />
       </div>
     </>
