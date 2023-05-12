@@ -7,7 +7,7 @@ const query = groq`
   ...,
   author->,
   categories[]->
-} | order(_createdAt desc)
+} | order(publishedAt desc)
 `;
 
 const Page = async () => {
