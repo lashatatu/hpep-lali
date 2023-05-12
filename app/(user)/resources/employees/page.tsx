@@ -1,3 +1,12 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "თანამშრომლები",
+  description: "თანამშრომლები",
+};
+// }
+// <meta content="width=device-width, initial-scale=1" name="viewport" />
+// <link rel="icon" href="/favicon.ico" />
 const Page = () => {
   return (
     <div className={"lt-container-small"}>
