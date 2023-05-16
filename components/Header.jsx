@@ -63,7 +63,7 @@ const Header = () => {
           <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
             <Link href="/">
               <img
-                src={"https://i.imgur.com/rg1y2ro.gif"}
+                src={"https://i.imgur.com/nTqXW6U.png"}
                 height={50}
                 width={50}
                 className={"pb-4"}
