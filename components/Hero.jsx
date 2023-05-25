@@ -10,8 +10,8 @@ const Hero = () => {
       <div className="hero h-full bg-[#A63131]">
         <img
           src={"https://i.imgur.com/nTqXW6U.png"}
-          height={500}
-          width={500}
+          height={350}
+          width={350}
           className={"pb-4"}
           alt={"hpep logo"}
         />

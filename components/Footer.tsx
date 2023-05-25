@@ -159,6 +159,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className={"lt-container px-10 pb-10"}>
+        <div className={'pb-6'}>
+          <span className="footer-title font-bold">მისამართი:</span>
+          <span className={"indent-0"}> ქ. თბილისი, მ. კოსტავას ქ. №: 68</span>
+        </div>
+        <img src='footerMap.png' alt='' />
+      </div>
     </footer>
   );
 };

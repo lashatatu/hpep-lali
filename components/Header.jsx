@@ -64,8 +64,8 @@ const Header = () => {
             <Link href="/">
               <img
                 src={"/headerLogo.png"}
-                height={550}
-                width={550}
+                height={450}
+                width={450}
                 className={"pb-4"}
                 alt={"hpep logo"}
               />
