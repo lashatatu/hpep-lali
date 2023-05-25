@@ -63,9 +63,9 @@ const Header = () => {
           <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
             <Link href="/">
               <img
-                src={"https://i.imgur.com/nTqXW6U.png"}
-                height={50}
-                width={50}
+                src={"/headerLogo.png"}
+                height={550}
+                width={550}
                 className={"pb-4"}
                 alt={"hpep logo"}
               />
@@ -81,6 +81,15 @@ const Header = () => {
         {/* Mobile */}
         <label className="swap inline max-lg:swap-active lg:hidden">
           <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
+            <Link href="/">
+              <img
+                src={"/headerLogo.png"}
+                height={550}
+                width={550}
+                className={"pb-4"}
+                alt={"hpep logo"}
+              />
+            </Link>
             <div className="collapse lg:hidden" tabIndex={0}>
               <input type="checkbox" className="peer" />
               <div className="collapse-title flex p-1">
