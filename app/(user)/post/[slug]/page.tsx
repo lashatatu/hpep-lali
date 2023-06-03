@@ -34,78 +34,87 @@ async function PostPage({ params: { slug } }: Props) {
   const post: Post = await client.fetch(query, { slug });
 
   return (
-    <article className={"lt-container px-10 pb-28 pt-8"}>
-      <section
-        className={"content-center space-y-2 border border-primary text-white"}
-      >
-        <div
+    <>
+      <head>
+        <title>{`${post.title} | HPEP.GE`}</title>
+      </head>
+      <article className={"lt-container px-10 pb-28 pt-8"}>
+        <section
           className={
-            "min-h-56 relative flex flex-col justify-between lg:flex-row"
+            "content-center space-y-2 border border-primary text-white"
           }
         >
           <div
-            className={"absolute top-0 h-full w-full p-10 opacity-10 blur-sm"}
+            className={
+              "min-h-56 relative flex flex-col justify-between lg:flex-row"
+            }
           >
-            <Image
-              className={"mx-auto object-cover object-center"}
-              src={urlFor(post.mainImage).url()}
-              alt={post.author.name}
-              fill
-            />
-          </div>
-
-          <section className={"bg-primary p-5 w-full"}>
             <div
-              className={"flex flex-col justify-between gap-y-5 lg:flex-row"}
+              className={"absolute top-0 h-full w-full p-10 opacity-10 blur-sm"}
             >
-              <div>
-                <h1 className={"pb-8 text-4xl font-extrabold"}>{post.title}</h1>
-                <p>
-                  {new Date(post.publishedAt).toLocaleDateString("ka-GE", {
-                    day: "numeric",
-                    month: "long",
-                    year: "numeric",
-                  })}
-                </p>
-              </div>
-              <div className={"flex items-center space-x-2"}>
-                <Image
-                  className={"rounded-full"}
-                  src={urlFor(post.author.image).url()}
-                  alt={post.author.name}
-                  height={40}
-                  width={40}
-                />
-                <div className={"w-64 "}>
-                  <h3 className={"text-lg font-bold"}>{post.author.name}</h3>
-                  <div>{/*tood*/}</div>
+              <Image
+                className={"mx-auto object-cover object-center"}
+                src={urlFor(post.mainImage).url()}
+                alt={post.author.name}
+                fill
+              />
+            </div>
+
+            <section className={"w-full bg-primary p-5"}>
+              <div
+                className={"flex flex-col justify-between gap-y-5 lg:flex-row"}
+              >
+                <div>
+                  <h1 className={"pb-8 text-4xl font-extrabold"}>
+                    {post.title}
+                  </h1>
+                  <p>
+                    {new Date(post.publishedAt).toLocaleDateString("ka-GE", {
+                      day: "numeric",
+                      month: "long",
+                      year: "numeric",
+                    })}
+                  </p>
+                </div>
+                <div className={"flex items-center space-x-2"}>
+                  <Image
+                    className={"rounded-full"}
+                    src={urlFor(post.author.image).url()}
+                    alt={post.author.name}
+                    height={40}
+                    width={40}
+                  />
+                  <div className={"w-64 "}>
+                    <h3 className={"text-lg font-bold"}>{post.author.name}</h3>
+                    <div>{/*tood*/}</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <h2 className={"pt-10 italic"}>{post.description}</h2>
-              <div
-                className={"mt-auto flex items-center justify-end space-x-2"}
-              >
-                {post.categories.map((category) => (
-                  <p
-                    // @ts-ignore
-                    key={category._id}
-                    className={
-                      "mt-4 rounded-full bg-gray-800 px-3 py-1 text-sm font-semibold indent-0 text-white"
-                    }
-                  >
-                    {category.title}
-                  </p>
-                ))}
+              <div>
+                <h2 className={"pt-10 italic"}>{post.description}</h2>
+                <div
+                  className={"mt-auto flex items-center justify-end space-x-2"}
+                >
+                  {post.categories.map((category) => (
+                    <p
+                      // @ts-ignore
+                      key={category._id}
+                      className={
+                        "mt-4 rounded-full bg-gray-800 px-3 py-1 indent-0 text-sm font-semibold text-white"
+                      }
+                    >
+                      {category.title}
+                    </p>
+                  ))}
+                </div>
               </div>
-            </div>
-          </section>
-        </div>
-      </section>
+            </section>
+          </div>
+        </section>
 
-      <PortableText value={post.body} components={RichTextComponents} />
-    </article>
+        <PortableText value={post.body} components={RichTextComponents} />
+      </article>
+    </>
   );
 }
 
