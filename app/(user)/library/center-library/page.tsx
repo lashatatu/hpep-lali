@@ -3,51 +3,56 @@ import { hpepGeneral } from "../../../../utilities/hpep-general";
 
 const Page = () => {
   return (
-    <div className={"lt-container-small"}>
-      <h1 className={"lt-page-h1"}>ცენტრის ბიბლიოთეკა</h1>
-      <div className={"mx-10 pb-10"}>
-        <h2 className={"lt-page-h2 pl-0 text-center"}>HPEP textbooks</h2>
-        <div className={"grid grid-cols-5 pb-8 text-center"}>
-          <div className={"col-span-2 font-bold"}>სათაური</div>
-          <div className={"font-bold"}>ავტორი</div>
-          <div className={"font-bold"}>ISBN</div>
-          <div className={"font-bold"}>წელი</div>
-        </div>
-        {hpepTextbooks.map((book, index) => (
-          <div
-            key={index}
-            className={"grid grid-cols-5 gap-x-2 gap-y-10 border-2"}
-          >
-            <div className={"col-span-2"}>{book.title}</div>
-            <div>{book.author}</div>
-            <div>{book.isbn}</div>
-            <div>{book.year}</div>
+    <>
+      <head>
+        <title>{`ცენტრის ბიბლიოთეკა | HPEP.GE`}</title>
+      </head>
+      <div className={"lt-container-small"}>
+        <h1 className={"lt-page-h1"}>ცენტრის ბიბლიოთეკა</h1>
+        <div className={"mx-10 pb-10"}>
+          <h2 className={"lt-page-h2 pl-0 text-center"}>HPEP textbooks</h2>
+          <div className={"grid grid-cols-5 pb-8 text-center"}>
+            <div className={"col-span-2 font-bold"}>სათაური</div>
+            <div className={"font-bold"}>ავტორი</div>
+            <div className={"font-bold"}>ISBN</div>
+            <div className={"font-bold"}>წელი</div>
           </div>
-        ))}
-      </div>
-      <div className={"mx-10 pb-10"}>
-        <h2 className={"lt-page-h2 pl-0 text-center"}>HPEP textbooks</h2>
-        <div className={"grid grid-cols-6 pb-8 text-center"}>
-          <div className={"col-span-2 font-bold"}>სათაური</div>
-          <div className={"font-bold"}>ავტორი</div>
-          <div className={"font-bold"}>ISBN</div>
-          <div className={"font-bold"}>გამომცემელი</div>
-          <div className={"font-bold"}>წელი</div>
+          {hpepTextbooks.map((book, index) => (
+            <div
+              key={index}
+              className={"grid grid-cols-5 gap-x-2 gap-y-10 border-2"}
+            >
+              <div className={"col-span-2"}>{book.title}</div>
+              <div>{book.author}</div>
+              <div>{book.isbn}</div>
+              <div>{book.year}</div>
+            </div>
+          ))}
         </div>
-        {hpepGeneral.map((book, index) => (
-          <div
-            key={index}
-            className={"grid grid-cols-6 gap-x-2 gap-y-10 border-2"}
-          >
-            <div className={"col-span-2"}>{book.title}</div>
-            <div>{book.author}</div>
-            <div>{book.isbn}</div>
-            <div>{book.publisher}</div>
-            <div>{book.year}</div>
+        <div className={"mx-10 pb-10"}>
+          <h2 className={"lt-page-h2 pl-0 text-center"}>HPEP textbooks</h2>
+          <div className={"grid grid-cols-6 pb-8 text-center"}>
+            <div className={"col-span-2 font-bold"}>სათაური</div>
+            <div className={"font-bold"}>ავტორი</div>
+            <div className={"font-bold"}>ISBN</div>
+            <div className={"font-bold"}>გამომცემელი</div>
+            <div className={"font-bold"}>წელი</div>
           </div>
-        ))}
+          {hpepGeneral.map((book, index) => (
+            <div
+              key={index}
+              className={"grid grid-cols-6 gap-x-2 gap-y-10 border-2"}
+            >
+              <div className={"col-span-2"}>{book.title}</div>
+              <div>{book.author}</div>
+              <div>{book.isbn}</div>
+              <div>{book.publisher}</div>
+              <div>{book.year}</div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

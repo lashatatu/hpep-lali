@@ -17,11 +17,6 @@ const LinksComponentMobile = () => {
             <Link href={"/administration/advisory-board"}>მრჩეველთა საბჭო</Link>
           </li>
           <li className={"pt-2"}>
-            <Link href={"/administration/advisory-committee"}>
-              მრჩეველთა კომიტეტი
-            </Link>
-          </li>
-          <li className={"pt-2"}>
             <Link href={"/administration/consultants"}>კონსულტანტები</Link>
           </li>
           <li className={"pt-2"}>

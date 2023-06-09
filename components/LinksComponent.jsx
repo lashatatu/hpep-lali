@@ -19,11 +19,6 @@ const LinksComponent = () => {
             <Link href={"/administration/advisory-board"}>მრჩეველთა საბჭო</Link>
           </li>
           <li>
-            <Link href={"/administration/advisory-committee"}>
-              მრჩეველთა კომიტეტი
-            </Link>
-          </li>
-          <li>
             <Link href={"/administration/consultants"}>კონსულტანტები</Link>
           </li>
           <li>
@@ -102,9 +97,6 @@ const LinksComponent = () => {
           </li>
           <li>
             <Link href={"/library/center-library"}>ცენტრის ბიბლიოთეკა</Link>
-          </li>
-          <li>
-            <Link href={"/library/gallery"}>გალერეა</Link>
           </li>
           <li>
             <Link href={"/library/memorandums"}>მემორანდუმები</Link>
