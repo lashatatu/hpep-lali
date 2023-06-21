@@ -11,7 +11,7 @@ const BlogList = ({ posts }: Props) => {
   return (
     <div className={"lt-container"}>
       <hr className={"mb-10 border-secondary"} />
-      <h1 className={'lt-page-h1 text-6xl'}>სიახლეები</h1>
+      <h1 className={"lt-page-h1 text-6xl"}>სიახლეები</h1>
       <div
         className={
           "grid grid-cols-1 gap-10 gap-y-16 px-10 pb-12 lg:grid-cols-2"
@@ -19,7 +19,11 @@ const BlogList = ({ posts }: Props) => {
       >
         {/*Posts*/}
         {posts.map((post) => (
-          <div className={"lg:first:col-span-full lg:first:grid-cols-1"}>
+          <div
+            className={
+              "rounded-2xl bg-white shadow-xl lg:first:col-span-full lg:first:grid-cols-1"
+            }
+          >
             <ClientSideRoute
               // @ts-ignore
               key={post._id}
@@ -28,7 +32,7 @@ const BlogList = ({ posts }: Props) => {
               <div
                 // @ts-ignore
                 key={post._id}
-                className={"group cursor-pointer overflow-hidden shadow-xl p-4"}
+                className={"group cursor-pointer overflow-hidden p-4"}
               >
                 <div
                   className={
@@ -48,7 +52,7 @@ const BlogList = ({ posts }: Props) => {
                     }
                   >
                     <div>
-                      <p className={"font-bold indent-0"}>{post.title}</p>
+                      <p className={"indent-0 font-bold"}>{post.title}</p>
                       {new Date(post.publishedAt).toLocaleDateString("ka-GE", {
                         day: "numeric",
                         month: "long",
