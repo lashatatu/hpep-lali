@@ -1,4 +1,5 @@
 import { defineField, defineType } from "sanity";
+import { Rule } from "postcss";
 
 export default defineType({
   name: "post",
@@ -9,6 +10,7 @@ export default defineType({
       name: "title",
       title: "სათაური",
       type: "string",
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: "slug",
@@ -18,18 +20,21 @@ export default defineType({
         source: "title",
         maxLength: 96,
       },
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: "description",
       description: "აღწერა",
       title: "აღწერა",
       type: "string",
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: "author",
       title: "ავტორი",
       type: "reference",
       to: { type: "author" },
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: "mainImage",
@@ -44,11 +49,13 @@ export default defineType({
       title: "კატეგორია",
       type: "array",
       of: [{ type: "reference", to: { type: "category" } }],
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: "publishedAt",
       title: "გამოქვეყებულია",
       type: "datetime",
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: "body",
