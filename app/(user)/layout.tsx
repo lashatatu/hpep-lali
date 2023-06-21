@@ -19,7 +19,7 @@ export default function RootLayout({
     <html className="scroll-smooth">
       <Head />
 
-      <body className={"font-roboto"}>
+      <body className={"font-roboto bg-slate-200"}>
         {showHeader && <Header />}
         {children}
         <Footer />

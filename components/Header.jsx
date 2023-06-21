@@ -58,7 +58,7 @@ const Header = () => {
       {/*    </div>*/}
       {/*  </div>*/}
       {/*</header>*/}
-      <header>
+      <div>
         <label className="swap inline max-lg:hidden lg:swap-active">
           <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
             <Link href="/">
@@ -70,15 +70,31 @@ const Header = () => {
                 alt={"hpep logo"}
               />
             </Link>
-            <div>
-              <div className={"hidden cursor-pointer space-x-2 lg:flex"}>
+          </div>
+        </label>
+      </div>
+      <header className={"sticky top-0 z-10"}>
+        <label className="swap inline max-lg:hidden lg:swap-active">
+          <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
+            <div className={"relative"}>
+              {/*<div className={"hidden fixed left-1/2 -translate-x-1/2 cursor-pointer space-x-2 lg:flex bg-primary rounded z-10"}>*/}
+              {/*  <LinksComponent />*/}
+              {/*</div>*/}
+              <div
+                className={
+                  "z-10 hidden cursor-pointer space-x-2 rounded bg-primary lg:flex"
+                }
+              >
                 <LinksComponent />
               </div>
             </div>
           </div>
         </label>
+      </header>
 
-        {/* Mobile */}
+      {/* Mobile */}
+
+      <header>
         <label className="swap inline max-lg:swap-active lg:hidden">
           <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
             <Link href="/">

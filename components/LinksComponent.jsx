@@ -148,11 +148,9 @@ const LinksComponent = () => {
       {/* პარტნიორები */}
       {/* გალერეა */}
 
-      <div className="collapse min-h-0">
-        <Link href={"/resources/gallery-universe"} className="p-2 text-center">
+        <Link href={"/resources/gallery-universe"} className="p-2 text-center w-[160px]">
           გალერეა უნივერსი
         </Link>
-      </div>
 
       {/* გალერეა */}
     </>

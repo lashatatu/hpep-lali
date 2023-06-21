@@ -8,6 +8,7 @@ import BlogList from "../../components/BlogList";
 import PartnersLanding from "../../components/PartnersLanding";
 import Link from "next/link";
 import Header from "../../components/Header";
+import LinksComponent from "../../components/LinksComponent";
 //write groq query of posts and filter by category title schema
 
 const query = groq`
@@ -47,8 +48,8 @@ export default async function HomePage() {
   return (
     <>
       <div>
-        <div className={"flex flex-col h-screen"}>
-          <Header />
+        <Header />
+        <div className={"flex h-screen flex-col"}>
           <Hero />
         </div>
         <BlogList posts={posts} />
