@@ -26,17 +26,20 @@ export const RichTextComponents = {
     ),
   },
   block: {
+    normal: ({ children }: any) => (
+      <p className={"pb-4 indent-4"}>{children}</p>
+    ),
     h1: ({ children }: any) => (
       <h1 className={"py-10 text-5xl font-extrabold"}>{children}</h1>
     ),
     h2: ({ children }: any) => (
-      <h1 className={"py-10 text-4xl font-extrabold"}>{children}</h1>
+      <h2 className={"py-10 text-4xl font-extrabold"}>{children}</h2>
     ),
     h3: ({ children }: any) => (
-      <h1 className={"py-10 text-3xl font-extrabold"}>{children}</h1>
+      <h3 className={"py-10 text-3xl font-extrabold"}>{children}</h3>
     ),
     h4: ({ children }: any) => (
-      <h1 className={"py-10 text-2xl font-extrabold"}>{children}</h1>
+      <h4 className={"py-10 text-2xl font-extrabold"}>{children}</h4>
     ),
     blockquote: ({ children }: any) => {
       return (
