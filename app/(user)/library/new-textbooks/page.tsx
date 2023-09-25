@@ -15,7 +15,7 @@ const Page = () => {
           </h3>
           <div className={"lt-page-2grid"}>
             <div>
-              <h4 className={"lt-page-h4"}>I კურსის სახელმძღვანელოები</h4>
+              <h4 className={"lt-page-h4 font-bold"}>I კურსის სახელმძღვანელოები</h4>
               <p className={"indent-0"}>ბიზნეს მათემატიკა</p>
 
               <p className={"indent-0"}>გარემო და მდგრადი განვითარება</p>
@@ -42,7 +42,7 @@ const Page = () => {
             </div>
 
             <div>
-              <h4 className={"lt-page-h4"}>II კურსის სახელმძღვანელოები</h4>
+              <h4 className={"lt-page-h4 font-bold"}>II კურსის სახელმძღვანელოები</h4>
               <p className={"indent-0"}>ბიზნეს და პროფესიული ინგლისური III</p>
 
               <p className={"indent-0"}>ბიზნეს და პროფესიული ინგლისური IV</p>
@@ -101,7 +101,7 @@ const Page = () => {
             </div>
 
             <div>
-              <h4 className={"lt-page-h4"}>III კურსის სახელმძღვანელოები</h4>
+              <h4 className={"lt-page-h4 font-bold"}>III კურსის სახელმძღვანელოები</h4>
               <p className={"indent-0"}>ზოგადი ანერფრენერშიპი</p>
 
               <p className={"indent-0"}>სასტუმროების მენეჯმენტი</p>

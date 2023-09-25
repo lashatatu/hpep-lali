@@ -15,6 +15,8 @@ const Page = () => {
             სტუდენტებისთვის
           </h2>
           <div className={"lt-page-2grid lt-page-align-left-span-2"}>
+            <div className={'font-bold'}>სახელი</div>
+            <div className={'font-bold'}>სემინარი</div>
             <div className={"font-bold"}>რის ენდრიუსი</div>
             <div>სწავლების შეფასება</div>
             <div className={"font-bold"}>რის ენდრიუსი</div>
@@ -27,6 +29,8 @@ const Page = () => {
             სემინარები გორის სათემო კოლეჯის მასწავლებელტათვის სტუ-ში
           </h2>
           <div className={"lt-page-2grid lt-page-align-left-span-2"}>
+            <div className={'font-bold'}>სახელი</div>
+            <div className={'font-bold'}>სემინარი</div>
             <div className={"font-bold"}>ა. დავითაშვილი</div>
             <div>ინტერნეტის და ელ-ფოსტის გამოყენება</div>
             <div className={"font-bold"}>შ. დემურაშვილი</div>
@@ -71,6 +75,8 @@ const Page = () => {
             SENCER სწავლების ცენტრების განსავითარებლად
           </h2>
           <div className={"lt-page-2grid lt-page-align-left-span-2"}>
+            <div className={'font-bold'}>სახელი</div>
+            <div className={'font-bold'}>სემინარი</div>
             <div className={"font-bold"}>ღოღელიანი ლალი</div>
             <div>სწავლებასა და სწავლაში დახელოვნების ცენტრი</div>
             <div className={"font-bold"}>ჟვანია მზია</div>
@@ -93,6 +99,8 @@ const Page = () => {
             ბოლონიის პროცესი, ვენა, ავსტრია 2006
           </h2>
           <div className={"lt-page-2grid lt-page-align-left-span-2"}>
+            <div className={'font-bold'}>სახელი</div>
+            <div className={'font-bold'}>სემინარი</div>
             <div className={"font-bold"}>
               Mary Ellen Guffey, Richard Almonte
             </div>
@@ -121,6 +129,8 @@ const Page = () => {
 
           <h2 className={"lt-page-h2 text-center"}>SENCER სემინარები სტუ-ში</h2>
           <div className={"lt-page-2grid lt-page-align-left-span-2"}>
+            <div className={'font-bold'}>სახელი</div>
+            <div className={'font-bold'}>სემინარი</div>
             <div className={"font-bold"}>Karen Kashmanian Oates</div>
             <div>
               Science Education for New Civic Engagement and Responsibilities

@@ -36,7 +36,7 @@ const BlogList = ({ posts }: Props) => {
               >
                 <div
                   className={
-                    "relative h-80 w-full drop-shadow-xl transition-transform duration-200 ease-out scale-95 group-hover:scale-100"
+                    "relative h-80 w-full drop-shadow-xl"
                   }
                 >
                   <Image

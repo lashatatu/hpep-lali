@@ -13,12 +13,6 @@ const Footer = () => {
             მრჩეველთა საბჭო
           </Link>
           <Link
-            href={"/administration/advisory-committee"}
-            className="link-hover link"
-          >
-            მრჩეველთა კომიტეტი
-          </Link>
-          <Link
             href={"/administration/consultants"}
             className="link-hover link"
           >
@@ -37,7 +31,7 @@ const Footer = () => {
         <div>
           <span className="footer-title">ვორქშოპები</span>
           <Link href={"/workshops/trainings"} className="link-hover link">
-            თრენინგები
+            ტრენინგები
           </Link>
           <Link href={"/workshops/seminars"} className="link-hover link">
             სემინარები
