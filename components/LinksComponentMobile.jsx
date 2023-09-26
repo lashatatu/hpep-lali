@@ -14,6 +14,9 @@ const LinksComponentMobile = () => {
         </div>
         <ul className="collapse-content rounded-3xl bg-third text-center">
           <li className={"pt-2"}>
+            <Link href={"/administration/about"}>ჩვენს შესახებ</Link>
+          </li>
+          <li className={"pt-2"}>
             <Link href={"/administration/advisory-board"}>მრჩეველთა საბჭო</Link>
           </li>
           <li className={"pt-2"}>

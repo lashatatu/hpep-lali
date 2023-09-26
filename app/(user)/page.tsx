@@ -9,6 +9,7 @@ import PartnersLanding from "../../components/PartnersLanding";
 import Link from "next/link";
 import Header from "../../components/Header";
 import LinksComponent from "../../components/LinksComponent";
+import Colegues from '../../components/Colegues'
 //write groq query of posts and filter by category title schema
 
 const query = groq`
@@ -52,6 +53,7 @@ export default async function HomePage() {
         <div className={"flex h-screen flex-col"}>
           <Hero />
         </div>
+        <Colegues/>
         <BlogList posts={posts} />
         <div className={"hero-content mx-auto pb-12 text-center text-white"}>
           <Link

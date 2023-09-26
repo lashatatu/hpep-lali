@@ -16,6 +16,9 @@ const LinksComponent = () => {
           className="dropdown-content menu w-52 rounded-lg bg-primary p-2"
         >
           <li>
+            <Link href={"/administration/about"}>ჩვენს შესახებ</Link>
+          </li>
+          <li>
             <Link href={"/administration/advisory-board"}>მრჩეველთა საბჭო</Link>
           </li>
           <li>
