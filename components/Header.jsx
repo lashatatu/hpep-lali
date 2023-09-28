@@ -1,6 +1,7 @@
 import Link from "next/link";
 import LinksComponent from "./LinksComponent";
 import LinksComponentMobile from "./LinksComponentMobile";
+import LogoImage from "./LogoImage";
 
 const Header = () => {
   return (
@@ -62,13 +63,7 @@ const Header = () => {
         <label className="swap inline max-lg:hidden lg:swap-active">
           <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
             <Link href="/">
-              <img
-                src={"/headerLogo-v2.jpg"}
-                height={450}
-                width={450}
-                className={"pb-4"}
-                alt={"hpep logo"}
-              />
+              <LogoImage />
             </Link>
           </div>
         </label>
@@ -98,13 +93,7 @@ const Header = () => {
         <label className="swap inline max-lg:swap-active lg:hidden">
           <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
             <Link href="/">
-              <img
-                src={"/headerLogo-v2.jpg"}
-                height={550}
-                width={550}
-                className={"pb-4"}
-                alt={"hpep logo"}
-              />
+              <LogoImage />
             </Link>
             <div className="collapse lg:hidden" tabIndex={0}>
               <input type="checkbox" className="peer" />
