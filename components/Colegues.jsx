@@ -1,84 +1,56 @@
+import ColegueComponent from "./ColegueComponent";
+import Row from "./Row";
+
 const Colleagues = () => {
   return (
     <div className={"bg-primary bg-opacity-20 pt-16"}>
-      <div className={"lt-container"}>
-        <h1 className={"lt-page-h1 text-center text-6xl text-primary"}>
+      <div className={"lt-container items-center justify-center"}>
+        <h1 className={"lt-page-h1 text-center text-6xl text-primary "}>
           თანამშრომლები
         </h1>
         <div className={"grid grid-cols-1 px-10 pb-6"}>
-          <img
-            src="https://i.imgur.com/NkRA9S7.png"
-            alt=""
-            className={"relative mx-auto h-32 w-32 rounded-full"}
+          <ColegueComponent
+            className={"grid grid-cols-1 px-10 pb-6"}
+            img={"https://i.imgur.com/NkRA9S7.png"}
+            name={"რამაზ ხუროძე"}
           />
-          <h1 className={"lt-page-h1 pt-8 text-primary"}>რამაზ ხუროძე</h1>
         </div>
         <div
           className={
-            "grid grid-cols-1 gap-10 gap-y-16 px-10 pb-12 lg:grid-cols-3"
+            "grid grid-cols-1 items-center justify-items-center gap-10 gap-y-16 px-10 pb-12 lg:grid-cols-3 "
           }
         >
-          <div>
-            <img
-              src="https://i.imgur.com/NkRA9S7.png"
-              alt=""
-              className={"relative mx-auto h-32 w-32 rounded-full"}
-            />
-            <h1 className={"lt-page-h3 pt-8 text-center text-primary"}>
-              ღოღელიანი ლალი
-            </h1>
-          </div>
-          <div>
-            <img
-              src="https://i.imgur.com/NkRA9S7.png"
-              alt=""
-              className={"relative mx-auto h-32 w-32 rounded-full"}
-            />
-            <h1 className={"lt-page-h3 pt-8 text-center text-primary"}>
-              ბესტავაშვილი ბელა
-            </h1>
-          </div>
-          <div>
-            <img
-              src="https://i.imgur.com/NkRA9S7.png"
-              alt=""
-              className={"relative mx-auto h-32 w-32 rounded-full"}
-            />
-            <h1 className={"lt-page-h3 pt-8 text-center text-primary"}>
-              გელოვანი ეკატერინე
-            </h1>
-          </div>
-          <div>
-            <img
-              src="https://i.imgur.com/NkRA9S7.png"
-              alt=""
-              className={"relative mx-auto h-32 w-32 rounded-full"}
-            />
-            <h1 className={"lt-page-h3 pt-8 text-center text-primary"}>
-              მაღრაძე კოკა
-            </h1>
-          </div>
-          <div>
-            <img
-              src="https://i.imgur.com/NkRA9S7.png"
-              alt=""
-              className={"relative mx-auto h-32 w-32 rounded-full"}
-            />
-            <h1 className={"lt-page-h3 pt-8 text-center text-primary"}>
-              ასანიძე ივერი
-            </h1>
-          </div>
-          <div>
-            <img
-              src="https://i.imgur.com/NkRA9S7.png"
-              alt=""
-              className={"relative mx-auto h-32 w-32 rounded-full"}
-            />
-            <h1 className={"lt-page-h3 pt-8 text-center text-primary"}>
-              ლაშა ტატულაშვილი
-            </h1>
-          </div>
+          <ColegueComponent
+            img={"https://i.imgur.com/NkRA9S7.png"}
+            name={"ლალი ღოღელიანი"}
+          />
+          <ColegueComponent
+            img={"https://i.imgur.com/NkRA9S7.png"}
+            name={"ბელა ბესტავაშვილი"}
+          />
+          <ColegueComponent
+            img={"https://i.imgur.com/NkRA9S7.png"}
+            name={"ეკატერინე გელოვანი"}
+          />
+          <ColegueComponent
+            img={"https://i.imgur.com/NkRA9S7.png"}
+            name={"თამუნა საზანდრიშვილი"}
+          />
+          <ColegueComponent
+            img={"https://i.imgur.com/zVbShu8.png"}
+            name={"ასანიძე ივერი"}
+          />
+          <ColegueComponent
+            img={"https://i.imgur.com/NkRA9S7.png"}
+            name={"ქეთი ნაჭყებია"}
+          />
         </div>
+        <Row isLastRow className={"justify-center gap-10"}>
+          <ColegueComponent
+            img={"https://i.imgur.com/NkRA9S7.png"}
+            name={"ლაშა ტატულაშვილი"}
+          />
+        </Row>
       </div>
     </div>
   );

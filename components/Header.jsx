@@ -63,7 +63,7 @@ const Header = () => {
           <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
             <Link href="/">
               <img
-                src={"/headerLogo.png"}
+                src={"/headerLogo-v2.jpg"}
                 height={450}
                 width={450}
                 className={"pb-4"}
@@ -99,7 +99,7 @@ const Header = () => {
           <div className="swap-on flex flex-col items-center bg-primary p-5 font-bold text-white">
             <Link href="/">
               <img
-                src={"/headerLogo.png"}
+                src={"/headerLogo-v2.jpg"}
                 height={550}
                 width={550}
                 className={"pb-4"}
