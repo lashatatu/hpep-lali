@@ -6,6 +6,7 @@ const DocumentLink = ({ number, title, link }) => {
       <a
         href={link}
         className="text-black px-4 py-2 hover:bg-red-800 hover:text-white"
+        target={'_blank'}
       >
         {title}
       </a>
