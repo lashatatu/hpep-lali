@@ -1,12 +1,12 @@
 // @ts-ignore
 const DocumentLink = ({ number, title, link }) => {
   return (
-    <div className="flex items-center mb-2">
-      <div className="font-bold mr-2">{number}.</div>
+    <div className="mb-2 flex items-center">
+      <div className="mr-2 font-bold">{number}.</div>
       <a
         href={link}
-        className="text-black px-4 py-2 hover:bg-red-800 hover:text-white"
-        target={'_blank'}
+        className="px-4 py-2 text-black hover:bg-red-800 hover:text-white hover:rounded-r-full"
+        target={"_blank"}
       >
         {title}
       </a>
@@ -47,16 +47,17 @@ const Page = () => {
         <title>{`ჩვენს შესახებ | HPEP.GE`}</title>
       </head>
       <div>
-        <h2 className="text-white bg-primary p-2 text-center">
+        <h2 className="bg-primary p-2 text-center text-white">
           აკადემიური და მასწავლებეთა პერსონალის განვითარების ცენტრი
         </h2>
       </div>
-      <div className={'lt-container-small'}>
-        <div className="text-left">
-          <img src="/blackLOGO.png" className="h-24 w-24 mx-auto" alt="logo" />
+      <div className={"lt-container-small pt-5"}>
+        <div className="pb-10 text-left">
+          <img src="/blackLOGO.png" className="mx-auto h-24 w-24" alt="logo" />
 
-          <h4>
-            ცენტრის შესახებ ინფორმაციის მისაღებად, გთხოვთ გაეცნოთ ქვემოთ მოცემულ დოკუმენტაციას
+          <h4 className={"py-10"}>
+            ცენტრის შესახებ ინფორმაციის მისაღებად, გთხოვთ გაეცნოთ ქვემოთ მოცემულ
+            დოკუმენტაციას
           </h4>
 
           <div className="flex flex-col space-y-2">
