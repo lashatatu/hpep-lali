@@ -13,14 +13,14 @@ const Page = () => {
           <div>
             <embed
               className={"mt-5 mb-5 max-lg:hidden"}
-              src="/goriIova.pdf"
+              src="/pdf/goriIova.pdf"
               width="100%"
               height="800px"
             />
             <ul className={"pb-4"}>
               <li>
                 <a
-                  href="/goriIova.pdf"
+                  href="/pdf/goriIova.pdf"
                   target={"_blank"}
                   className={"text-secondary lg:hidden lg:pb-10"}
                 >
@@ -33,14 +33,14 @@ const Page = () => {
           <div>
             <embed
               className={"mt-5 mb-5 max-lg:hidden"}
-              src="/gtuCommunity.pdf"
+              src="/pdf/gtuCommunity.pdf"
               width="100%"
               height="800px"
             />
             <ul className={"pb-4"}>
               <li>
                 <a
-                  href="/gtuCommunity.pdf"
+                  href="/pdf/gtuCommunity.pdf"
                   target={"_blank"}
                   className={"text-secondary lg:hidden lg:pb-10"}
                 >

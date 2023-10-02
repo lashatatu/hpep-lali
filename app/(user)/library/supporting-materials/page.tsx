@@ -441,14 +441,14 @@ const Page = () => {
               <div>
                 <embed
                   className={"mt-5 mb-5 max-lg:hidden"}
-                  src="/handbook-1.pdf"
+                  src="/pdf/handbook-1.pdf"
                   width="100%"
                   height="800px"
                 />
                 <ul className={"pb-4"}>
                   <li>
                     <a
-                      href="/handbook-1.pdf"
+                      href="/pdf/handbook-1.pdf"
                       target={"_blank"}
                       className={"text-secondary lg:hidden lg:pb-10"}
                     >
@@ -461,14 +461,14 @@ const Page = () => {
               <div>
                 <embed
                   className={"mt-5 mb-5 max-lg:hidden"}
-                  src="/handbook-2.pdf"
+                  src="/pdf/handbook-2.pdf"
                   width="100%"
                   height="800px"
                 />
                 <ul className={"pb-4"}>
                   <li>
                     <a
-                      href="/handbook-2.pdf"
+                      href="/pdf/handbook-2.pdf"
                       target={"_blank"}
                       className={"text-secondary lg:hidden lg:pb-10"}
                     >
@@ -481,14 +481,14 @@ const Page = () => {
               <div>
                 <embed
                   className={"mt-5 mb-5 max-lg:hidden"}
-                  src="/handbook-3.pdf"
+                  src="/pdf/handbook-3.pdf"
                   width="100%"
                   height="800px"
                 />
                 <ul className={"pb-4"}>
                   <li>
                     <a
-                      href="/handbook-3.pdf"
+                      href="/pdf/handbook-3.pdf"
                       target={"_blank"}
                       className={"text-secondary lg:hidden lg:pb-10"}
                     >
@@ -501,14 +501,14 @@ const Page = () => {
               <div>
                 <embed
                   className={"mt-5 mb-5 max-lg:hidden"}
-                  src="/handbook-4.pdf"
+                  src="/pdf/handbook-4.pdf"
                   width="100%"
                   height="800px"
                 />
                 <ul className={"pb-4"}>
                   <li>
                     <a
-                      href="/handbook-4.pdf"
+                      href="/pdf/handbook-4.pdf"
                       target={"_blank"}
                       className={"text-secondary lg:hidden lg:pb-10"}
                     >
@@ -521,14 +521,14 @@ const Page = () => {
               <div>
                 <embed
                   className={"mt-5 mb-5 max-lg:hidden"}
-                  src="/handbook-5.pdf"
+                  src="/pdf/handbook-5.pdf"
                   width="100%"
                   height="800px"
                 />
                 <ul className={"pb-4"}>
                   <li>
                     <a
-                      href="/handbook-5.pdf"
+                      href="/pdf/handbook-5.pdf"
                       target={"_blank"}
                       className={"text-secondary lg:hidden lg:pb-10"}
                     >
