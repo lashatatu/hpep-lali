@@ -5,7 +5,7 @@ const Colleagues = () => {
   return (
     <div className={"bg-primary bg-opacity-20 pt-16"}>
       <div className={"lt-container items-center justify-center"}>
-        <h1 className={"lt-page-h1 text-center text-6xl text-primary "}>
+        <h1 className={"lt-page-h1 text-center text-3xl text-primary "}>
           თანამშრომლები
         </h1>
         <div className={"grid grid-cols-1 px-10 pb-6"}>
@@ -21,7 +21,7 @@ const Colleagues = () => {
           }
         >
           <ColegueComponent
-            img={"https://i.imgur.com/NkRA9S7.png"}
+            img={"https://i.imgur.com/tszrM86.jpg"}
             name={"ლალი ღოღელიანი"}
           />
           <ColegueComponent
@@ -38,7 +38,7 @@ const Colleagues = () => {
           />
           <ColegueComponent
             img={"https://i.imgur.com/zVbShu8.png"}
-            name={"ასანიძე ივერი"}
+            name={"ივერი ასანიძე"}
           />
           <ColegueComponent
             img={"https://i.imgur.com/NkRA9S7.png"}
@@ -47,7 +47,7 @@ const Colleagues = () => {
         </div>
         <Row isLastRow className={"justify-center gap-10"}>
           <ColegueComponent
-            img={"https://i.imgur.com/NkRA9S7.png"}
+            img={"https://i.imgur.com/8oJkrCW.jpg"}
             name={"ლაშა ტატულაშვილი"}
           />
         </Row>

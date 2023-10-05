@@ -53,7 +53,6 @@ const Page = () => {
       </div>
       <div className={"lt-container-small pt-5"}>
         <div className="pb-10 text-left">
-          <img src="/blackLOGO.png" className="mx-auto h-24 w-24" alt="logo" />
 
           <h4 className={"py-10"}>
             ცენტრის შესახებ ინფორმაციის მისაღებად, გთხოვთ გაეცნოთ ქვემოთ მოცემულ

@@ -1,7 +1,7 @@
 const LogoImage = () => {
   return (
     <img
-      src={"/headerLogo-v3.png"}
+      src={"/headerLogo-v4.png"}
       height={550}
       width={550}
       className={"pb-4"}
