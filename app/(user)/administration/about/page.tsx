@@ -18,27 +18,23 @@ const Page = () => {
   const documents = [
     {
       title: "აკადემიური პერსონალის განვითარების ცენტრის დებულება",
-      link: "http://science.org.ge/old/moambe/5-2/5-10%20Boyarsky.pdf",
+      link: "/pdf/debuleba.pdf",
     },
     {
       title: "ბრძანება ს.ტ.უ.-ს პერსონალის პროფესიული განვითარების შესახებ",
-      link: "http://science.org.ge/old/moambe/5-2/5-10%20Boyarsky.pdf",
+      link: "/pdf/GTU-personal-training-order.pdf",
     },
     {
       title: "პროფესიული განვითარების ცენტრის თანამშრომელთა საქმიანობის აღწერა",
-      link: "http://science.org.ge/old/moambe/5-2/5-10%20Boyarsky.pdf",
+      link: "/pdf/GTU-CETL-colegues-job-description.pdf",
     },
     {
       title: "ს.ტ.უ-ს პერსონალის კვალიფიკაციის ამაღლების წესი",
-      link: "http://science.org.ge/old/moambe/5-2/5-10%20Boyarsky.pdf",
-    },
-    {
-      title: "ცენტრის  საშტატო განრიგი",
-      link: "http://science.org.ge/old/moambe/5-2/5-10%20Boyarsky.pdf",
+      link: "/pdf/GTU-qualification-update-guide.pdf",
     },
     {
       title: "ცენტრის საქმიანობის აღწერა ",
-      link: "http://science.org.ge/old/moambe/5-2/5-10%20Boyarsky.pdf",
+      link: "/pdf/CETL-work-description.pdf",
     },
   ];
   return (
