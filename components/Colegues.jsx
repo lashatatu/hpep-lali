@@ -41,7 +41,7 @@ const Colleagues = () => {
             name={"ივერი ასანიძე"}
           />
           <ColegueComponent
-            img={"https://i.imgur.com/NkRA9S7.png"}
+            img={"https://i.imgur.com/YLQqyk0.jpg"}
             name={"ქეთი ნაჭყებია"}
           />
         </div>
