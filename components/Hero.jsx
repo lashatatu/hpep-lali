@@ -22,7 +22,8 @@ const Hero = () => {
         {/*  alt={"hpep logo"}*/}
         {/*/>*/}
         <div className="hero min-h-screen" >
-          <Image  src={'https://i.imgur.com/Snij1lo.jpg'} alt={'bg image'} fill={true} className={'w-full object-cover contrast-100'}/>
+          {/*<Image  src={'https://i.imgur.com/Snij1lo.jpg'} alt={'bg image'} fill={true} className={'w-full object-cover contrast-100'}/>*/}
+          <Image  src={'https://i.imgur.com/I3TwmVO.jpg'} alt={'bg image'} fill={true} className={'w-full object-cover contrast-100'}/>
           <div className="hero-overlay"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-xl">
