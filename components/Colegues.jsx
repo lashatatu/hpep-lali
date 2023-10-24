@@ -25,7 +25,7 @@ const Colleagues = () => {
             name={"ლალი ღოღელიანი"}
           />
           <ColegueComponent
-            img={"https://i.imgur.com/NkRA9S7.png"}
+            img={"https://i.imgur.com/e9AjDqi.jpg"}
             name={"ბელა ბესტავაშვილი"}
           />
           <ColegueComponent
