@@ -29,7 +29,7 @@ const Colleagues = () => {
             name={"ბელა ბესტავაშვილი"}
           />
           <ColegueComponent
-            img={"https://i.imgur.com/NkRA9S7.png"}
+            img={"https://i.imgur.com/gqxnuTY.jpg"}
             name={"ეკატერინე გელოვანი"}
           />
           <ColegueComponent
