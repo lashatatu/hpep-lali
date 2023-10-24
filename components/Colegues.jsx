@@ -11,7 +11,7 @@ const Colleagues = () => {
         <div className={"grid grid-cols-1 px-10 pb-6"}>
           <ColegueComponent
             className={"grid grid-cols-1 px-10 pb-6"}
-            img={"https://i.imgur.com/NkRA9S7.png"}
+            img={"https://i.imgur.com/g4alk4b.jpg"}
             name={"რამაზ ხუროძე"}
           />
         </div>
