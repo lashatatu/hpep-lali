@@ -40,7 +40,7 @@ const LinksComponentMobile = () => {
         <div className="collapse-title min-h-0 p-2 text-center">ვორქშოპები</div>
         <ul className="collapse-content rounded-3xl bg-third text-center">
           <li className={"pt-2"}>
-            <Link href={"/workshops/trainings"}>ტრენინგები</Link>
+            <Link href={"/workshops/trainings"}>თრენინგები</Link>
           </li>
           <li className={"pt-2"}>
             <Link href={"/workshops/seminars"}>სემინარები</Link>

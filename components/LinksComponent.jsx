@@ -46,7 +46,7 @@ const LinksComponent = () => {
           className="dropdown-content menu w-52 rounded-lg bg-primary p-2"
         >
           <li>
-            <Link href={"/workshops/trainings"}>ტრენინგები</Link>
+            <Link href={"/workshops/trainings"}>თრენინგები</Link>
           </li>
           <li>
             <Link href={"/workshops/seminars"}>სემინარები</Link>

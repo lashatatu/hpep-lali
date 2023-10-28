@@ -31,7 +31,7 @@ const Footer = () => {
         <div>
           <span className="footer-title">ვორქშოპები</span>
           <Link href={"/workshops/trainings"} className="link-hover link">
-            ტრენინგები
+            თრენინგები
           </Link>
           <Link href={"/workshops/seminars"} className="link-hover link">
             სემინარები
@@ -108,7 +108,7 @@ const Footer = () => {
             href={"/archive/training-archive"}
             className={"link-hover link"}
           >
-            ტრენინგების არქივი
+            თრენინგების არქივი
           </Link>
           <Link href={"/archive/gallery-archive"} className={"link-hover link"}>
             გალერიის არქივი
