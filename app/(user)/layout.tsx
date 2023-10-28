@@ -20,9 +20,9 @@ export default function RootLayout({
       <Head />
 
       <body className={"font-roboto bg-slate-200"}>
-        {/*{showHeader && <Header />}*/}
+        {showHeader && <Header />}
         {children}
-        {/*<Footer />*/}
+        <Footer />
       </body>
     </html>
   );
