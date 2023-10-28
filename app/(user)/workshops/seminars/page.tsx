@@ -5,7 +5,7 @@ const Page = () => {
         <title>{`სემინარები | HPEP.GE`}</title>
       </head>
       <div className={"lt-container-small"}>
-        <h1 className={"lt-page-h1"}>სემინარები</h1>
+        <h1 className={"lt-page-h1 text-3xl"}>სემინარები</h1>
         {/* პირველი ბმული*/}
 
         {/* მესამე ბმული*/}
