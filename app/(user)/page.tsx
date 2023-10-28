@@ -54,7 +54,6 @@ export default async function HomePage() {
         {/*  <h1 className="text-5xl font-bold text-gray-900 mb-6">მიმდინარეობს საიტის რეკონსტრუქცია</h1>*/}
         {/*  <hr/>*/}
         {/*</div>*/}
-        {/*მიმდინარეობს*/}
         <Header />
         <div className={"flex h-screen flex-col"}>
           <Hero />
