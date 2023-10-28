@@ -36,7 +36,7 @@
 	}
 
 	.lt-page-2grid {
-		@apply grid grid-cols-3 gap-4 pt-4 pb-16;
+		@apply grid grid-cols-3 gap-2 pt-4 pb-16;
 	}
 
 	.lt-last-child .btn {
