@@ -49,22 +49,28 @@ export default async function HomePage() {
   return (
     <>
       <div>
-        <Header />
-        <div className={"flex h-screen flex-col"}>
-          <Hero />
+        <div className="flex items-center justify-center h-screen flex-col bg-gray-200">
+          <h1 className="text-5xl font-bold text-gray-900 mb-6 pb-16">Under Construction</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">მიმდინარეობს საიტის რეკონსტრუქცია</h1>
+          <hr/>
         </div>
-        <Colegues/>
-        <BlogList posts={posts} />
-        <div className={"hero-content mx-auto pb-12 text-center text-white"}>
-          <Link
-            href={"/archive/training-archive"}
-            target="_blank"
-            className="btn font-bold"
-          >
-            ტრენინგების არქივი
-          </Link>
-        </div>
-        <PartnersLanding />
+        მიმდინარეობს
+        {/*<Header />*/}
+        {/*<div className={"flex h-screen flex-col"}>*/}
+        {/*  <Hero />*/}
+        {/*</div>*/}
+        {/*<Colegues/>*/}
+        {/*<BlogList posts={posts} />*/}
+        {/*<div className={"hero-content mx-auto pb-12 text-center text-white"}>*/}
+        {/*  <Link*/}
+        {/*    href={"/archive/training-archive"}*/}
+        {/*    target="_blank"*/}
+        {/*    className="btn font-bold"*/}
+        {/*  >*/}
+        {/*    ტრენინგების არქივი*/}
+        {/*  </Link>*/}
+        {/*</div>*/}
+        {/*<PartnersLanding />*/}
       </div>
     </>
   );
