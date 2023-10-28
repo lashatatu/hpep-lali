@@ -5,11 +5,11 @@ const Page = () => {
         <title>{`USA SENSER Summer School | HPEP.GE`}</title>
       </head>
       <div className={"lt-container-small"}>
-        <h1 className={"lt-page-h1"}>USA SENSER Summer School</h1>
+        <h1 className={"lt-page-h1 text-3xl"}>USA SENSER Summer School</h1>
         <div className={"mx-10"}>
           <div>
-            <h2 className={"lt-page-h2"}>2007</h2>
-            <h3 className={"lt-page-h3 pb-2"}>პლენალური მისამართები</h3>
+            <h2 className={"lt-page-h2 text-xl pb-4"}>2007</h2>
+            <h3 className={"lt-page-h3 text-xl pb-2"}>პლენარული სხდომის თემები</h3>
             <div>
               <ul className={"lt-page-ul"}>
                 <li>
@@ -118,7 +118,7 @@ const Page = () => {
                 </li>
               </ul>
             </div>
-            <h3 className={"lt-page-h3 pb-2"}>ჰენდაუთები</h3>
+            <h3 className={"lt-page-h3 text-xl pb-2"}>ჰენდაუთები</h3>
             <div>
               <ul className="lt-page-ul">
                 <li>აქტიური სწავლება(ფათე)</li>
@@ -129,7 +129,7 @@ const Page = () => {
                 <li>კრიტიკული აზროვნების სწავლება (ფათე)</li>
               </ul>
             </div>
-            <h3 className={"lt-page-h3 pb-2"}>პრეზენტაციები</h3>
+            <h3 className={"lt-page-h3 text-xl pb-2"}>პრეზენტაციები</h3>
             <div>
               <ul className="lt-page-ul">
                 <li>არკანზასის სახელმწიფო უნივერსიტეტი</li>
@@ -154,7 +154,7 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2 pb-0"}>2005</h2>
+            <h2 className={"lt-page-h2 text-xl pb-0"}>2005</h2>
             <div>
               <ul className={"lt-page-ul"}>
                 <li>აქტიური სწავლების ტექნიკები დიდ და პატარა კლასებში</li>
@@ -205,7 +205,7 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2 pb-0"}>2004</h2>
+            <h2 className={"lt-page-h2 text-xl pb-0"}>2004</h2>
             <div>
               <ul className={"lt-page-ul"}>
                 <li>აქტიური სწავლების ტექნიკები დიდ და პატარა კლასებისათვის</li>
@@ -253,7 +253,7 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2 pb-0"}>2003</h2>
+            <h2 className={"lt-page-h2 text-xl pb-0"}>2003</h2>
             <div>
               <ul className={"lt-page-ul"}>
                 <li>აქტიური სასწავლო ტექნიკები დიდ კლასებში</li>
