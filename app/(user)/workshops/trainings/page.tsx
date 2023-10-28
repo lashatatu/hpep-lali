@@ -20,7 +20,7 @@ const Page = () => {
         <title>{`ტრენინგები | HPEP.GE`}</title>
       </head>
       <div className={"lt-container-small"}>
-        <h2 className={"lt-page-h2 pt-10 text-center"}>თრენინგები</h2>
+        <h2 className={"lt-page-h2 text-center pt-10"}>თრენინგები</h2>
         <div className={"mx-10"}>
           {/*          <div className={"mx-10 pb-16"}>
             <h2 className={"lt-page-h2 text-center"}>
@@ -150,229 +150,229 @@ const Page = () => {
               "lt-page-2grid lt-page-align-left-span-2 lt-page-text-bg-primary"
             }
           >
-            <div  className={"font-bold"}>მერი ლოუ ლაუერ (აშშ)</div>
+            <div>მერი ლოუ ლაუერ (აშშ)</div>
 
-            <div  className={"font-bold"}>შედეგების მიღება</div>
+            <div>შედეგების მიღება</div>
 
-            <div  className={"font-bold"}>მერი ლოუ ლაუერ (აშშ)</div>
+            <div>მერი ლოუ ლაუერ (აშშ)</div>
 
-            <div  className={"font-bold"}>სწავლა, სწავლება და შეფასება</div>
+            <div>სწავლა, სწავლება და შეფასება</div>
 
-            <div  className={"font-bold"}>მერი ლოუ ლაუერ (აშშ)</div>
+            <div>მერი ლოუ ლაუერ (აშშ)</div>
 
-            <div  className={"font-bold"}>კოლეჯები</div>
+            <div>კოლეჯები</div>
 
-            <div  className={"font-bold"}>სტივენ მაიკოლსონი (აშშ)</div>
+            <div>სტივენ მაიკოლსონი (აშშ)</div>
 
-            <div  className={"font-bold"}>სტუდენტების სწავლების სტილის გაგების მნიშვნელობა</div>
+            <div>სტუდენტების სწავლების სტილის გაგების მნიშვნელობა</div>
 
-            <div  className={"font-bold"}>სტივენ მაიკოლსონი (აშშ)</div>
+            <div>სტივენ მაიკოლსონი (აშშ)</div>
 
-            <div  className={"font-bold"}>სასწავლო ჯგუფები</div>
+            <div>სასწავლო ჯგუფები</div>
 
-            <div  className={"font-bold"}>სტივენ მაიკოლსონი (აშშ)</div>
+            <div>სტივენ მაიკოლსონი (აშშ)</div>
 
-            <div  className={"font-bold"}>კომპენტეციებზე დაფუძვნებული მიდგომა</div>
+            <div>კომპენტეციებზე დაფუძვნებული მიდგომა</div>
 
-            <div  className={"font-bold"}>სტივენ მაიკოლსონი (აშშ)</div>
+            <div>სტივენ მაიკოლსონი (აშშ)</div>
 
-            <div  className={"font-bold"}>აბეტი მოდის</div>
+            <div>აბეტი მოდის</div>
 
-            <div  className={"font-bold"}>არდიტ მენეი (აშშ)</div>
+            <div>არდიტ მენეი (აშშ)</div>
 
-            <div  className={"font-bold"}>კურიკულუმის შექმნა კოლეჯებისთვის</div>
+            <div>კურიკულუმის შექმნა კოლეჯებისთვის</div>
 
-            <div  className={"font-bold"}>არდიტ მენეი (აშშ)</div>
+            <div>არდიტ მენეი (აშშ)</div>
 
-            <div  className={"font-bold"}>
+            <div>
               პროფესიონალურ და სოციალური მიმართულებით მეცნიერებისა და ინჟინრების
-              თრენინგი ლიდერშიპში
+              ტრენინგი ლიდერშიპში
             </div>
 
-            <div  className={"font-bold"}>არდიტ მენეი (აშშ)</div>
+            <div>არდიტ მენეი (აშშ)</div>
 
-            <div  className={"font-bold"}>ცვლილდბები და ლიდერშიპი უნივერსიტეტებში</div>
+            <div>ცვლილდბები და ლიდერშიპი უნივერსიტეტებში</div>
 
-            <div  className={"font-bold"}>არდიტ მენეი (აშშ)</div>
+            <div>არდიტ მენეი (აშშ)</div>
 
-            <div  className={"font-bold"}>
+            <div>
               მასწავლებელი/მოსწავლე: ლექციების ახალი მეთოდოლოგიები დანერგვა
             </div>
 
-            <div  className={"font-bold"}>არდიტ მენეი (აშშ)</div>
+            <div>არდიტ მენეი (აშშ)</div>
 
-            <div  className={"font-bold"}>ამერიკული საშუალო სკოლის შემდგომი განათლება დღეს</div>
+            <div>ამერიკული საშუალო სკოლის შემდგომი განათლება დღეს</div>
 
-            <div  className={"font-bold"}>არდიტ მენეი (აშშ)</div>
+            <div>არდიტ მენეი (აშშ)</div>
 
-            <div  className={"font-bold"}>სწავლებისა და განათლების ცენტრი, რას ნიშნავს ეს</div>
+            <div>სწავლებისა და განათლების ცენტრი, რას ნიშნავს ეს</div>
 
-            <div  className={"font-bold"}>ალექსანდრე დავითაშვილი (საქართველო)</div>
+            <div>ალექსანდრე დავითაშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>ბლუმის ტაქსონომია</div>
+            <div>ბლუმის ტაქსონომია</div>
 
-            <div  className={"font-bold"}>ალექსანდრე დავითაშვილი (საქართველო)</div>
+            <div>ალექსანდრე დავითაშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>სწავლების სწტილები</div>
+            <div>სწავლების სწტილები</div>
 
-            <div  className={"font-bold"}>ოთარ ზუმბურიძე (საქართველო)</div>
+            <div>ოთარ ზუმბურიძე (საქართველო)</div>
 
-            <div  className={"font-bold"}>
+            <div>
               გაეროსა და იუნესკოს რეკომენდაციები უმაღლესი განათლების
               კვალიფიკაციაში
             </div>
 
-            <div  className={"font-bold"}>ლალი ღოღელიანი (საქართველო)</div>
+            <div>ლალი ღოღელიანი (საქართველო)</div>
 
-            <div  className={"font-bold"}>სწავლებისა და განათლების ცენტრები</div>
+            <div>სწავლებისა და განათლების ცენტრები</div>
 
-            <div  className={"font-bold"}>ბუციკო ჩხარტიშვილი (საქართველო)</div>
+            <div>ბუციკო ჩხარტიშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>დაზეპრება და სწავლება</div>
+            <div>დაზეპრება და სწავლება</div>
 
-            <div  className={"font-bold"}>ბუციკო ჩხარტიშვილი (საქართველო)</div>
+            <div>ბუციკო ჩხარტიშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>შეფასების ფორმები და მეთოდები</div>
+            <div>შეფასების ფორმები და მეთოდები</div>
 
-            <div  className={"font-bold"}>ვეიდ მილერი (აშშ)</div>
+            <div>ვეიდ მილერი (აშშ)</div>
 
-            <div  className={"font-bold"}>პრობლემაზე დაფუძვნებული სწავლა და სწავლება</div>
+            <div>პრობლემაზე დაფუძვნებული სწავლა და სწავლება</div>
 
-            <div  className={"font-bold"}>ნიკოლოზ აბზიანიძე (საქართველო)</div>
+            <div>ნიკოლოზ აბზიანიძე (საქართველო)</div>
 
-            <div  className={"font-bold"}>სილაბუსის შექმნა</div>
+            <div>სილაბუსის შექმნა</div>
 
-            <div  className={"font-bold"}>ლალი ღოღელიანი (საქართველო)</div>
+            <div>ლალი ღოღელიანი (საქართველო)</div>
 
-            <div  className={"font-bold"}>კურიკულუმის შექმნა საიჯჟინრო სპეციალობებისათვის</div>
+            <div>კურიკულუმის შექმნა საიჯჟინრო სპეციალობებისათვის</div>
 
-            <div  className={"font-bold"}>ლენა შატაკიშვილი (საქართველო)</div>
+            <div>ლენა შატაკიშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>კომუნიკაციის როლი საზოგადოებაში</div>
+            <div>კომუნიკაციის როლი საზოგადოებაში</div>
 
-            <div  className={"font-bold"}>ბელა ბესტავაშვილი (საქართველო)</div>
+            <div>ბელა ბესტავაშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>კომუნიკაციის როლი საზოგადოებაში</div>
+            <div>კომუნიკაციის როლი საზოგადოებაში</div>
 
-            <div  className={"font-bold"}>თ. ცერცვაძე, ნ. ჯაფარიძე (საქართველო)</div>
+            <div>თ. ცერცვაძე, ნ. ჯაფარიძე (საქართველო)</div>
 
-            <div  className={"font-bold"}>კარიერის დაგეგმვა</div>
+            <div>კარიერის დაგეგმვა</div>
 
-            <div  className={"font-bold"}>ბარბარა მათიესი (აშშ)</div>
+            <div>ბარბარა მათიესი (აშშ)</div>
 
-            <div  className={"font-bold"}>ინგლისურის სწავლების მეთოდები</div>
+            <div>ინგლისურის სწავლების მეთოდები</div>
 
-            <div  className={"font-bold"}>მ. ჭიჭინაძე (საქართველო)</div>
+            <div>მ. ჭიჭინაძე (საქართველო)</div>
 
-            <div  className={"font-bold"}>რთული ქცევები</div>
+            <div>რთული ქცევები</div>
 
-            <div  className={"font-bold"}>ლალი ბაქრაძე (საქართველო)</div>
+            <div>ლალი ბაქრაძე (საქართველო)</div>
 
-            <div  className={"font-bold"}>კურიკულუმის შექმნა</div>
+            <div>კურიკულუმის შექმნა</div>
 
-            <div  className={"font-bold"}>ლალი ბაქრაძე (საქართველო)</div>
+            <div>ლალი ბაქრაძე (საქართველო)</div>
 
-            <div  className={"font-bold"}>ტუნინგი</div>
+            <div>ტუნინგი</div>
 
-            <div  className={"font-bold"}>ჯო მონაჰანი (აშშ)</div>
+            <div>ჯო მონაჰანი (აშშ)</div>
 
-            <div  className={"font-bold"}>ტაბლეტური კომპიუტერის ტექნილოგია</div>
+            <div>ტაბლეტური კომპიუტერის ტექნილოგია</div>
 
-            <div  className={"font-bold"}>ალექსანდრე დავითაშვილი (საქართველო)</div>
+            <div>ალექსანდრე დავითაშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>ინტერნეტში მუშაობა და ელექტრონული ფოსტის გამოყენება</div>
+            <div>ინტერნეტში მუშაობა და ელექტრონული ფოსტის გამოყენება</div>
 
-            <div  className={"font-bold"}>ჯუზეპე ლიბერატორე (კანადა)</div>
+            <div>ჯუზეპე ლიბერატორე (კანადა)</div>
 
-            <div  className={"font-bold"}>ეკონომიკური განვითარება კანადაში</div>
+            <div>ეკონომიკური განვითარება კანადაში</div>
 
-            <div  className={"font-bold"}>ჯუზეპე ლიბერატორე (კანადა)</div>
+            <div>ჯუზეპე ლიბერატორე (კანადა)</div>
 
-            <div  className={"font-bold"}>გლობალური სტრატეგია</div>
+            <div>გლობალური სტრატეგია</div>
 
-            <div  className={"font-bold"}>ჯუზეპე ლიბერატორე (კანადა)</div>
+            <div>ჯუზეპე ლიბერატორე (კანადა)</div>
 
-            <div  className={"font-bold"}>გლობალური ბრენდინგი</div>
+            <div>გლობალური ბრენდინგი</div>
 
-            <div  className={"font-bold"}>ვეიდ მილერი (აშშ)</div>
+            <div>ვეიდ მილერი (აშშ)</div>
 
-            <div  className={"font-bold"}>მცირე ბიზნესი აგრუკულტურაში</div>
+            <div>მცირე ბიზნესი აგრუკულტურაში</div>
 
-            <div  className={"font-bold"}>ალექს სიმპსონი (კანადა)</div>
+            <div>ალექს სიმპსონი (კანადა)</div>
 
-            <div  className={"font-bold"}>ბიზნესის ადმინისტრირება პატარა სამშენებლო კომპანიაში</div>
+            <div>ბიზნესის ადმინისტრირება პატარა სამშენებლო კომპანიაში</div>
 
-            <div  className={"font-bold"}>ბირდ ბერგი (დანია)</div>
+            <div>ბირდ ბერგი (დანია)</div>
 
-            <div  className={"font-bold"}>ინოვაციაები წარმატებული სტუდენტების სტაჭირებაში</div>
+            <div>ინოვაციაები წარმატებული სტუდენტების სტაჭირებაში</div>
 
-            <div  className={"font-bold"}>ალექსანდრე დავითაშვილი (საქართველო)</div>
+            <div>ალექსანდრე დავითაშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>MS Project-თან მუშაობა</div>
+            <div>MS Project-თან მუშაობა</div>
 
-            <div  className={"font-bold"}>მურმან კუბლაშვილი (საქართველო)</div>
+            <div>მურმან კუბლაშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>AutoCad-თან მუშაობა</div>
+            <div>AutoCad-თან მუშაობა</div>
 
-            <div  className={"font-bold"}>ალექსანდრე დავითაშვილი (საქართველო)</div>
+            <div>ალექსანდრე დავითაშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>PowerPoint-თან მუშაობა</div>
+            <div>PowerPoint-თან მუშაობა</div>
 
-            <div  className={"font-bold"}>ნინო ჩეჩელაშვილი (საქართველო)</div>
+            <div>ნინო ჩეჩელაშვილი (საქართველო)</div>
 
-            <div  className={"font-bold"}>მათემატიკის სწავლების თანამედროვე მეთოდები</div>
+            <div>მათემატიკის სწავლების თანამედროვე მეთოდები</div>
 
-            <div  className={"font-bold"}>კერენ კაშმანიან ოატესი (აშშ)</div>
+            <div>კერენ კაშმანიან ოატესი (აშშ)</div>
 
-            <div  className={"font-bold"}>
+            <div>
               სამეცნიერო განათლება ახალ სოციალურ ურთიერთობებსა და ვალდებულებებში
             </div>
 
-            <div  className={"font-bold"}>კერენ კაშმანიან ოატესი (აშშ)</div>
+            <div>კერენ კაშმანიან ოატესი (აშშ)</div>
 
-            <div  className={"font-bold"}>
+            <div>
               „SENCER“-ის მოდელის კორესპროდენცია თანამედროვე და პერსპექტიულ
               ბაკალავრიატში
             </div>
 
-            <div  className={"font-bold"}>კერენ კაშმანიან ოატესი (აშშ)</div>
+            <div>კერენ კაშმანიან ოატესი (აშშ)</div>
 
-            <div  className={"font-bold"}>სტრუქტურული რეფორმები ინოვაციების წახალისებისათვის</div>
+            <div>სტრუქტურული რეფორმები ინოვაციების წახალისებისათვის</div>
 
-            <div  className={"font-bold"}>ემი შაჩტერი (აშშ)</div>
+            <div>ემი შაჩტერი (აშშ)</div>
 
-            <div  className={"font-bold"}>სწავლება „SENCER“-ის კურსებში</div>
+            <div>სწავლება „SENCER“-ის კურსებში</div>
 
-            <div  className={"font-bold"}>ეუგენია ეტკინა, ხოსე პ. მესტრე (აშშ)</div>
+            <div>ეუგენია ეტკინა, ხოსე პ. მესტრე (აშშ)</div>
 
-            <div  className={"font-bold"}>
+            <div>
               უკუმხარეების სასწავლო კვლევა, მეცნიერების სწავლების არამეცნიერი
               სტუდენტებისათვის
             </div>
 
-            <div  className={"font-bold"}>სტივენ ფრიმანი (აშშ)</div>
+            <div>სტივენ ფრიმანი (აშშ)</div>
 
-            <div  className={"font-bold"}>სწავლობენ თუ არა სტუდენტები იმას რასაც ჩვენ ვასწვლით</div>
+            <div>სწავლობენ თუ არა სტუდენტები იმას რასაც ჩვენ ვასწვლით</div>
 
-            <div  className={"font-bold"}>სტივენ ფრიმანი (აშშ)</div>
+            <div>სტივენ ფრიმანი (აშშ)</div>
 
-            <div  className={"font-bold"}>ლექციის დროის გამოყენება და შეფასების მეთოდები</div>
+            <div>ლექციის დროის გამოყენება და შეფასების მეთოდები</div>
 
-            <div  className={"font-bold"}>სტივენ ფრიმანი (აშშ)</div>
+            <div>სტივენ ფრიმანი (აშშ)</div>
 
-            <div  className={"font-bold"}>სტუდენტზე ორიენტირებული სწავლება</div>
+            <div>სტუდენტზე ორიენტირებული სწავლება</div>
 
-            <div  className={"font-bold"}>სტივენ ფრიმანი (აშშ)</div>
+            <div>სტივენ ფრიმანი (აშშ)</div>
 
-            <div  className={"font-bold"}>სწავლების შვიდი პრინციპი</div>
+            <div>სწავლების შვიდი პრინციპი</div>
 
-            <div  className={"font-bold"}>გიორგი ჩიღლაძე (აშშ)</div>
+            <div>გიორგი ჩიღლაძე (აშშ)</div>
 
-            <div  className={"font-bold"}>სწავლებისა და განათლების ცენტრის მიზნები</div>
+            <div>სწავლებისა და განათლების ცენტრის მიზნები</div>
 
-            <div  className={"font-bold"}>დავით ლ ტაუკი (აშშ)</div>
+            <div>დავით ლ ტაუკი (აშშ)</div>
 
-            <div  className={"font-bold"}>ფოკუსირება სწავლაზე სწავლების მაგიერ</div>
+            <div>ფოკუსირება სწავლაზე სწავლების მაგიერ</div>
           </div>
         </div>
         <div className={"mx-10"}>
@@ -402,10 +402,10 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {ianvari22019.slice(1).map((dat) => (
                 <>
-                  <div  className={"font-bold"}>{dat.number}</div>
-                  <div  className={"font-bold"}>{dat.cert}</div>
-                  <div  className={"font-bold"}>{dat.name}</div>
-                  <div  className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
@@ -427,17 +427,19 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {ianvari312019.slice(1).map((dat) => (
                 <>
-                  <div  className={"font-bold"}>{dat.number}</div>
-                  <div  className={"font-bold"}>{dat.cert}</div>
-                  <div  className={"font-bold"}>{dat.name}</div>
-                  <div  className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
           </div>
           <div>
             <TrainingsHeaders
-              h2Header={"კომუნიკაცია და კოგნიცია"}
+              h2Header={
+                "კომუნიკაცია და კოგნიცია"
+              }
               h3Date={"2019 02 .02"}
               faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
             />
@@ -450,17 +452,19 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {tebervali22019.slice(1).map((dat) => (
                 <>
-                  <div  className={"font-bold"}>{dat.number}</div>
-                  <div  className={"font-bold"}>{dat.cert}</div>
-                  <div  className={"font-bold"}>{dat.name}</div>
-                  <div  className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
           </div>
           <div>
             <TrainingsHeaders
-              h2Header={"სწავლის შედეგები და მათი შეფასება"}
+              h2Header={
+                "სწავლის შედეგები და მათი შეფასება"
+              }
               h3Date={"2019 05 .17"}
               faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
             />
@@ -474,10 +478,10 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {maisi172019.slice(1).map((dat) => (
                 <>
-                  <div  className={"font-bold"}>{dat.number}</div>
-                  <div  className={"font-bold"}>{dat.cert}</div>
-                  <div  className={"font-bold"}>{dat.name}</div>
-                  <div  className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
@@ -499,17 +503,19 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {ivnisi42019.slice(1).map((dat) => (
                 <>
-                  <div  className={"font-bold"}>{dat.number}</div>
-                  <div  className={"font-bold"}>{dat.cert}</div>
-                  <div  className={"font-bold"}>{dat.name}</div>
-                  <div  className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
           </div>
           <div>
             <TrainingsHeaders
-              h2Header={"კომუნიკაცია და კოგნიცია"}
+              h2Header={
+                "კომუნიკაცია და კოგნიცია"
+              }
               h3Date={"2019 06 .06"}
               faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
             />
@@ -523,10 +529,10 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {ivnisi62019.slice(1).map((dat) => (
                 <>
-                  <div  className={"font-bold"}>{dat.number}</div>
-                  <div  className={"font-bold"}>{dat.cert}</div>
-                  <div  className={"font-bold"}>{dat.name}</div>
-                  <div  className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
@@ -549,10 +555,10 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {ivnisi62020.slice(1).map((dat) => (
                 <>
-                  <div className={"font-bold"}>{dat.number}</div>
-                  <div className={"font-bold"}>{dat.cert}</div>
-                  <div className={"font-bold"}>{dat.name}</div>
-                  <div className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
@@ -575,10 +581,10 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {ivnisi222020.slice(1).map((dat) => (
                 <>
-                  <div className={"font-bold"}>{dat.number}</div>
-                  <div className={"font-bold"}>{dat.cert}</div>
-                  <div className={"font-bold"}>{dat.name}</div>
-                  <div className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
@@ -601,17 +607,19 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {ianvari32021.slice(1).map((dat) => (
                 <>
-                  <div className={"font-bold"}>{dat.number}</div>
-                  <div className={"font-bold"}>{dat.cert}</div>
-                  <div className={"font-bold"}>{dat.name}</div>
-                  <div className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
           </div>
           <div>
             <TrainingsHeaders
-              h2Header={"კარიერული ზრდა"}
+              h2Header={
+                "კარიერული ზრდა"
+              }
               h3Date={"2021 06 .27"}
               faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
             />
@@ -624,10 +632,10 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {ivnisi272021.slice(1).map((dat) => (
                 <>
-                  <div className={"font-bold"}>{dat.number}</div>
-                  <div className={"font-bold"}>{dat.cert}</div>
-                  <div className={"font-bold"}>{dat.name}</div>
-                  <div className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
@@ -650,10 +658,10 @@ const Page = () => {
               <div className={"pb-4 font-bold"}>აკადემიური თანამდებობა</div>
               {weli2021.slice(1).map((dat) => (
                 <>
-                  <div className={"font-bold"}>{dat.number}</div>
-                  <div className={"font-bold"}>{dat.cert}</div>
-                  <div className={"font-bold"}>{dat.name}</div>
-                  <div className={"font-bold"}>{dat.role}</div>
+                  <div>{dat.number}</div>
+                  <div>{dat.cert}</div>
+                  <div>{dat.name}</div>
+                  <div>{dat.role}</div>
                 </>
               ))}
             </div>
