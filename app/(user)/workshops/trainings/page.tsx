@@ -11,6 +11,7 @@ import {
   tebervali22019,
   weli2021,
 } from "./data/data";
+import TrainingsHeaders from "../../../../components/TrainingsHeaders";
 
 const Page = () => {
   return (
@@ -19,7 +20,7 @@ const Page = () => {
         <title>{`ტრენინგები | HPEP.GE`}</title>
       </head>
       <div className={"lt-container-small"}>
-        <h1 className={"lt-page-h1"}>ტრენინგები</h1>
+        <h2 className={"lt-page-h2 text-center pt-10"}>თრენინგები</h2>
         <div className={"mx-10"}>
           {/*          <div className={"mx-10 pb-16"}>
             <h2 className={"lt-page-h2 text-center"}>
@@ -376,15 +377,21 @@ const Page = () => {
         </div>
         <div className={"mx-10"}>
           <div>
-
-            <h2 className={"lt-page-h2"}>
-              თრენინგი “სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნუვერსიტეტო სწავლებაში” განხორციელდა:
-            </h2>
-            <h3 className={"lt-page-h2"}>
-              2019 წლის 02 .01
-              <br/>
-              სამშენებლო ფაკულტეტის შემდეგი აკადემიური პერსონალისთვის:
-            </h3>
+            <TrainingsHeaders
+              h2Header={
+                "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნუვერსიტეტო სწავლებაში"
+              }
+              h3Date={"2019 02 .01"}
+              faculty={"სამშენებლო ფაკულტეტი"}
+            />
+            {/*<h2 className={"lt-page-h2"}>*/}
+            {/*  თრენინგი “სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნუვერსიტეტო სწავლებაში” განხორციელდა:*/}
+            {/*</h2>*/}
+            {/*<h3 className={"lt-page-h3"}>*/}
+            {/*  2019 წლის 02 .01*/}
+            {/*  <br/>*/}
+            {/*  სამშენებლო ფაკულტეტის შემდეგი აკადემიური პერსონალისთვის:*/}
+            {/*</h3>*/}
 
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
@@ -404,13 +411,13 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              ბიზნესტექნოლოგიების ფაკულტეტი 2019 წლის 31 იანვარი
-            </h2>
-            <h3 className={"lt-page-h3"}>
-              "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი
-              განათლებაში"
-            </h3>
+            <TrainingsHeaders
+              h2Header={
+                "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნუვერსიტეტო სწავლებაში"
+              }
+              h3Date={"2019 02 .01"}
+              faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
+            />
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
@@ -429,10 +436,13 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              ბიზნესტექნოლოგიების ფაკულტეტი 2019 წლის 2 თებერვალი
-            </h2>
-            <h3 className={"lt-page-h3"}>"კომუნიკაცია და კოგნიცია"</h3>
+            <TrainingsHeaders
+              h2Header={
+                "კომუნიკაცია და კოგნიცია"
+              }
+              h3Date={"2019 02 .02"}
+              faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
+            />
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
@@ -451,12 +461,14 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              ბიზნესტექნოლოგიების ფაკულტეტი 2019 წლის 17 მაისი
-            </h2>
-            <h3 className={"lt-page-h3"}>
-              "სწავლის შედეგები და მათი შეფასება"
-            </h3>
+            <TrainingsHeaders
+              h2Header={
+                "სწავლის შედეგები და მათი შეფასება"
+              }
+              h3Date={"2019 05 .17"}
+              faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
+            />
+
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
@@ -475,13 +487,13 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              სამშენებლო ფაკულტეტი 2019 წლის 4 ივნისი
-            </h2>
-            <h3 className={"lt-page-h3"}>
-              "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი
-              განათლებაში"
-            </h3>
+            <TrainingsHeaders
+              h2Header={
+                "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი განათლებაში"
+              }
+              h3Date={"2019 06 .04"}
+              faculty={"სამშენებლო ფაკულტეტი"}
+            />
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
@@ -500,10 +512,14 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              ბიზნესტექნოლოგიების ფაკულტეტი 2019 წლის 6 ივნისი
-            </h2>
-            <h3 className={"lt-page-h3"}> "კომუნიკაცია და კოგნიცია"</h3>
+            <TrainingsHeaders
+              h2Header={
+                "კომუნიკაცია და კოგნიცია"
+              }
+              h3Date={"2019 06 .06"}
+              faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
+            />
+
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
@@ -522,14 +538,14 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              სატრანსპორტო და მანქანათმშენებლობის ფაკულტეტი 2020 წლის 7 ივნისი
-            </h2>
-            <h3 className={"lt-page-h3"}>
-              {" "}
-              "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი
-              განათლებაში"
-            </h3>
+            <TrainingsHeaders
+              h2Header={
+                "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი განათლებაში"
+              }
+              h3Date={"2020 06 .07"}
+              faculty={"სატრანსპორტო და მანქანათმშენებლობის ფაკულტეტი"}
+            />
+
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
@@ -548,14 +564,14 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              სატრანსპორტო და მანქანათმშენებლობის ფაკულტეტი 2020 წლის 22 ივნისი
-            </h2>
-            <h3 className={"lt-page-h3"}>
-              {" "}
-              "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი
-              განათლებაში"
-            </h3>
+            <TrainingsHeaders
+              h2Header={
+                "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი განათლებაში"
+              }
+              h3Date={"2020 06 .22"}
+              faculty={"სატრანსპორტო და მანქანათმშენებლობის ფაკულტეტი"}
+            />
+
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
@@ -574,14 +590,14 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              სატრანსპორტო ფაკულტეტის 509 და 510 დეპარტამენტი 2021 წლის 3
-              იანვარი
-            </h2>
-            <h3 className={"lt-page-h3"}>
-              "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი
-              განათლებაში"
-            </h3>
+            <TrainingsHeaders
+              h2Header={
+                "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი განათლებაში"
+              }
+              h3Date={"2021 01 .03"}
+              faculty={"სატრანსპორტო ფაკულტეტი"}
+            />
+
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
@@ -600,10 +616,13 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              ბიზნესტექნოლოგიების ფაკულტეტი 2021 წლის 27 ივნისი
-            </h2>
-            <h3 className={"lt-page-h3"}>"კარიერული ზრდა"</h3>
+            <TrainingsHeaders
+              h2Header={
+                "კარიერული ზრდა"
+              }
+              h3Date={"2021 06 .27"}
+              faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
+            />
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
@@ -622,13 +641,14 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <h2 className={"lt-page-h2"}>
-              ბიზნესტექნოლოგიების ფაკულტეტი 2021 წელი
-            </h2>
-            <h3 className={"lt-page-h3"}>
-              "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი
-              განათლებაში"
-            </h3>
+            <TrainingsHeaders
+              h2Header={
+                "სწავლისა და სწავლების თანამედროვე მეთოდოლოგიები საუნივერსიტეტი განათლებაში"
+              }
+              h3Date={"2021"}
+              faculty={"ბიზნესტექნოლოგიების ფაკულტეტი"}
+            />
+
             <div
               className={"grid grid-cols-[100px_100px_repeat(2,_1fr)] pb-16"}
             >
