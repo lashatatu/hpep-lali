@@ -13,8 +13,8 @@ const Page = () => {
       <head>
         <title>{`ჩვენი თანამშრომლები | HPEP.GE`}</title>
       </head>
-      <div className={"lt-container-small"}>
-        <h1 className={"lt-page-h1"}>ჩვენი თანამშრომლები</h1>
+      <div className={"lt-container-small pb-10"}>
+        <h1 className={"lt-page-h1 text-2xl"}>ჩვენი თანამშრომლები</h1>
         <div className={"mx-10"}>
           <p>ხუროძე რამაზ – ცენტრის უფროსი</p>
           <p>ღოღელიანი ლალი – ცენტრის მოადგილე</p>

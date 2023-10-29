@@ -292,6 +292,11 @@ const Page = () => {
               </ol>
             </div>
             <div className={"lt-container-small pb-12"}>
+              <h4 className={"lt-page-h4 text-xl"}>
+                თანამშრომლები: რამაზ ხუროძე, ქეთევან პაჭკორია
+              </h4>
+            </div>
+            <div className={"lt-container-small pb-12"}>
               <h3 className={"lt-page-h3 text-xl"}>
                 შექმნილია შემდეგი საერთაშორისო პროექტების გამოცდილების
                 საფუძველზე:
@@ -527,7 +532,7 @@ const Page = () => {
             </div>
             <div className={"lt-container-small pb-12"}>
               <h4 className={"lt-page-h4 text-xl"}>
-                თანამშრომლები: კონსტანტინე მაღრაძე, ლაშა ტატულაშვილი
+                თანამშრომლები: ივერი ასანიძე, ლაშა ტატულაშვილი
               </h4>
             </div>
             <div className={"lt-container-small pb-12"}>
@@ -627,7 +632,7 @@ const Page = () => {
             </div>
             <div className={"lt-container-small pb-12"}>
               <h4 className={"lt-page-h4 text-xl"}>
-                თანამშრომლები: კოკა მაღრაძე, ლაშა ტატულაშვილი
+                თანამშრომლები: ივერი ასანიძე, ლაშა ტატულაშვილი
               </h4>
             </div>
             <div className={"lt-container-small pb-12"}>
