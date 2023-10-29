@@ -16,15 +16,15 @@
 	}
 
 	.lt-page-h1 {
-		@apply text-4xl text-center font-extrabold pt-8 pb-10;
+		@apply text-2xl text-center font-extrabold pt-8 pb-10;
 	}
 
 	.lt-page-h2 {
-		@apply text-3xl pb-6 font-extrabold pb-10;
+		@apply text-xl pb-6 font-extrabold pb-10;
 	}
 
 	.lt-page-h3 {
-		@apply text-2xl pb-6 font-bold pb-10;
+		@apply text-xl pb-6 font-bold pb-10;
 	}
 
 	.lt-page-h4 {

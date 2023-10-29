@@ -10,7 +10,6 @@ const Page = () => {
       <div className={"lt-container-small"}>
         <h1 className={"lt-page-h1"}>ცენტრის ბიბლიოთეკა</h1>
         <div className={"mx-10 pb-10"}>
-          <h2 className={"lt-page-h2 pl-0 text-center"}>HPEP textbooks</h2>
           <div className={"grid grid-cols-5 pb-8 text-center"}>
             <div className={"col-span-2 font-bold"}>სათაური</div>
             <div className={"font-bold"}>ავტორი</div>

@@ -4,7 +4,7 @@ const Page = () => {
       <head>
         <title>{`მიმდინარე პროექტები | HPEP.GE`}</title>
       </head>
-      <div className={"lt-container-small"}>
+      <div className={"lt-container-small pb-10"}>
         <h1 className={"lt-page-h1"}>მიმდინარე პროექტები</h1>
         <div className={"mx-10 flex flex-col"}>
           <div>

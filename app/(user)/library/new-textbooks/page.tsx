@@ -10,9 +10,7 @@ const Page = () => {
           <h2 className={"lt-page-h2 text-center"}>
             უმაღლესი პროფესიული განათლების ბიზნეს ადმინისტრირების სპეციალობისთვის
           </h2>
-          <h3 className={"lt-page-h3"}>
-            სტუ-ს, გორის, წნორის და ახალქალაქის უნივერსიტეტებისათვის
-          </h3>
+
           <div className={"lt-page-2grid"}>
             <div>
               <h4 className={"lt-page-h4 font-bold"}>I კურსის სახელმძღვანელოები</h4>
