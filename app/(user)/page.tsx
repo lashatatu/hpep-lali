@@ -13,7 +13,7 @@ import Colegues from '../../components/Colegues'
 //write groq query of posts and filter by category title schema
 
 const query = groq`
-  *[_type == "post" && references(*[_type=="category" && title=="ტრენინგები"]._id)]{
+  *[_type == "post" && references(*[_type=="category" && title=="თრენინგები"]._id)]{
     ...,
     author->,
     categories[]->
@@ -66,7 +66,7 @@ export default async function HomePage() {
             target="_blank"
             className="btn font-bold"
           >
-            ტრენინგების არქივი
+            თრენინგების არქივი
           </Link>
         </div>
         <PartnersLanding />

@@ -20,28 +20,23 @@ const Page = () => {
             <div className={"font-bold"}>რის ენდრიუსი</div>
             <div>სწავლების შეფასება</div>
             <div className={"font-bold"}>რის ენდრიუსი</div>
-            <div>კურიკულუმის დიზაინი, მსწავლელსე ორიენტირებული მიდგომა</div>
+            <div>კურიკულუმის დიზაინი, მასწავლებელზე ორიენტირებული მიდგომა</div>
             <div className={"font-bold"}>რის ენდრიუსი</div>
             <div>სტუდენტთა ლიდერობა</div>
           </div>
 
           <h2 className={"lt-page-h2 text-center text-xl pb-2"}>
-            სემინარები გორის სათემო კოლეჯის მასწავლებელტათვის სტუ-ში
+            სემინარები გორის სათემო კოლეჯის მასწავლებელთათვის სტუ-ში
           </h2>
           <div className={"lt-page-2grid lt-page-align-left-span-2 pb-10"}>
             <div className={'font-bold'}>ავტორი</div>
             <div className={'font-bold'}>თემა</div>
-            <div className={"font-bold"}>ა. დავითაშვილი</div>
-            <div>ინტერნეტის და ელ-ფოსტის გამოყენება</div>
+
             <div className={"font-bold"}>შ. დემურაშვილი</div>
             <div>ინტერნეტის და ელ-ფოსტის გამოყენება</div>
             <div className={"font-bold"}>ა. დავითაშვილი</div>
             <div>ბლუმის ტაქსონომია</div>
-            <div className={"font-bold"}>ნ. აბზიანიძე</div>
-            <div>
-              სილაბუსის ჩამოყალიბების იდეოლოგია, ECTSშეფასების სისტემა, სსდც
-              (GEO)
-            </div>
+
             <div className={"font-bold"}>მ. კოპლატაძე</div>
             <div>
               სილაბუსის ჩამოყალიბების იდეოლოგია, ECTSშეფასების სისტემა, სსდც
@@ -53,8 +48,7 @@ const Page = () => {
             <div>ტაბლეტ ტექნოლოგია GEO/ENG</div>
             <div className={"font-bold"}>სტივ მაიკელსონი</div>
             <div>
-              წარმატებული გარემოს შექმნა პირველი კურსის საინჟინრო კურსის
-              სტუდენტებისთვის GEO/ENG
+              წარმატებული გარემოს შექმნა საინჟინრო სპეციალობების პირველი კურსის სტუდენტებისათვის
             </div>
             <div className={"font-bold"}>სტივ მაიკელსონი</div>
             <div>
@@ -83,16 +77,14 @@ const Page = () => {
             <div>სამეცნიერო კვლევითი საზოგადოება</div>
             <div className={"font-bold"}>ჯაფარიძე ნაძეჟდა</div>
             <div>SENCER საქართველოში</div>
-            <div className={"font-bold"}>A.Chilingarian</div>
-            <div>SENCER მიზნები და ფართო განათლება</div>
+
             <div className={"font-bold"}>ისხან ჰოვჰანაშიანი</div>
             <div>SENCER მიზნები და ფართო განათლება</div>
             <div className={"font-bold"}>რუბენ აღგაშიანი</div>
             <div>ონლაინ სწვალების სისტემა</div>
-            <div className={"font-bold"}>ბენიამინ იანპოლადიანი</div>
-            <div>ონლაინ სწვალების სისტემა</div>
+
             <div className={"font-bold"}>ჩხარტიშვილი ბუციკო</div>
-            <div>სსც საქართველოს სახელმწიფო უნივერსიტეტში</div>
+            <div>საქართველოს სახელმწიფო უნივერსიტეტში</div>
           </div>
 
           <h2 className={"lt-page-h2 text-center text-xl pb-2"}>
@@ -137,17 +129,17 @@ const Page = () => {
             </div>
             <div className={"font-bold"}>Karen Kashmanian Oates</div>
             <div>
-              SENCER-ის მოდელის შეხამება საბაკალავრიატოსამეცნიერო განათლების
-              დღევანდელ რეალობებთანდა მოლოდინებთან
+              SENCER-ის მოდელის შეხამება საბაკალავრიატო სამეცნიერო განათლების
+              დღევანდელ რეალობებთან და მოლოდინებთან
             </div>
             <div className={"font-bold"}>Karen Kashmanian Oates</div>
-            <div>სტრუქტურული რეფორმები ინოვაციებისმხარდასაჭერად</div>
+            <div>სტრუქტურული რეფორმები ინოვაციების მხარდასაჭერად</div>
             <div className={"font-bold"}>Amy Shachter</div>
             <div>SENCER-ის კურსების სწავლება</div>
             <div className={"font-bold"}>Ardith Maney</div>
             <div>
               მეცნიერებისა და ინჟინრების მომზადება პროფესიულდა საზოგადოებრივ
-              სფეროებშ ი ლიდერობისათვის
+              სფეროებში ლიდერობისათვის
             </div>
             <div className={"font-bold"}>Ardith Maney</div>
             <div>ცვლილებები და ლიდერობა უნივერსიტეტებში</div>
@@ -158,7 +150,7 @@ const Page = () => {
             </div>
             <div className={"font-bold"}>ოთარ ზუმბურიძე</div>
             <div>
-              ევროპის საბჭოს და “იუნესკოს” რეკომენდაციებიუმაღლესი განათლების
+              ევროპის საბჭოს და “იუნესკოს” რეკომენდაციები უმაღლესი განათლების
               კვალიფიკაციების შესახებ
             </div>
             <div className={"font-bold"}>Eugenia Etkina, Jose P. Mestre</div>
@@ -168,8 +160,8 @@ const Page = () => {
             </div>
             <div className={"font-bold"}>Stiven Freeman</div>
             <div>
-              სწავლობენ თუ არა სტუდენტები იმას რასაც ჩვენვასწავლით? ლექციის დროს
-              გამოყენებადი შეფასებისმეთოდები
+              სწავლობენ თუ არა სტუდენტები იმას რასაც ჩვენ ვასწავლით? ლექციის დროს
+              გამოყენებადი შეფასების მეთოდები
             </div>
             <div className={"font-bold"}>Stiven Freeman</div>
             <div>ლექციის დროს გამოყენებადი შეფასების მეთოდები</div>
@@ -181,7 +173,7 @@ const Page = () => {
             <div>Focusing on Learning Instead of Teaching</div>
             <div className={"font-bold"}>Ardith Maney</div>
             <div>
-              მასწავლებლის/მოსწავლის თავგადასავლები: ახალიმეთოდების მოსინჯვა
+              მასწავლებლის/მოსწავლის თავგადასავლები: ახალი მეთოდების მოსინჯვა
               ლექციებზე
             </div>
             <div className={"font-bold"}>Stiven Freeman</div>
