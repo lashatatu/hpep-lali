@@ -7,7 +7,7 @@ const Page = () => {
         <title>{`მიმართულებები | HPEP.GE`}</title>
       </head>
       <div className={"lt-container"}>
-        <h1 className={"lt-page-h1"}>მიმართულებები</h1>
+        <h1 className={"lt-page-h1 text-2xl"}>მიმართულებები</h1>
         <div className={"mx-10"}>
           <div
             id={"first"}
@@ -33,27 +33,28 @@ const Page = () => {
           </div>
           {/*// first 1*/}
           <div>
-            <h2 className={"lt-page-h2 text-center"}>
-              პროფესორ-მასწავლებელთა და სტუდენტთა სწავლებასა და სწავლაში
-              დახელოვნების ცენტრი
+            <h2 className={"lt-page-h2 text-center text-xl"}>
+              აკადემიური და მასწავლებელთა პერსონალის განვითარების ცენტრი
             </h2>
             <div className={"lt-container-small pb-12"}>
-              <h3 className={"lt-page-h3"}>მიმართულების საქმიანობის აღწერა:</h3>
+              <h3 className={"lt-page-h3 text-xl"}>
+                მიმართულების საქმიანობის აღწერა:
+              </h3>
               <ol className={"lt-page-ul-ol-padding list-decimal"}>
                 <li>
-                  თრეინინგების მასალების შესწავლა და კორექტირება (შექმნილია
-                  რესურსების ბაზა) საერთაშორისო პროექტებისა და საზღვარგარეთელი
-                  პარტნიორების გამოცდილების გაზიარების გზით
+                  ცენტრში არსებული თრენინგების რესურსების ბაზის მუდმივი
+                  გაუმჯობესება და განახლება საერთაშორისო პარტნიორებთან
+                  თანამშრომლობის გზით
                 </li>
 
                 <li>
-                  პარტნირული ურთიერთობები საქართველოს განათლებისა და მეცნიერების
-                  სამინისტროს მასწავლებელთა გადამზადების ცენტრთან
+                  პარტნიორული ურთიერთობები საქართველოს განათლებისა და
+                  მეცნიერების სამინისტროს მასწავლებელთა გადამზადების ცენტრთან
                 </li>
 
                 <li>
-                  პარტნირული ურთიერთობები საქართველოს განათლებისა და მეცნიერების
-                  სამინისტროს ხარისხის განვითარების ცენტრთან
+                  პარტნიორული ურთიერთობები განათლების ხარისხის განვითარების
+                  ეროვნულ ცენტრთან
                 </li>
 
                 <li>
@@ -94,12 +95,12 @@ const Page = () => {
               </ol>
             </div>
             <div className={"lt-container-small pb-12"}>
-              <h4 className={"lt-page-h4"}>
+              <h4 className={"lt-page-h4 text-xl"}>
                 თანამშრომლები: ლალი ღოღელიანი, ეკატერინე გელოვანი, ივერი ასანიძე
               </h4>
             </div>
             <div className={"lt-container-small pb-12"}>
-              <h3 className={"lt-page-h3"}>
+              <h3 className={"lt-page-h3 text-xl"}>
                 შექმნილია შემდეგი საერთაშორისო პროექტების გამოცდილების
                 საფუძველზე:
               </h3>
@@ -230,12 +231,12 @@ const Page = () => {
           </div>
           {/*// second 2*/}
           <div>
-            <h2 className={"lt-page-h2 text-center"}>
+            <h2 className={"lt-page-h2 text-center text-xl"}>
               ეკონომიკის განვითარების ხელშემწყობი საგანმანათლებლო და საექსპერტო
               მიმართულება.
             </h2>
             <div className={"lt-container-small pb-12"}>
-              <h3 className={"lt-page-h3"}>
+              <h3 className={"lt-page-h3 text-xl"}>
                 მიმართულების საქმიანობების აღწერა:
               </h3>
               <ol className={"lt-page-ul-ol-padding list-decimal"}>
@@ -291,7 +292,7 @@ const Page = () => {
               </ol>
             </div>
             <div className={"lt-container-small pb-12"}>
-              <h3 className={"lt-page-h3"}>
+              <h3 className={"lt-page-h3 text-xl"}>
                 შექმნილია შემდეგი საერთაშორისო პროექტების გამოცდილების
                 საფუძველზე:
               </h3>
@@ -434,11 +435,13 @@ const Page = () => {
           </div>
           {/*// third 3*/}
           <div>
-            <h2 className={"lt-page-h2 text-center"}>
+            <h2 className={"lt-page-h2 text-center text-xl"}>
               სტუ-ს გალერეა „უნივერსი“
             </h2>
             <div className={"lt-container-small pb-12"}>
-              <h3 className={"lt-page-h3"}>გალერეის საქმიანობის აღწერა:</h3>
+              <h3 className={"lt-page-h3 text-xl"}>
+                გალერეის საქმიანობის აღწერა:
+              </h3>
               <ol className={"lt-page-ul-ol-padding list-decimal"}>
                 <li>
                   სტუდენტთა და პროფესორ-მასწავლებელთა ინფორმირება თანამედროვე
@@ -470,7 +473,7 @@ const Page = () => {
               </ol>
             </div>
             <div className={"lt-container-small pb-12"}>
-              <h4 className={"lt-page-h4"}>
+              <h4 className={"lt-page-h4 text-xl"}>
                 თანამშრომლები: ბელა ბესტავაშვილი, ეკა გელოვანი
               </h4>
             </div>
@@ -499,9 +502,13 @@ const Page = () => {
           </div>
           {/*// fourth 4*/}
           <div>
-            <h2 className={"lt-page-h2 text-center"}>სტუ-ს ვიდეო სტუდია</h2>
+            <h2 className={"lt-page-h2 text-center text-xl"}>
+              სტუ-ს ვიდეო სტუდია
+            </h2>
             <div className={"lt-container-small pb-12"}>
-              <h3 className={"lt-page-h3"}>სტუდიის საქმიანობის აღწერა:</h3>
+              <h3 className={"lt-page-h3 text-xl"}>
+                სტუდიის საქმიანობის აღწერა:
+              </h3>
               <ol className={"lt-page-ul-ol-padding list-decimal"}>
                 <li>
                   პროფესორ-მასწავლებელთა ვიდეო ლექციების ჩაწერა, გამრავლება და
@@ -519,12 +526,12 @@ const Page = () => {
               </ol>
             </div>
             <div className={"lt-container-small pb-12"}>
-              <h4 className={"lt-page-h4"}>
+              <h4 className={"lt-page-h4 text-xl"}>
                 თანამშრომლები: კონსტანტინე მაღრაძე, ლაშა ტატულაშვილი
               </h4>
             </div>
             <div className={"lt-container-small pb-12"}>
-              <h3 className={"lt-page-h3"}>
+              <h3 className={"lt-page-h3 text-xl"}>
                 შექმნილია NATO-სა და კანადის საერთაშორისო განვითარების სააგენტოს
                 პროექტების ფარგლებში:
               </h3>
@@ -539,7 +546,7 @@ const Page = () => {
                 </li>
                 <li>
                   ACCC project-The Economic Development and Poverty Reduction
-                  Program (GTU, Selkrik College , Thompson River university )
+                  Program (GTU, Selkrik College , Thompson River university)
                 </li>
               </ul>
             </div>
@@ -568,9 +575,13 @@ const Page = () => {
           </div>
           {/*// fifth 5*/}
           <div>
-            <h2 className={"lt-page-h2 text-center"}>სტუ-ს NATO-ს სტუდია</h2>
+            <h2 className={"lt-page-h2 text-center text-xl"}>
+              სტუ-ს NATO-ს სტუდია
+            </h2>
             <div className={"lt-container-small pb-12"}>
-              <h3 className={"lt-page-h3"}>სტუდიის საქმიანობის აღწერა:</h3>
+              <h3 className={"lt-page-h3 text-xl"}>
+                სტუდიის საქმიანობის აღწერა:
+              </h3>
               <ol className={"lt-page-ul-ol-padding list-decimal"}>
                 <li>
                   ონლაინ სემინარებისა და თრეინინგების განხორციელება საქართველოს
@@ -615,12 +626,12 @@ const Page = () => {
               </ol>
             </div>
             <div className={"lt-container-small pb-12"}>
-              <h4 className={"lt-page-h4"}>
+              <h4 className={"lt-page-h4 text-xl"}>
                 თანამშრომლები: კოკა მაღრაძე, ლაშა ტატულაშვილი
               </h4>
             </div>
             <div className={"lt-container-small pb-12"}>
-              <h3 className={"lt-page-h3"}>
+              <h3 className={"lt-page-h3 text-xl"}>
                 შექმნილია ნატოს პროექტის ფარგლებში აიოვას უნივერსიტეტთან
                 თანამშროლობით
               </h3>
