@@ -135,7 +135,7 @@ const LinksComponent = () => {
           </li>
           <li>
             <Link href={"/library/gallery"}>
-              გალერეა
+              ფოტო არქივი
             </Link>
           </li>
         </ul>

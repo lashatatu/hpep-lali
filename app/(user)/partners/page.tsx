@@ -7,10 +7,9 @@ const Page = () => {
       <div className={"lt-container-small"}>
         <h1 className={"lt-page-h1"}>პარტნიორები</h1>
         <div className={"mx-10"}>
-          <div>
-            <h2 className={"lt-page-h2 pl-0 text-center"}>US Partners</h2>
+          <div className={"pb-2"}>
             <h3 className={"lt-page-h3 pb-2"}>კალიფორნია</h3>
-            <div>
+            <div className={'pb-2'}>
               <a
                 href="https://www.scu.edu/"
                 className={"text-secondary"}
@@ -19,8 +18,8 @@ const Page = () => {
                 სანტა კლარას უნივერსიტეტი (სანტა კლარა)
               </a>
             </div>
-            <h3 className={"lt-page-h3 pb-2 pt-10"}>აიოვა</h3>
-            <div>
+            <h3 className={"lt-page-h3 pb-2"}>აიოვა</h3>
+            <div className={"pb-2"}>
               <ul>
                 <li>
                   <a
@@ -60,8 +59,8 @@ const Page = () => {
                 </li>
               </ul>
             </div>
-            <h3 className={"lt-page-h3 pb-2 pt-10"}>ილინოისი</h3>
-            <div>
+            <h3 className={"lt-page-h3 pb-2"}>ილინოისი</h3>
+            <div className={"pb-2"}>
               <ul>
                 <li>
                   <a
@@ -74,8 +73,8 @@ const Page = () => {
                 </li>
               </ul>
             </div>
-            <h3 className={"lt-page-h3 pb-2 pt-10"}>პენსილვანია</h3>
-            <div>
+            <h3 className={"lt-page-h3 pb-2"}>პენსილვანია</h3>
+            <div className={"pb-2"}>
               <ul>
                 <li>
                   <a
@@ -88,8 +87,8 @@ const Page = () => {
                 </li>
               </ul>
             </div>
-            <h3 className={"lt-page-h3 pb-2 pt-10"}>ვირჯინია</h3>
-            <div>
+            <h3 className={"lt-page-h3 pb-2"}>ვირჯინია</h3>
+            <div className={"pb-2"}>
               <ul>
                 <li>
                   <a
@@ -113,13 +112,10 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className={"mx-10 pt-16"}>
-          <div>
-            <h2 className={"lt-page-h2 pl-0 pb-4 text-center"}>
-              Canada Partners
-            </h2>
-            <h3 className={"lt-page-h3 pb-4"}>კანადა</h3>
-            <div className={"pb-10"}>
+        <div className={"mx-10"}>
+          <div className={"pb-2"}>
+            <h3 className={"lt-page-h3 pb-2"}>კანადა</h3>
+            <div className={"pb-2"}>
               <ul>
                 <li>
                   <a
@@ -170,11 +166,10 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className={"mx-10 pt-16"}>
-          <div>
-            <h2 className={"lt-page-h2 pl-0 pb-4 text-center"}>EU Partners</h2>
-            <h3 className={"lt-page-h3 pb-4"}>გერმანია</h3>
-            <div className={"pb-10"}>
+        <div className={"mx-10 pb-8"}>
+          <div className={"pb-2"}>
+            <h3 className={"lt-page-h3 pb-2"}>გერმანია</h3>
+            <div className={"pb-2"}>
               <ul>
                 <li>
                   <a
@@ -186,43 +181,43 @@ const Page = () => {
                   </a>
                 </li>
               </ul>
-              <h3 className={"lt-page-h3 pb-4"}>ფინეთი</h3>
-              <div className={"pb-10"}>
-                <ul>
-                  <li>
-                    <a
-                      href="https://www.lut.fi/en"
-                      className={"pb-2 text-secondary"}
-                      target={"_blank"}
-                    >
-                      ლაპეენრანტას ტექნიკური უნივესიტეტი
-                    </a>
-                  </li>
-                </ul>
-                <h3 className={"lt-page-h3 pb-4"}>უკრაინა</h3>
-                <div className={"pb-10"}>
-                  <ul>
-                    <li>
-                      <a
-                        href="https://uesukraine.com/ternopil-national-economic-university/"
-                        className={"pb-2 text-secondary"}
-                        target={"_blank"}
-                      >
-                        ტერნოპილის ეკონომიკის უნივესიტეტი
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.kpi.kharkov.ua/ukr/"
-                        className={"pb-2 text-secondary"}
-                        target={"_blank"}
-                      >
-                        ხარკოვის პოლიტექნიკური უნივერსიტეტი
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+            </div>
+            <h3 className={"lt-page-h3 pb-2"}>ფინეთი</h3>
+            <div className={"pb-2"}>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.lut.fi/en"
+                    className={"pb-2 text-secondary"}
+                    target={"_blank"}
+                  >
+                    ლაპეენრანტას ტექნიკური უნივესიტეტი
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h3 className={"lt-page-h3 pb-2"}>უკრაინა</h3>
+            <div className={"pb-2"}>
+              <ul>
+                <li>
+                  <a
+                    href="https://uesukraine.com/ternopil-national-economic-university/"
+                    className={"pb-2 text-secondary"}
+                    target={"_blank"}
+                  >
+                    ტერნოპილის ეკონომიკის უნივესიტეტი
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.kpi.kharkov.ua/ukr/"
+                    className={"pb-2 text-secondary"}
+                    target={"_blank"}
+                  >
+                    ხარკოვის პოლიტექნიკური უნივერსიტეტი
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

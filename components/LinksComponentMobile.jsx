@@ -118,7 +118,7 @@ const LinksComponentMobile = () => {
           </li>
           <li>
             <Link href={"/library/gallery"}>
-              გალერეა
+              ფოტო არქივი
             </Link>
           </li>
         </ul>

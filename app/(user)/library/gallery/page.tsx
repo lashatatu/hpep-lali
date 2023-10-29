@@ -7,8 +7,8 @@ const Page = () => {
       <head>
         <title>{`ფოტო გალერეა | HPEP.GE`}</title>
       </head>
-      <div className={"lt-container-small"}>
-        <h1 className={"lt-page-h1"}>ფოტო გალერეა</h1>
+      <div className={"lt-container-small pb-16"}>
+        <h1 className={"lt-page-h1"}>ცენტრის აქტივობების ამსახველი ფოტო არქივი</h1>
         <div className={"grid grid-cols-4 gap-y-8 gap-x-2"}>
           {images.map((e, index) => (
             <div className={"rounded-3xl border-2"}>
