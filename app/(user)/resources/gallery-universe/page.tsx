@@ -30,7 +30,7 @@ const Page = async () => {
         <title>{`გალერეა უნივერსი | HPEP.GE`}</title>
       </head>
       <div className={"lt-container-small"}>
-        <h1 className={"lt-page-h1"}>გალერეა უნივერსი</h1>
+        <h1 className={"lt-page-h1 pb-4"}>გალერეა უნივერსი</h1>
         <BlogList posts={posts} />
         <div className={"hero-content mx-auto pb-12 text-center text-white"}>
           <Link

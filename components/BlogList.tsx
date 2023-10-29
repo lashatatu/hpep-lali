@@ -10,8 +10,7 @@ const BlogList = ({ posts }: Props) => {
   // @ts-ignore
   return (
     <div className={"lt-container"}>
-      <hr className={"mb-10"} />
-      <h1 className={"lt-page-h1 text-6xl"}>სიახლეები</h1>
+      <h1 className={"lt-page-h1 text-3xl pt-4"}>სიახლეები</h1>
       <div
         className={
           "grid grid-cols-1 gap-10 gap-y-16 px-10 pb-12 lg:grid-cols-2"

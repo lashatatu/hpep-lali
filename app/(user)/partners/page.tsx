@@ -9,7 +9,7 @@ const Page = () => {
         <div className={"mx-10"}>
           <div className={"pb-2"}>
             <h3 className={"lt-page-h3 pb-2"}>კალიფორნია</h3>
-            <div className={'pb-2'}>
+            <div className={"pb-2"}>
               <a
                 href="https://www.scu.edu/"
                 className={"text-secondary"}

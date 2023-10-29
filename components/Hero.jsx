@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="hero-overlay"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-xl">
-              <h1 className={'lt-page-h1'}>აკადემიური და მასწავლებელთა პერსონალის გადამზადების ცენტრი</h1>
+              <h1 className={'lt-page-h1'}>აკადემიური და მასწავლებელთა პერსონალის განვითარების ცენტრი</h1>
               <Link href={'/administration/about'} className="btn bg-white text-primary hover:bg-primary hover:text-white rounded-3xl border-primary">ჩვენს შესახებ</Link>
             </div>
           </div>
