@@ -6,7 +6,7 @@ import Head from "../head.tsx";
 import Footer from "../../components/Footer";
 import { usePathname } from 'next/navigation';
 
-
+//12
 export default function RootLayout({
   children,
 }: {
